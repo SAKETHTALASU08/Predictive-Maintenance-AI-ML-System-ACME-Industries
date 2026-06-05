@@ -1,0 +1,23 @@
+artifact_path: /Users/sakethtalasu/Downloads/Predictive_Analysis/mlruns/1/models/m-04fe86b7bbd04f2f828a4ef6e334633e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-04fe86b7bbd04f2f828a4ef6e334633e
+model_size_bytes: 1346970
+model_uuid: m-04fe86b7bbd04f2f828a4ef6e334633e
+prompts: null
+run_id: d109943806f54f5f81e50661ec8f160f
+utc_time_created: '2026-06-03 07:22:59.227805'

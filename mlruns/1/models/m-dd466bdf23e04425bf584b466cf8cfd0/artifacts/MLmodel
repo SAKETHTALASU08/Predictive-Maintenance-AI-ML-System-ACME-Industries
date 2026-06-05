@@ -1,0 +1,20 @@
+artifact_path: /Users/sakethtalasu/Downloads/Predictive_Analysis/mlruns/1/models/m-dd466bdf23e04425bf584b466cf8cfd0/artifacts
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.12.2
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.10.12
+mlflow_version: 3.13.0
+model_id: m-dd466bdf23e04425bf584b466cf8cfd0
+model_size_bytes: 225764
+model_uuid: m-dd466bdf23e04425bf584b466cf8cfd0
+prompts: null
+run_id: b370a8223cca4cea8239d32cf46dfe89
+utc_time_created: '2026-06-03 09:17:55.892420'
