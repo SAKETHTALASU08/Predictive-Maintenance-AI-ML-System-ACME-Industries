@@ -151,6 +151,18 @@ except Exception:
     ]
 
 
+# ─── 1ca. Scaler Loading ──────────────────────────────────────────────────────
+print("[CoreEngine] Loading Scaler Asset...")
+try:
+    with open(_MODEL_DIR / "phase2_scaler.pkl", "rb") as f:
+        scaler = pickle.load(f)
+    print("  -> Success: phase2_scaler.pkl loaded.")
+except Exception as e:
+    print(f"  -> Warning: Could not load scaler ({e}). Inference values might not be scaled.")
+    scaler = None
+
+
+
 # ─── 1d. HuggingFace NLP Classifier ──────────────────────────────────────────
 print("[CoreEngine] Loading NLP Classifier Pipeline...")
 def _load_classifier():
@@ -298,7 +310,31 @@ def master_orchestrator(sensor_telemetry, human_operator_log, machine_id=None):
     Orchestration Engine: Routes data sequentially through ML, XAI, Anomaly,
     RAG, and NLP models to produce a unified dispatch ticket.
     """
-    sensor_array = np.array(sensor_telemetry, dtype=np.float64)
+    if isinstance(sensor_telemetry, dict):
+        import feature_engineering_common
+        df = pd.DataFrame([sensor_telemetry])
+        df_feat = feature_engineering_common.engineer_features(df)
+        if scaler is not None:
+            sensor_array = scaler.transform(df_feat)[0]
+        else:
+            sensor_array = df_feat.values[0]
+    elif isinstance(sensor_telemetry, list) and len(sensor_telemetry) != 20:
+        raw_keys = [
+            "torque_nm", "spindle_speed_rpm", "tool_wear_pct",
+            "rotational_speed_rpm", "power_w", "voltage_v",
+            "current_a", "vibration_mm_s", "temperature_k"
+        ]
+        raw_dict = dict(zip(raw_keys, sensor_telemetry))
+        import feature_engineering_common
+        df = pd.DataFrame([raw_dict])
+        df_feat = feature_engineering_common.engineer_features(df)
+        if scaler is not None:
+            sensor_array = scaler.transform(df_feat)[0]
+        else:
+            sensor_array = df_feat.values[0]
+    else:
+        sensor_array = np.array(sensor_telemetry, dtype=np.float64)
+
 
     # Tier 1: Risk Assessment + Explainability
     risk_profile = risk_and_explainability_agent(sensor_array)
@@ -343,9 +379,8 @@ def master_orchestrator(sensor_telemetry, human_operator_log, machine_id=None):
             },
             "Ingested_Operator_Log": human_operator_log
         }
-        return unified_ticket
     else:
-        return {
+        unified_ticket = {
             "Ticket_ID": f"TKT-{np.random.randint(10000, 99999)}",
             "Machine_ID": machine_id or "UNSPECIFIED",
             "Orchestration_Status": "RESOLVED",
@@ -361,6 +396,21 @@ def master_orchestrator(sensor_telemetry, human_operator_log, machine_id=None):
             },
             "Message": "Machine metrics within normal operational bounds. No maintenance action required."
         }
+
+    # Append API contract keys at the top-level
+    prob_raw = risk_profile["risk_score"]
+    prediction = "Failure" if prob_raw >= 0.50 else "No Failure"
+    confidence = float(prob_raw)
+    
+    failure_type = None
+    if prediction == "Failure":
+        failure_type = unified_ticket.get("Root_Cause_Diagnosis", {}).get("Failure_Mode", "UNKNOWN")
+
+    unified_ticket["prediction"] = prediction
+    unified_ticket["confidence"] = confidence
+    unified_ticket["failure_type"] = failure_type
+
+    return unified_ticket
 
 
 # ══════════════════════════════════════════════════════════════════════════════

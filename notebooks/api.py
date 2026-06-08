@@ -63,31 +63,34 @@ app.add_middleware(
 # ══════════════════════════════════════════════════════════════════════════════
 
 class SensorPayload(BaseModel):
-    """Input schema for the /predict endpoint."""
-    machine_id: Optional[str] = Field(
-        default="M-0000",
-        description="Unique machine identifier from the factory floor."
-    )
-    sensor_data: list[float] = Field(
-        description="Array of exactly 20 normalized sensor features.",
-        min_length=20,
-        max_length=20
-    )
-    operator_log: str = Field(
-        description="Free-text operator maintenance log describing the observed issue."
-    )
+    """Input schema for the /predict endpoint with raw sensor values."""
+    torque_nm: float = Field(..., ge=0.0, description="Torque in Nm.")
+    spindle_speed_rpm: float = Field(..., ge=0.0, description="Spindle speed in RPM.")
+    tool_wear_min: float = Field(..., ge=0.0, le=255.0, description="Tool wear in minutes (0-255).")
+    rotational_speed_rpm: float = Field(..., ge=0.0, description="Rotational speed in RPM.")
+    power_w: float = Field(..., ge=0.0, description="Power in Watts.")
+    voltage_v: float = Field(..., ge=0.0, description="Voltage in Volts.")
+    current_a: float = Field(..., ge=0.0, description="Current in Amperes.")
+    vibration_mm_s: float = Field(..., ge=0.0, description="Vibration amplitude in mm/s.")
+    temperature_k: float = Field(..., ge=0.0, description="Temperature in Kelvin.")
+    operator_log: str = Field(..., description="Free-text operator maintenance log.")
+    machine_id: Optional[str] = Field(default="M-0000", description="Unique machine identifier.")
 
     model_config = {
         "json_schema_extra": {
             "examples": [
                 {
-                    "machine_id": "M-1042",
-                    "sensor_data": [
-                        0.1, 0.2, -0.1, 0.3, 0.5, -0.2, 0.4, 0.1,
-                        0.3, 0.8, 2.4, 0.1, -0.3, 0.5, 0.2, 0.1,
-                        0.3, 0.2, -0.1, 3.1
-                    ],
-                    "operator_log": "Main conveyor layout stalled. Inspection reveals complete mechanical fracture affecting the drive belt."
+                    "torque_nm": 40.0,
+                    "spindle_speed_rpm": 1500.0,
+                    "tool_wear_min": 25.0,
+                    "rotational_speed_rpm": 1500.0,
+                    "power_w": 6280.0,
+                    "voltage_v": 220.0,
+                    "current_a": 28.5,
+                    "vibration_mm_s": 1.5,
+                    "temperature_k": 300.0,
+                    "operator_log": "Main conveyor layout stalled. Inspection reveals complete mechanical fracture affecting the drive belt.",
+                    "machine_id": "M-1042"
                 }
             ]
         }
@@ -166,21 +169,41 @@ async def predict(payload: SensorPayload):
     - Actionable maintenance plan with parts list
     """
     try:
-        # Validate sensor data length
-        if len(payload.sensor_data) != 20:
-            raise HTTPException(
-                status_code=422,
-                detail=f"Expected exactly 20 sensor features, got {len(payload.sensor_data)}"
-            )
+        # Convert Pydantic payload to dictionary of raw sensors
+        raw_sensors = {
+            "torque_nm": payload.torque_nm,
+            "spindle_speed_rpm": payload.spindle_speed_rpm,
+            "tool_wear_min": payload.tool_wear_min,
+            "rotational_speed_rpm": payload.rotational_speed_rpm,
+            "power_w": payload.power_w,
+            "voltage_v": payload.voltage_v,
+            "current_a": payload.current_a,
+            "vibration_mm_s": payload.vibration_mm_s,
+            "temperature_k": payload.temperature_k
+        }
 
         # Run the orchestrator
         ticket = core_engine.master_orchestrator(
-            sensor_telemetry=payload.sensor_data,
+            sensor_telemetry=raw_sensors,
             human_operator_log=payload.operator_log,
             machine_id=payload.machine_id
         )
 
+        # Append API contract keys at the top-level
+        prob_raw = ticket.get("Telemetry_Metrics", {}).get("Failure_Probability_Raw", 0.0)
+        prediction = "Failure" if prob_raw >= 0.50 else "No Failure"
+        confidence = float(prob_raw)
+        
+        failure_type = None
+        if prediction == "Failure":
+            failure_type = ticket.get("Root_Cause_Diagnosis", {}).get("Failure_Mode", "UNKNOWN")
+
+        ticket["prediction"] = prediction
+        ticket["confidence"] = confidence
+        ticket["failure_type"] = failure_type
+
         return ticket
+
 
     except HTTPException:
         raise

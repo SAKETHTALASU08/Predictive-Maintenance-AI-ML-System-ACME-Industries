@@ -238,11 +238,27 @@ def call_api(endpoint, method="GET", payload=None):
         return None, str(e)
 
 
-def call_engine_directly(sensor_data, operator_log, machine_id):
+def call_engine_directly(payload, operator_log, machine_id):
     """Fallback: import core_engine directly if API is down."""
     try:
         import core_engine
-        return core_engine.master_orchestrator(sensor_data, operator_log, machine_id), None
+        raw_sensors = {k: v for k, v in payload.items() if k not in ["operator_log", "machine_id"]}
+        ticket = core_engine.master_orchestrator(raw_sensors, operator_log, machine_id)
+        
+        # Append API contract keys at the top-level
+        prob_raw = ticket.get("Telemetry_Metrics", {}).get("Failure_Probability_Raw", 0.0)
+        prediction = "Failure" if prob_raw >= 0.50 else "No Failure"
+        confidence = float(prob_raw)
+        
+        failure_type = None
+        if prediction == "Failure":
+            failure_type = ticket.get("Root_Cause_Diagnosis", {}).get("Failure_Mode", "UNKNOWN")
+
+        ticket["prediction"] = prediction
+        ticket["confidence"] = confidence
+        ticket["failure_type"] = failure_type
+        
+        return ticket, None
     except Exception as e:
         return None, str(e)
 
@@ -292,26 +308,18 @@ with st.sidebar:
     st.markdown("## 🎛️ Sensor Controls")
     st.markdown("---")
 
-    # ── Primary Feature Sliders ──
-    st.markdown("##### Primary Sensors")
-    primary_values = {}
-    for feat in PRIMARY_FEATURES:
-        label = FEATURE_DISPLAY.get(feat, feat.replace('_', ' ').title())
-        primary_values[feat] = st.slider(
-            label, min_value=-3.0, max_value=5.0, value=0.5, step=0.1,
-            key=f"slider_{feat}"
-        )
+    # ── Raw Sensor Inputs ──
+    st.markdown("##### Raw Telemetry Inputs")
+    torque_nm = st.number_input("⚙️ Torque (Nm)", min_value=0.0, max_value=100.0, value=40.0, step=0.1, key="torque_nm")
+    spindle_speed_rpm = st.number_input("🔩 Spindle Speed (RPM)", min_value=0.0, max_value=5000.0, value=1500.0, step=50.0, key="spindle_speed_rpm")
+    tool_wear_min = st.slider("🛠️ Tool Wear (min)", min_value=0.0, max_value=250.0, value=25.0, step=1.0, key="tool_wear_min")
+    rotational_speed_rpm = st.number_input("🔄 Rotational Speed (RPM)", min_value=0.0, max_value=5000.0, value=1500.0, step=50.0, key="rotational_speed_rpm")
+    power_w = st.number_input("⚡ Power (W)", min_value=0.0, max_value=20000.0, value=6000.0, step=100.0, key="power_w")
+    voltage_v = st.number_input("🔌 Voltage (V)", min_value=0.0, max_value=500.0, value=220.0, step=1.0, key="voltage_v")
+    current_a = st.number_input("🔋 Current (A)", min_value=0.0, max_value=100.0, value=28.0, step=0.5, key="current_a")
+    vibration_mm_s = st.number_input("📳 Vibration Amplitude (mm/s)", min_value=0.0, max_value=20.0, value=1.5, step=0.1, key="vibration_mm_s")
+    temperature_k = st.number_input("🌡️ Temperature (K)", min_value=200.0, max_value=400.0, value=310.0, step=0.1, key="temperature_k")
 
-    # ── Advanced Features (Expander) ──
-    with st.expander("⚙️ Advanced Sensor Features", expanded=False):
-        advanced_values = {}
-        for feat in FEATURE_NAMES:
-            if feat not in PRIMARY_FEATURES:
-                label = FEATURE_DISPLAY.get(feat, feat.replace('_', ' ').title())
-                advanced_values[feat] = st.slider(
-                    label, min_value=-3.0, max_value=5.0, value=0.1, step=0.1,
-                    key=f"adv_{feat}"
-                )
 
     st.markdown("---")
     st.markdown("##### 📝 Operator Log")
@@ -349,29 +357,28 @@ with st.sidebar:
 
 tab1, tab2, tab3 = st.tabs(["📊 Live Diagnostics", "📋 Dispatch Ticket", "📈 Model Performance"])
 
-# ─── Build sensor array from sidebar values ──────────────────────────────────
-sensor_values = []
-for feat in FEATURE_NAMES:
-    if feat in primary_values:
-        sensor_values.append(primary_values[feat])
-    elif feat in advanced_values:
-        sensor_values.append(advanced_values[feat])
-    else:
-        sensor_values.append(0.1)
-
 # ─── Run Analysis ────────────────────────────────────────────────────────────
 if analyze_btn:
     with st.spinner("⚡ Running ML/AI inference pipeline..."):
         payload = {
-            "machine_id": machine_id,
-            "sensor_data": sensor_values,
-            "operator_log": operator_log
+            "torque_nm": float(torque_nm),
+            "spindle_speed_rpm": float(spindle_speed_rpm),
+            "tool_wear_min": float(tool_wear_min),
+            "rotational_speed_rpm": float(rotational_speed_rpm),
+            "power_w": float(power_w),
+            "voltage_v": float(voltage_v),
+            "current_a": float(current_a),
+            "vibration_mm_s": float(vibration_mm_s),
+            "temperature_k": float(temperature_k),
+            "operator_log": operator_log,
+            "machine_id": machine_id
         }
+
 
         # Try API first, fallback to direct engine
         result, error = call_api("/predict", method="POST", payload=payload)
         if error == "API_UNREACHABLE":
-            result, error = call_engine_directly(sensor_values, operator_log, machine_id)
+            result, error = call_engine_directly(payload, operator_log, machine_id)
 
         if error:
             st.error(f"❌ Pipeline Error: {error}")
