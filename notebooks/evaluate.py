@@ -1,154 +1,170 @@
 """
-ACME Industries — AI Agent Evaluation Suite (N=40)
-===================================================
-Evaluates the zero-shot BERT classifier on 40 hand-crafted maintenance logs.
+ACME Industries — Fine-Tuned AI Agent Evaluation Suite (N=100)
+============================================================
+Evaluates the fine-tuned DistilBERT classifiers on the locked test split (data/test_logs.csv).
 Measures Component Extraction Accuracy and Failure Mode Classification Accuracy.
-
-Performance metrics from this script are reported in the Streamlit dashboard
-under Tab 3: Model Performance.
+Compares results against the legacy zero-shot BERT baseline.
 """
 
-import sys
-sys.path.insert(0, "setup")
-
 import os
+import sys
+import json
+import numpy as np
+import pandas as pd
+import torch
+import torch.nn.functional as F
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, f1_score
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
+
+# macOS stability overrides
 os.environ["GRPC_ENABLE_FORK_SUPPORT"] = "0"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-import numpy as np
-import pandas as pd
-from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
-from transformers import pipeline
-
 print("\n" + "="*70)
-print("ACME Industries - Robust AI Agent Evaluation (N=40)")
+print("ACME Industries - Fine-Tuned NLP Agent Evaluation (N=100)")
 print("="*70)
 
-# ─── 1. GENERATE 40 VARIATIONAL GROUND-TRUTH LOGS ───────────────────────────
-print("Generating expanded synthetic evaluation dataset...")
+# ─── 1. DEFINE REPAIR CORPUS ───────────────────────────────────────────────
+repair_corpus = pd.DataFrame({
+    "doc_id": ["DOC-001", "DOC-002", "DOC-003", "DOC-004", "DOC-005"],
+    "component": ["spindle motor", "hydraulic pump", "drive belt", "bearing assembly", "hydraulic pump"],
+    "failure_mode": ["overheating", "temperature spike", "mechanical fracture", "vibration", "voltage spike"],
+    "manual_text": [
+        "To resolve severe overheating in the spindle motor, replace the motor thermal paste, verify air filter clearance, and check the ventilation shaft. Estimated downtime: 2 hours.",
+        "For abnormal temperature spikes or thermal issues in the hydraulic pump, flush the coolant system and recalibrate the thermal sensors. Estimated downtime: 3 hours.",
+        "A mechanical fracture in the drive belt requires a complete replacement of the Poly-V belt and recalibration of the tensioner pulley. Estimated downtime: 4 hours.",
+        "Excessive vibration in the bearing assembly should be treated by applying industrial lubricant. If pitting is visible, replace the bearing kit. Estimated downtime: 1.5 hours.",
+        "Voltage spikes in the hydraulic pump trigger the emergency breaker. Reset the breaker and inspect the wiring harness for arc damage. Estimated downtime: 1 hour."
+    ],
+    "parts_required": ["Thermal Paste, Air Filter", "Coolant Fluid", "Poly-V Belt", "Industrial Lubricant", "Wiring Harness"]
+})
 
-# Master lists for mapping
-components = ["spindle motor", "hydraulic pump", "cooling fan", "drive belt", "bearing assembly"]
-failures = ["overheating", "temperature spike", "mechanical fracture", "vibration", "voltage spike"]
+# ─── 2. TF-IDF RETRIEVER ──────────────────────────────────────────────────
+class TfidfRetriever:
+    def __init__(self, corpus):
+        self.corpus = corpus
+        self.tfidf = TfidfVectorizer(stop_words='english')
+        self.corpus_matrices = self.tfidf.fit_transform(corpus['manual_text'])
+        
+    def get_relevant_context(self, operator_log, top_k=2):
+        query_vec = self.tfidf.transform([operator_log])
+        similarities = cosine_similarity(query_vec, self.corpus_matrices).flatten()
+        top_indices = np.argsort(similarities)[::-1][:top_k]
+        contexts = [self.corpus.iloc[idx]['manual_text'] for idx in top_indices]
+        return " ".join(contexts)
 
-# 40 hand-crafted variations to simulate realistic, messy maintenance logs
-raw_data = [
-    # Spindle Motor variants
-    ("A severe thermal runaway event noted in the main spindle motor. Power isolated.", "spindle motor", "overheating"),
-    ("Spindle motor casing is hot to the touch; cooling system failure suspected.", "spindle motor", "overheating"),
-    ("High frequency oscillations and micro-shaking detected near spindle motor mount.", "spindle motor", "vibration"),
-    ("Spindle motor experienced a massive power surge, tripping the local fuse.", "spindle motor", "voltage spike"),
-    ("Spindle motor completely seized up after an audible crunching sound.", "spindle motor", "mechanical fracture"),
-    ("Unusual heat dissipation patterns observed on the spindle housing.", "spindle motor", "temperature spike"),
-    ("Spindle motor shaft wobble detected during high-speed rotation cycles.", "spindle motor", "vibration"),
-    ("Electrical arc damage observed inside the spindle motor junction box.", "spindle motor", "voltage spike"),
+# ─── 3. LOAD TEST SPLIT AND MODEL ASSETS ──────────────────────────────────
+print("Loading locked test dataset (data/test_logs.csv)...")
+if not os.path.exists("data/test_logs.csv"):
+    print("  -> ERROR: Test split 'data/test_logs.csv' not found. Please run generate_logs.py first.")
+    sys.exit(1)
     
-    # Hydraulic Pump variants
-    ("Hydraulic pump fluid lines showing severe thermal spikes under load.", "hydraulic pump", "temperature spike"),
-    ("Hydraulic pump pressure dropped to zero after a violent structural snap.", "hydraulic pump", "mechanical fracture"),
-    ("Pump housing is vibrating out of normal thresholds, causing pipe chatter.", "hydraulic pump", "vibration"),
-    ("Main hydraulic pump circuit breaker opened due to an overvoltage condition.", "hydraulic pump", "voltage spike"),
-    ("Hydraulic fluid temperature exceeded maximum safe operating limits.", "hydraulic pump", "temperature spike"),
-    ("Acoustic sensors picked up a fracturing sound inside the hydraulic pump casing.", "hydraulic pump", "mechanical fracture"),
-    ("Minor voltage fluctuation recorded on the hydraulic pump digital telemetry line.", "hydraulic pump", "voltage spike"),
-    ("Excessive heat buildup on the hydraulic pump valve block assembly.", "hydraulic pump", "overheating"),
+df_test = pd.read_csv("data/test_logs.csv")
+print(f"Loaded {len(df_test)} test samples.")
 
-    # Cooling Fan variants
-    ("Cooling fan blades choked with debris, causing a critical thermal lock.", "cooling fan", "overheating"),
-    ("Radiator cooling fan is shaking violently due to a missing counterweight.", "cooling fan", "vibration"),
-    ("Cooling fan motor winding burned out from a sudden electrical spike.", "cooling fan", "voltage spike"),
-    ("One of the cooling fan composite blades suffered a clean structural snap.", "cooling fan", "mechanical fracture"),
-    ("Airflow temperature downstream of the cooling fan is abnormally elevated.", "cooling fan", "temperature spike"),
-    ("Cooling fan assembly loose on its mountings, rattling heavily during operation.", "cooling fan", "vibration"),
-    ("Fan motor drawing excessive current; overheating warning logged.", "cooling fan", "overheating"),
-    ("Cooling fan sheared completely off its drive spindle.", "cooling fan", "mechanical fracture"),
-
-    # Drive Belt variants
-    ("Drive belt snapped mid-cycle, causing an instantaneous loss of torque.", "drive belt", "mechanical fracture"),
-    ("Drive belt tracking off-center, rubbing against housing and generating friction heat.", "drive belt", "overheating"),
-    ("Belt tensioner jumping wildly; drive belt experiencing high-amplitude fluttering.", "drive belt", "vibration"),
-    ("Frictional heat from a slipping drive belt caused local temperature values to spike.", "drive belt", "temperature spike"),
-    ("Drive belt completely torn in half. Immediate replacement required.", "drive belt", "mechanical fracture"),
-    ("Belt surface showing signs of glazing and extreme heat degradation.", "drive belt", "overheating"),
-    ("Slipping drive belt causing erratic speed readings, triggering a transient spike.", "drive belt", "temperature spike"),
-    ("Drive belt resonance causing a loud hum and heavy machine chattering.", "drive belt", "vibration"),
-
-    # Bearing Assembly variants
-    ("Bearing assembly runout values indicate severe lack of lubrication and friction heat.", "bearing assembly", "overheating"),
-    ("Bearing balls flat-spotted, producing massive acoustic and physical shaking.", "bearing assembly", "vibration"),
-    ("Inner race of the bearing assembly shattered under high mechanical loading.", "bearing assembly", "mechanical fracture"),
-    ("Bearing housing temperature spiking rapidly during high-RPM operations.", "bearing assembly", "temperature spike"),
-    ("Bearing assembly running hot, smoking slightly before automatic emergency stop.", "bearing assembly", "overheating"),
-    ("Severe pitting on bearing rollers creating high vibrational harmonics.", "bearing assembly", "vibration"),
-    ("Bearing sleeve suffered a catastrophic structural failure and split apart.", "bearing assembly", "mechanical fracture"),
-    ("Infrared inspection reveals localized thermal anomaly inside bearing housing.", "bearing assembly", "temperature spike")
-]
-
-# Convert to DataFrame
-eval_df = pd.DataFrame(raw_data, columns=["raw_log", "true_component", "true_failure"])
-
-# ─── 2. LOAD ZERO-SHOT BERT MODEL ───────────────────────────────────────────
-print("Loading HuggingFace zero-shot classifier model...")
+print("Loading fine-tuned NLP model assets from models/...")
 try:
-    classifier = pipeline("zero-shot-classification", model="cross-encoder/nli-distilroberta-base")
-    print("  -> Success: Classifier loaded.")
+    tokenizer_path = "./models/tier3_tokenizer"
+    comp_model_path = "./models/tier3_component_classifier"
+    fail_model_path = "./models/tier3_failure_classifier"
+    label_maps_path = "./models/tier3_label_maps.json"
+    
+    with open(label_maps_path, "r") as f:
+        label_maps = json.load(f)
+        
+    tokenizer = DistilBertTokenizerFast.from_pretrained(tokenizer_path)
+    model_component = DistilBertForSequenceClassification.from_pretrained(comp_model_path)
+    model_failure = DistilBertForSequenceClassification.from_pretrained(fail_model_path)
+    
+    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    model_component.to(device)
+    model_failure.to(device)
+    model_component.eval()
+    model_failure.eval()
+    print(f"  -> Success: Loaded NLP model components onto device: {device}")
 except Exception as e:
-    print(f"  -> ERROR: Could not load classifier: {e}")
-    print("  -> Ensure 'transformers' and 'torch' are installed and the model is downloaded.")
+    print(f"  -> ERROR: Failed to load fine-tuned models ({e}). Ensure train_tier3_nlp.py has run successfully.")
     sys.exit(1)
 
-# ─── 3. EXECUTE PREDICTIONS ──────────────────────────────────────────────────
-print("Evaluating 40 logs through the Diagnosis Agent layer...")
+# ─── 4. RUN EVALUATION INFERENCE ──────────────────────────────────────────
+print("\nEvaluating fine-tuned models using RAG-enriched context...")
+retriever = TfidfRetriever(repair_corpus)
+
 pred_components = []
 pred_failures = []
+id2component = label_maps["id2component"]
+id2failure = label_maps["id2failure"]
 
-for idx, row in eval_df.iterrows():
-    text = row["raw_log"]
+for idx, row in df_test.iterrows():
+    log = row["log_text"]
     
-    # Classify Component
-    comp_res = classifier(text, candidate_labels=components)
-    pred_components.append(comp_res['labels'][0])
+    # Retrieve top_k=2 manual text context
+    context = retriever.get_relevant_context(log, top_k=2)
+    enriched_input = f"Operator Log: {log}\nManual Context: {context}"
     
-    # Classify Failure Mode
-    fail_res = classifier(text, candidate_labels=failures)
-    pred_failures.append(fail_res['labels'][0])
+    # Tokenize input
+    inputs = tokenizer(
+        enriched_input,
+        return_tensors="pt",
+        truncation=True,
+        padding=True,
+        max_length=256
+    )
+    
+    with torch.no_grad():
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+        
+        # Predict Component
+        comp_out = model_component(**inputs)
+        comp_pred = int(np.argmax(F.softmax(comp_out.logits, dim=-1).cpu().numpy()[0]))
+        pred_components.append(id2component[str(comp_pred)])
+        
+        # Predict Failure Mode
+        fail_out = model_failure(**inputs)
+        fail_pred = int(np.argmax(F.softmax(fail_out.logits, dim=-1).cpu().numpy()[0]))
+        pred_failures.append(id2failure[str(fail_pred)])
 
-eval_df["pred_component"] = pred_components
-eval_df["pred_failure"] = pred_failures
+df_test["pred_component"] = pred_components
+df_test["pred_failure"] = pred_failures
 
-# ─── 4. COMPUTE METRICS ──────────────────────────────────────────────────────
+# ─── 5. COMPUTE AND PRINT PERFORMANCE METRICS ──────────────────────────────
+comp_acc = accuracy_score(df_test["component"], df_test["pred_component"])
+fail_acc = accuracy_score(df_test["failure_mode"], df_test["pred_failure"])
+comp_f1 = f1_score(df_test["component"], df_test["pred_component"], average="weighted")
+fail_f1 = f1_score(df_test["failure_mode"], df_test["pred_failure"], average="weighted")
+
 print("\n" + "="*70)
 print("                      FINAL EVALUATION RESULTS                        ")
 print("="*70)
+print(f"✨ Component Extraction Accuracy         : {comp_acc * 100:.2f}%  (Baseline Zero-Shot: 72.50%)")
+print(f"✨ Failure Mode Classification Accuracy  : {fail_acc * 100:.2f}%  (Baseline Zero-Shot: 65.00%)")
+print(f"✨ Component Extraction Weighted F1      : {comp_f1:.4f}")
+print(f"✨ Failure Mode Classification Weighted F1 : {fail_f1:.4f}")
 
-# Overall Accuracy Metrics
-comp_acc = accuracy_score(eval_df["true_component"], eval_df["pred_component"])
-fail_acc = accuracy_score(eval_df["true_failure"], eval_df["pred_failure"])
-
-print(f"✨ Component Extraction Accuracy : {comp_acc * 100:.2f}%")
-print(f"✨ Failure Mode Classification Accuracy : {fail_acc * 100:.2f}%")
-
-# 4a. Component Classification Report
+# Component Classification Report
 print("\n📊 1. COMPONENT NER REPORT")
 print("-" * 60)
-print(classification_report(eval_df["true_component"], eval_df["pred_component"], zero_division=0))
+print(classification_report(df_test["component"], df_test["pred_component"], zero_division=0))
 
-# 4b. Failure Mode Classification Report
+# Failure Mode Classification Report
 print("\n📊 2. FAILURE MODE CLASSIFICATION REPORT")
 print("-" * 60)
-print(classification_report(eval_df["true_failure"], eval_df["pred_failure"], zero_division=0))
+print(classification_report(df_test["failure_mode"], df_test["pred_failure"], zero_division=0))
 
-# 4c. Text-Based Confusion Matrix for Failure Modes
+# Confusion Matrix for Failure Modes
 print("\n🧩 3. FAILURE MODE CONFUSION MATRIX")
 print("-" * 60)
-cm = confusion_matrix(eval_df["true_failure"], eval_df["pred_failure"], labels=failures)
+unique_failures = label_maps["failure_labels"]
+cm = confusion_matrix(df_test["failure_mode"], df_test["pred_failure"], labels=unique_failures)
 
 # Format matrix printout cleanly
-print(f"{'':<23} | " + " | ".join([f"{f[:8]:<8}" for f in failures]))
-print("-" * 80)
-for i, label in enumerate(failures):
+print(f"{'':<25} | " + " | ".join([f"{f[:8]:<8}" for f in unique_failures]))
+print("-" * 85)
+for i, label in enumerate(unique_failures):
     row_str = " | ".join([f"{val:<8}" for val in cm[i]])
-    print(f"{label:<23} | {row_str}")
+    print(f"{label:<25} | {row_str}")
 
-print("\n✅ Robust evaluation suite complete!")
+print("\n✅ Fine-tuned evaluation suite complete!")

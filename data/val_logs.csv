@@ -1,0 +1,201 @@
+log_text,component,failure_mode,component_id,failure_mode_id
+"hydrualic pump making wierd noise, feels like is hot to.",Hydraulic Pump,Heat Dissipation Failure,1,1
+Inspection reveals that the hydraulics overheating.,Hydraulic Pump,Heat Dissipation Failure,1,1
+"somthing grinding in the bearing housing area, check for random shutdown, no.",Bearing Assembly,Random Failure,3,4
+Warning: belts assembly power out and smells weird.,Drive Belt,Power Failure,0,2
+"thing near conveyor mains power failure, backup generator running.",Drive Belt,Power Failure,0,2
+"The spindle stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",CNC Spindle,Overstrain Failure,2,3
+"The bearing random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",Bearing Assembly,Random Failure,3,4
+CRITICAL: motor area dull blade / immediately!,Motor Housing,Tool Wear Failure,4,0
+"its hot and shaking alot near the housing, check for unexplained halt, system.",Motor Housing,Random Failure,4,4
+"bearign cant hold pressure, seems like overheating alert, cooling.",Bearing Assembly,Heat Dissipation Failure,3,1
+"Operator reports: 'assembly bearings electrical fault, voltage supply lines went dead.'",Bearing Assembly,Power Failure,3,2
+"somthing grinding in the HPU unit area, check for cannot rotate, drive.",Hydraulic Pump,Overstrain Failure,1,3
+Maintenance log: HPU unit severe tool wear detected on inspection.,Hydraulic Pump,Tool Wear Failure,1,0
+v-belt stalled under heavy.,Drive Belt,Overstrain Failure,0,3
+Operator reports: 'bearing kit hot and shaking.',Bearing Assembly,Heat Dissipation Failure,3,1
+"chuck motor making wierd noise, feels like is hot to.",CNC Spindle,Heat Dissipation Failure,2,1
+"operator says casing shield stalled mid-operation, high friction torque overload today.",Motor Housing,Overstrain Failure,4,3
+"weird smell from the pump unit, possibly electrical arc damage.",Hydraulic Pump,Power Failure,1,2
+Operator reports: 'tension pulley hot and shaking.',Drive Belt,Heat Dissipation Failure,0,1
+"Standard check: belt area tool wear min critical, pitting visible on the contact point during run.",Drive Belt,Tool Wear Failure,0,0
+"Maintenance log: outer shell random trip, control interface lost connection.",Motor Housing,Random Failure,4,4
+conveyor voltage dropped.,Drive Belt,Power Failure,0,2
+"vibrating way more than normal near the casing, jammed housing, torque.",Motor Housing,Overstrain Failure,4,3
+"vibrating way more than normal near the hydraulics block, temp is way.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"The pump power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Hydraulic Pump,Power Failure,1,2
+Inspection reveals that the motor area overheating.,Motor Housing,Heat Dissipation Failure,4,1
+"weird smell from the fluid line unit, possibly smoke coming from.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Maintenance log: spindle assembly random trip, control interface lost connection.",CNC Spindle,Random Failure,2,4
+"casing shield making wierd noise, feels like wear value too.",Motor Housing,Tool Wear Failure,4,0
+"vibrating way more than normal near the spindle casing, tool worn down.",CNC Spindle,Tool Wear Failure,2,0
+"spinle cant hold pressure, seems like tool wears out.",CNC Spindle,Tool Wear Failure,2,0
+Maintenance log: hydraulic pump blade is dull.,Hydraulic Pump,Tool Wear Failure,1,0
+"somthing grinding in the spindle casing area, check for power fluctuation, voltage.",CNC Spindle,Power Failure,2,2
+pump unit rough finish.,Hydraulic Pump,Tool Wear Failure,1,0
+"The bearing housing looks worn. Operations are affected, check ASAP.",Bearing Assembly,Tool Wear Failure,3,0
+"the hydrualic unit is is hot to the touch, smoke coming out of housing again. please check.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"weird smell from the casing unit, possibly random error, control.",Motor Housing,Random Failure,4,4
+"the casing is experiencing severe pitting, tool wear min reading is at maximum again. please check.",Motor Housing,Tool Wear Failure,4,0
+"Warning: bearign heating up fast, temperature is at critical 105C and smells weird.",Bearing Assembly,Heat Dissipation Failure,3,1
+"CRITICAL: bearings area overheating alert, cooling immediately!",Bearing Assembly,Heat Dissipation Failure,3,1
+"oil everywhere near the assembly bearings, suspect fuse pop, power.",Bearing Assembly,Power Failure,3,2
+"keeps stopping every few minutes, motor casing is stuck assembly, drive.",Motor Housing,Overstrain Failure,4,3
+conveyor stuck.,Drive Belt,Overstrain Failure,0,3
+"chuck motor making wierd noise, feels like no power supply,.",CNC Spindle,Power Failure,2,2
+"operator says casing shield unexplained senosr fautl, error code ERR-502 today.",Motor Housing,Random Failure,4,4
+"vibrating way more than normal near the driv belt, overstrain torque overload,.",Drive Belt,Overstrain Failure,0,3
+"somthing grinding in the motor housing area, check for abnormal heat buildup,.",Motor Housing,Heat Dissipation Failure,4,1
+Operator reports: 'hydraulics block lost power.',Hydraulic Pump,Power Failure,1,2
+Warning: motor housing power out and smells weird.,Motor Housing,Power Failure,4,2
+"oil everywhere near the pump unit, suspect blown fuse in.",Hydraulic Pump,Power Failure,1,2
+"Standard check: back unit lost voltage, mains power failed during tool run during run.",Motor Housing,Power Failure,4,2
+"Warning: spinle cannot rotate, drive shaft is seized and smells weird.",CNC Spindle,Overstrain Failure,2,3
+"vibrating way more than normal near the outer shell, intermittent connection faults,.",Motor Housing,Random Failure,4,4
+"its hot and shaking alot near the CNC spindle, check for worn tool causing.",CNC Spindle,Tool Wear Failure,2,0
+"Inspection reveals that the motor housing is overheating rapidly, thermal camera shows 95C.",Motor Housing,Heat Dissipation Failure,4,1
+"hydrualic pump making wierd noise, feels like stalled under heavy.",Hydraulic Pump,Overstrain Failure,1,3
+CRITICAL: hydraulic unit glitchy connection immediately!,Hydraulic Pump,Random Failure,1,4
+"v-belt thermal runaway warning,.",Drive Belt,Heat Dissipation Failure,0,1
+"oil everywhere near the v-belt, suspect mechanical jam, torque.",Drive Belt,Overstrain Failure,0,3
+"thing near tensioner belt random glitch, machine rebooted spontaneously.",Drive Belt,Random Failure,0,4
+"spindle motor making wierd noise, feels like random failure code.",CNC Spindle,Random Failure,2,4
+"Operator reports: 'driv belt stuck due to high friction, torque limit reached.'",Drive Belt,Overstrain Failure,0,3
+Warning: bearings leaking and smells weird.,Bearing Assembly,Random Failure,3,4
+"its hot and shaking alot near the bearing assembly, check for warn out tool,.",Bearing Assembly,Tool Wear Failure,3,0
+"the spinle unit is intermittent communication loss, control panel fault again. please check.",CNC Spindle,Random Failure,2,4
+spndl wear value too.,CNC Spindle,Tool Wear Failure,2,0
+CRITICAL: spindle unit glitchy connection immediately!,CNC Spindle,Random Failure,2,4
+"somthing grinding in the hydraulics block area, check for intermittent signal loss.",Hydraulic Pump,Random Failure,1,4
+"keeps stopping every few minutes, belt area is random trip, control.",Drive Belt,Random Failure,0,4
+"keeps stopping every few minutes, motor casing is thermal overload tripped.",Motor Housing,Heat Dissipation Failure,4,1
+"Standard check: ball bearings severe mechanical stress, spindle seized up during run.",Bearing Assembly,Overstrain Failure,3,3
+"thing near conveyor tool worn down to the nub, replace now.",Drive Belt,Tool Wear Failure,0,0
+"its hot and shaking alot near the bearing assembly, check for heating up fast,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"oil everywhere near the motor housing, suspect blown fuse in.",Motor Housing,Power Failure,4,2
+the blt area is dull again. please check.,Drive Belt,Tool Wear Failure,0,0
+"leaking or snapped near the hydraulic pump, stalled motor, torque suspected.",Hydraulic Pump,Overstrain Failure,1,3
+"The fluid line looks worn. Operations are affected, check ASAP.",Hydraulic Pump,Tool Wear Failure,1,0
+"Warning: spinle heating up fast, temperature is at critical 105C and smells weird.",CNC Spindle,Heat Dissipation Failure,2,1
+"bearing assembly making wierd noise, feels like high tool wear.",Bearing Assembly,Tool Wear Failure,3,0
+"its hot and shaking alot near the bearings, check for temperature spiked to.",Bearing Assembly,Heat Dissipation Failure,3,1
+"weird smell from the spindle head unit, possibly smoke coming from.",CNC Spindle,Heat Dissipation Failure,2,1
+"weird smell from the spindle unit, possibly electrical arc damage.",CNC Spindle,Power Failure,2,2
+"The bearing power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Bearing Assembly,Power Failure,3,2
+"Operator reports: 'assembly bearings unidentified glitch, controller went offline.'",Bearing Assembly,Random Failure,3,4
+"thing near pump unit mains power failure, backup generator running.",Hydraulic Pump,Power Failure,1,2
+CRITICAL: housign abnormal heat immediately!,Motor Housing,Heat Dissipation Failure,4,1
+"weird smell from the tensioner unit, possibly torque reading exceeded.",Drive Belt,Overstrain Failure,0,3
+"weird smell from the bearing unit, possibly breaker tripped, power.",Bearing Assembly,Power Failure,3,2
+"somthing grinding in the motor area area, check for sudden voltage drop,.",Motor Housing,Power Failure,4,2
+Operator reports: 'hydraulics block hot and shaking.',Hydraulic Pump,Heat Dissipation Failure,1,1
+"hpu thermal runaway warning,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+v-belt wear value too.,Drive Belt,Tool Wear Failure,0,0
+"Warning: tensioner belt tool is dull and worn, needs replacement immediately and smells weird.",Drive Belt,Tool Wear Failure,0,0
+tool head too hot to.,CNC Spindle,Heat Dissipation Failure,2,1
+"its hot and shaking alot near the bearing assembly, check for stuck due to.",Bearing Assembly,Overstrain Failure,3,3
+"the poly-v blt is fuse blown, voltage surge detected on line again. please check.",Drive Belt,Power Failure,0,2
+Operator reports: 'spindle casing slipping and worn.',CNC Spindle,Tool Wear Failure,2,0
+"thing near bearing housing jammed housing, torque spikes to max.",Bearing Assembly,Overstrain Failure,3,3
+Maintenance log: bearign weird smell.,Bearing Assembly,Heat Dissipation Failure,3,1
+"tensioner belt cant hold pressure, seems like smells like burning.",Drive Belt,Heat Dissipation Failure,0,1
+"its hot and shaking alot near the conveyor belt, check for heating up fast,.",Drive Belt,Heat Dissipation Failure,0,1
+"vibrating way more than normal near the tension pulley, glitchy controls, random.",Drive Belt,Random Failure,0,4
+operator says assembly bearings breaker trips today.,Bearing Assembly,Power Failure,3,2
+"its hot and shaking alot near the back unit, check for warn out tool,.",Motor Housing,Tool Wear Failure,4,0
+"Warning: spinle unexplained behavior, machine stops randomly and smells weird.",CNC Spindle,Random Failure,2,4
+"somthing grinding in the bearing housing area, check for cannot rotate, drive.",Bearing Assembly,Overstrain Failure,3,3
+Inspection reveals that the ball bearings seized up.,Bearing Assembly,Overstrain Failure,3,3
+Inspection reveals that the ball bearings broke again.,Bearing Assembly,Random Failure,3,4
+"weird smell from the casing unit, possibly tool wear value.",Motor Housing,Tool Wear Failure,4,0
+"housing shield cant hold pressure, seems like tool wears out.",Motor Housing,Tool Wear Failure,4,0
+"hydraulic line cant hold pressure, seems like tool wears out.",Hydraulic Pump,Tool Wear Failure,1,0
+"driv belt making wierd noise, feels like intermittent communication loss,.",Drive Belt,Random Failure,0,4
+"Standard check: housing shield power failure, electrical breaker tripped in the cabinet during run.",Motor Housing,Power Failure,4,2
+"its hot and shaking alot near the cnc head, check for electrical fault, voltage.",CNC Spindle,Power Failure,2,2
+"The bearing stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Bearing Assembly,Overstrain Failure,3,3
+"its hot and shaking alot near the hydraulic pump, check for torque overload, mechanical.",Hydraulic Pump,Overstrain Failure,1,3
+"tensioner belt cant hold pressure, seems like stalled drive shaft,.",Drive Belt,Overstrain Failure,0,3
+Inspection reveals that the conveyor belt overheating.,Drive Belt,Heat Dissipation Failure,0,1
+"CRITICAL: motor area overheating alert, cooling immediately!",Motor Housing,Heat Dissipation Failure,4,1
+"The spindle head wierd noise. Operations are affected, check ASAP.",CNC Spindle,Random Failure,2,4
+"leaking or snapped near the spindle assembly, random emergency loop suspected.",CNC Spindle,Random Failure,2,4
+"The fluid line wierd noise. Operations are affected, check ASAP.",Hydraulic Pump,Random Failure,1,4
+"its hot and shaking alot near the conveyor belt, check for warn out tool,.",Drive Belt,Tool Wear Failure,0,0
+Inspection reveals that the hydraulics no power.,Hydraulic Pump,Power Failure,1,2
+"thing near conveyor hot casing, smoke visible, cooling system down.",Drive Belt,Heat Dissipation Failure,0,1
+"leaking or snapped near the hydraulic pump, high tool wear suspected.",Hydraulic Pump,Tool Wear Failure,1,0
+"Maintenance log: bearing block breaker tripped, power failure warning on control panel.",Bearing Assembly,Power Failure,3,2
+"vibrating way more than normal near the tension pulley, jammed housing, torque.",Drive Belt,Overstrain Failure,0,3
+bearing too hot to.,Bearing Assembly,Heat Dissipation Failure,3,1
+"Inspection reveals that the drive belt is overheating rapidly, thermal camera shows 95C.",Drive Belt,Heat Dissipation Failure,0,1
+"leaking or snapped near the CNC spindle, high tool wear suspected.",CNC Spindle,Tool Wear Failure,2,0
+"spindle motor making wierd noise, feels like blown power relay,.",CNC Spindle,Power Failure,2,2
+"Maintenance log: HPU unit breaker tripped, power failure warning on control panel.",Hydraulic Pump,Power Failure,1,2
+"somthing grinding in the spindle casing area, check for abnormal heat buildup,.",CNC Spindle,Heat Dissipation Failure,2,1
+"thing near outer shell is jammed, high torque reading triggered emergency stop.",Motor Housing,Overstrain Failure,4,3
+"somthing grinding in the spindle assembly area, check for sudden voltage drop,.",CNC Spindle,Power Failure,2,2
+"Standard check: chuck tool wear min critical, pitting visible on the contact point during run.",CNC Spindle,Tool Wear Failure,2,0
+"keeps stopping every few minutes, hydraulic unit is dull cutting tool,.",Hydraulic Pump,Tool Wear Failure,1,0
+"keeps stopping every few minutes, spindle unit is stuck assembly, drive.",CNC Spindle,Overstrain Failure,2,3
+"Operator reports: 'chuck motor smoke coming from unit, cooling failed.'",CNC Spindle,Heat Dissipation Failure,2,1
+operator says blt breaker trips today.,Drive Belt,Power Failure,0,2
+"thing near bearing housing mains power failure, backup generator running.",Bearing Assembly,Power Failure,3,2
+"somthing grinding in the motor area area, check for tool is dull.",Motor Housing,Tool Wear Failure,4,0
+"keeps stopping every few minutes, housing unit is stalled mid-operation, high.",Motor Housing,Overstrain Failure,4,3
+"Standard check: v-belt power failure, electrical breaker tripped in the cabinet during run.",Drive Belt,Power Failure,0,2
+"leaking or snapped near the belts, random emergency loop suspected.",Drive Belt,Random Failure,0,4
+"Standard check: hpu stuck and seized up, overstrain torque limit exceeded during run.",Hydraulic Pump,Overstrain Failure,1,3
+"weird smell from the bearing unit, possibly severe tool wear.",Bearing Assembly,Tool Wear Failure,3,0
+"Operator reports: 'housing shield stuck due to high friction, torque limit reached.'",Motor Housing,Overstrain Failure,4,3
+"leaking or snapped near the bearings area, random emergency loop suspected.",Bearing Assembly,Random Failure,3,4
+"thing near tool head hot casing, smoke visible, cooling system down.",CNC Spindle,Heat Dissipation Failure,2,1
+"leaking or snapped near the belts, complete blackout in suspected.",Drive Belt,Power Failure,0,2
+operator says spinle breaker trpis today.,CNC Spindle,Power Failure,2,2
+the hydraulics area is stalled again. please check.,Hydraulic Pump,Overstrain Failure,1,3
+"thing near bearings area fuse blown, voltage surge detected on line.",Bearing Assembly,Power Failure,3,2
+Maintenance log: casing grinding noise.,Motor Housing,Overstrain Failure,4,3
+Maintenance log: spindle assembly severe tool wear detected on inspection.,CNC Spindle,Tool Wear Failure,2,0
+"thing near outer shell random glitch, machine rebooted spontaneously.",Motor Housing,Random Failure,4,4
+"the poly-v blt is intermittent communication loss, control panel fault again. please check.",Drive Belt,Random Failure,0,4
+"driv belt making wierd noise, feels like is hot to.",Drive Belt,Heat Dissipation Failure,0,1
+"oil everywhere near the hpu, suspect glitch in sensor.",Hydraulic Pump,Random Failure,1,4
+"Warning: housign sudden voltage drop, machine stopped mid-cycle and smells weird.",Motor Housing,Power Failure,4,2
+"vibrating way more than normal near the shaft bearing, replace tool, wear.",Bearing Assembly,Tool Wear Failure,3,0
+"The spindle head jammed. Operations are affected, check ASAP.",CNC Spindle,Overstrain Failure,2,3
+Inspection reveals that the CNC spindle shut down with unexplained error code ERR-404.,CNC Spindle,Random Failure,2,4
+"its hot and shaking alot near the hydraulic pump, check for unexplained halt, system.",Hydraulic Pump,Random Failure,1,4
+Standard check: hpu shut down with unexplained error code ERR-404 during run.,Hydraulic Pump,Random Failure,1,4
+"vibrating way more than normal near the driv belt, intermittent connection faults,.",Drive Belt,Random Failure,0,4
+"leaking or snapped near the CNC spindle, stalled motor, torque suspected.",CNC Spindle,Overstrain Failure,2,3
+the back casing is dull again. please check.,Motor Housing,Tool Wear Failure,4,0
+"somthing grinding in the motor housing area, check for intermittent signal loss.",Motor Housing,Random Failure,4,4
+bearing rough finish.,Bearing Assembly,Tool Wear Failure,3,0
+Maintenance log: belts severe tool wear detected on inspection.,Drive Belt,Tool Wear Failure,0,0
+"weird smell from the back casing unit, possibly smoke coming from.",Motor Housing,Heat Dissipation Failure,4,1
+"vibrating way more than normal near the outer shell, voltage drop under.",Motor Housing,Power Failure,4,2
+"its hot and shaking alot near the bearings, check for worn tool causing.",Bearing Assembly,Tool Wear Failure,3,0
+"The bearing housing jammed. Operations are affected, check ASAP.",Bearing Assembly,Overstrain Failure,3,3
+"vibrating way more than normal near the hydraulics block, glitchy controls, random.",Hydraulic Pump,Random Failure,1,4
+"bearing assembly making wierd noise, feels like random failure code.",Bearing Assembly,Random Failure,3,4
+"its hot and shaking alot near the bearing assembly, check for unexplained behavior, machine.",Bearing Assembly,Random Failure,3,4
+Maintenance log: drive belt blade is dull.,Drive Belt,Tool Wear Failure,0,0
+Operator reports: 'bearing kit slipping and worn.',Bearing Assembly,Tool Wear Failure,3,0
+"keeps stopping every few minutes, housing unit is voltage surge tripped.",Motor Housing,Power Failure,4,2
+"oil everywhere near the spndl, suspect mechanical jam, torque.",CNC Spindle,Overstrain Failure,2,3
+"CRITICAL: tensioner intermittent connection issue, immediately!",Drive Belt,Random Failure,0,4
+"its hot and shaking alot near the cnc head, check for stuck due to.",CNC Spindle,Overstrain Failure,2,3
+"pressure gauge cant hold pressure, seems like severe mechanical stress,.",Hydraulic Pump,Overstrain Failure,1,3
+"The spindle power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",CNC Spindle,Power Failure,2,2
+"spndl thermal runaway warning,.",CNC Spindle,Heat Dissipation Failure,2,1
+"leaking or snapped near the HPU unit, casing temp too suspected.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"housing shield cant hold pressure, seems like unexplained shutdown during.",Motor Housing,Random Failure,4,4
+"somthing grinding in the HPU unit area, check for tool is dull.",Hydraulic Pump,Tool Wear Failure,1,0
+the hydraulics area is keeps stopping again. please check.,Hydraulic Pump,Random Failure,1,4
+"The housing stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Motor Housing,Overstrain Failure,4,3
+"CRITICAL: hydraulic unit lost power completely, immediately!",Hydraulic Pump,Power Failure,1,2
+CRITICAL: spindle unit is completely seized immediately!,CNC Spindle,Overstrain Failure,2,3
+"operator says shfat bearign stalled mid-operation, high friction torque overload today.",Bearing Assembly,Overstrain Failure,3,3
+"keeps stopping every few minutes, belt area is voltage surge tripped.",Drive Belt,Power Failure,0,2
+"Operator reports: 'housing shield smoke coming from unit, cooling failed.'",Motor Housing,Heat Dissipation Failure,4,1
+"weird smell from the pump unit, possibly stalled under torque.",Hydraulic Pump,Overstrain Failure,1,3

@@ -245,9 +245,10 @@ def call_engine_directly(payload, operator_log, machine_id):
         raw_sensors = {k: v for k, v in payload.items() if k not in ["operator_log", "machine_id"]}
         ticket = core_engine.master_orchestrator(raw_sensors, operator_log, machine_id)
         
-        # Append API contract keys at the top-level
+        # Append API contract keys at the top-level using the loaded failure threshold
         prob_raw = ticket.get("Telemetry_Metrics", {}).get("Failure_Probability_Raw", 0.0)
-        prediction = "Failure" if prob_raw >= 0.50 else "No Failure"
+        threshold = getattr(core_engine, "_failure_threshold", 0.5)
+        prediction = "Failure" if prob_raw >= threshold else "No Failure"
         confidence = float(prob_raw)
         
         failure_type = None
@@ -310,6 +311,21 @@ with st.sidebar:
 
     # ── Raw Sensor Inputs ──
     st.markdown("##### Raw Telemetry Inputs")
+
+    # Machine Type Dropdown (L, M, H) - FULL LABELS
+    machine_type_options = {
+        "M — Medium Quality": "M",
+        "L — Low Quality": "L",
+        "H — High Quality": "H"
+    }
+    machine_type_display = st.selectbox(
+        "🏷️ Machine Type (Quality Grade)",
+        options=["M — Medium Quality", "L — Low Quality", "H — High Quality"],
+        index=0,
+        key="machine_type_display"
+    )
+    machine_type = machine_type_options[machine_type_display]
+
     torque_nm = st.number_input("⚙️ Torque (Nm)", min_value=0.0, max_value=100.0, value=40.0, step=0.1, key="torque_nm")
     spindle_speed_rpm = st.number_input("🔩 Spindle Speed (RPM)", min_value=0.0, max_value=5000.0, value=1500.0, step=50.0, key="spindle_speed_rpm")
     tool_wear_min = st.slider("🛠️ Tool Wear (min)", min_value=0.0, max_value=250.0, value=25.0, step=1.0, key="tool_wear_min")
@@ -361,9 +377,11 @@ tab1, tab2, tab3 = st.tabs(["📊 Live Diagnostics", "📋 Dispatch Ticket", "�
 if analyze_btn:
     with st.spinner("⚡ Running ML/AI inference pipeline..."):
         payload = {
+            "machine_type": machine_type,
             "torque_nm": float(torque_nm),
             "spindle_speed_rpm": float(spindle_speed_rpm),
             "tool_wear_min": float(tool_wear_min),
+            "tool_wear_pct": float(tool_wear_min) / 2.5,
             "rotational_speed_rpm": float(rotational_speed_rpm),
             "power_w": float(power_w),
             "voltage_v": float(voltage_v),
@@ -461,6 +479,46 @@ with tab1:
         # ── Progress Bar ──
         st.markdown("<br>", unsafe_allow_html=True)
         st.progress(min(float(failure_prob_raw), 1.0), text=f"Risk Level: {float(failure_prob_raw)*100:.1f}%")
+
+        # ── Row 1.5: Remaining Useful Life (RUL) ──
+        if result.get("predicted_RUL") is not None:
+            st.markdown("<br>", unsafe_allow_html=True)
+            col_rul1, col_rul2 = st.columns(2)
+            
+            rul_val = result.get("predicted_RUL")
+            urgency = result.get("urgency_label", "N/A")
+            
+            urgency_class = {
+                "Healthy": "status-normal",
+                "Monitor": "status-warning",
+                "Plan Maintenance": "status-warning",
+                "Immediate Action": "status-critical"
+            }.get(urgency, "status-normal")
+            
+            urgency_color = {
+                "Healthy": "#10b981",
+                "Monitor": "#f59e0b",
+                "Plan Maintenance": "#f59e0b",
+                "Immediate Action": "#dc2626"
+            }.get(urgency, "#10b981")
+            
+            with col_rul1:
+                st.markdown(f"""
+                <div class="metric-card">
+                    <div class="metric-label">Predicted Tool RUL</div>
+                    <p class="metric-value" style="color: {urgency_color};">{rul_val} <span style="font-size:1rem;color:rgba(255,255,255,0.5);">cycles</span></p>
+                    <div class="metric-subtitle">Remaining Useful Life before maintenance</div>
+                </div>
+                """, unsafe_allow_html=True)
+                
+            with col_rul2:
+                st.markdown(f"""
+                <div class="metric-card">
+                    <div class="metric-label">Maintenance Urgency</div>
+                    <span class="{urgency_class}" style="font-size: 1.2rem; padding: 0.5rem 1.5rem; margin-top: 0.5rem; display: inline-block;">{urgency}</span>
+                    <div class="metric-subtitle">Action recommendation status</div>
+                </div>
+                """, unsafe_allow_html=True)
 
         # ── Row 2: XAI + Diagnosis ──
         if status == "DISPATCHED":
@@ -579,7 +637,7 @@ with tab3:
             <div class="metric-card">
                 <div class="metric-label">Tier 1: Failure Predictor</div>
                 <p class="metric-value" style="color:#6366f1;font-size:1.4rem;">{lgbm.get('model_name', 'N/A')}</p>
-                <div class="metric-subtitle">Status: {lgbm.get('status', 'N/A')}</div>
+                <div class="metric-subtitle">Status: {lgbm.get('status', 'N/A')} | Threshold: {lgbm.get('threshold', 0.50):.2f}</div>
             </div>
             """, unsafe_allow_html=True)
         with col2:
@@ -599,6 +657,37 @@ with tab3:
                         st.dataframe(cr_df.style.format("{:.4f}", na_rep="-"), use_container_width=True)
             else:
                 st.warning("Model is using mock fallback — no real metrics available.")
+
+        # ── Tier 1 RUL Regressor ──
+        st.markdown("---")
+        reg1 = perf_data.get("tier1_regressor", {})
+        reg1_metrics = reg1.get("metrics", {})
+
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            st.markdown(f"""
+            <div class="metric-card">
+                <div class="metric-label">Tier 1: RUL Regressor</div>
+                <p class="metric-value" style="color:#6366f1;font-size:1.4rem;">{reg1.get('model_name', 'N/A')}</p>
+                <div class="metric-subtitle">Status: {reg1.get('status', 'N/A')}</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with col2:
+            if isinstance(reg1_metrics.get("r2_score"), (int, float)):
+                mcol1, mcol2, mcol3 = st.columns(3)
+                mcol1.metric("R² Score", f"{reg1_metrics['r2_score']:.4f}")
+                mcol2.metric("RMSE (cycles)", f"{reg1_metrics['rmse']:.1f}")
+                mcol3.metric("MAE (cycles)", f"{reg1_metrics['mae']:.1f}")
+
+                # Show urgency mapping info
+                mapping1 = reg1.get("urgency_mapping", {})
+                if mapping1:
+                    with st.expander("📋 Maintenance Urgency Mapping Rules"):
+                        import pandas as pd
+                        map_df1 = pd.DataFrame(list(mapping1.items()), columns=["Urgency Label", "RUL Threshold"])
+                        st.dataframe(map_df1, use_container_width=True)
+            else:
+                st.warning("Tier 1 RUL Regressor not loaded — no real metrics available.")
 
         # ── Tier 2: Isolation Forest ──
         st.markdown("---")
@@ -621,8 +710,47 @@ with tab3:
                 mcol2.metric("F1 Score", f"{iso_metrics['f1_score']:.4f}")
                 mcol3.metric("Precision", f"{iso_metrics['precision']:.4f}")
                 mcol4.metric("Recall", f"{iso_metrics['recall']:.4f}")
+
+                # Classification report for Tier 2
+                cr_iso = iso.get("classification_report", {})
+                if cr_iso:
+                    with st.expander("📊 Full Classification Report"):
+                        import pandas as pd
+                        cr_df_iso = pd.DataFrame(cr_iso).T
+                        st.dataframe(cr_df_iso.style.format("{:.4f}", na_rep="-"), use_container_width=True)
             else:
                 st.warning("Model is using mock fallback — no real metrics available.")
+
+        # ── Tier 2 RUL Regressor ──
+        st.markdown("---")
+        reg = perf_data.get("tier2_regressor", {})
+        reg_metrics = reg.get("metrics", {})
+
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            st.markdown(f"""
+            <div class="metric-card">
+                <div class="metric-label">Tier 2: RUL Regressor</div>
+                <p class="metric-value" style="color:#10b981;font-size:1.4rem;">{reg.get('model_name', 'N/A')}</p>
+                <div class="metric-subtitle">Status: {reg.get('status', 'N/A')}</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with col2:
+            if isinstance(reg_metrics.get("r2_score"), (int, float)):
+                mcol1, mcol2, mcol3 = st.columns(3)
+                mcol1.metric("R² Score", f"{reg_metrics['r2_score']:.4f}")
+                mcol2.metric("RMSE (cycles)", f"{reg_metrics['rmse']:.1f}")
+                mcol3.metric("MAE (cycles)", f"{reg_metrics['mae']:.1f}")
+
+                # Show urgency mapping info
+                mapping = reg.get("urgency_mapping", {})
+                if mapping:
+                    with st.expander("📋 Maintenance Urgency Mapping Rules"):
+                        import pandas as pd
+                        map_df = pd.DataFrame(list(mapping.items()), columns=["Urgency Label", "RUL Threshold"])
+                        st.dataframe(map_df, use_container_width=True)
+            else:
+                st.warning("RUL Regressor not loaded — no real metrics available.")
 
         # ── Tier 3: NLP Agent ──
         st.markdown("---")

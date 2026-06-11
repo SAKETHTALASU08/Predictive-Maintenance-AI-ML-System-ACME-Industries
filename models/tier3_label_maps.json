@@ -1,0 +1,44 @@
+{
+  "component_labels": [
+    "Drive Belt",
+    "Hydraulic Pump",
+    "CNC Spindle",
+    "Bearing Assembly",
+    "Motor Housing"
+  ],
+  "failure_labels": [
+    "Tool Wear Failure",
+    "Heat Dissipation Failure",
+    "Power Failure",
+    "Overstrain Failure",
+    "Random Failure"
+  ],
+  "component2id": {
+    "Drive Belt": 0,
+    "Hydraulic Pump": 1,
+    "CNC Spindle": 2,
+    "Bearing Assembly": 3,
+    "Motor Housing": 4
+  },
+  "failure2id": {
+    "Tool Wear Failure": 0,
+    "Heat Dissipation Failure": 1,
+    "Power Failure": 2,
+    "Overstrain Failure": 3,
+    "Random Failure": 4
+  },
+  "id2component": {
+    "0": "Drive Belt",
+    "1": "Hydraulic Pump",
+    "2": "CNC Spindle",
+    "3": "Bearing Assembly",
+    "4": "Motor Housing"
+  },
+  "id2failure": {
+    "0": "Tool Wear Failure",
+    "1": "Heat Dissipation Failure",
+    "2": "Power Failure",
+    "3": "Overstrain Failure",
+    "4": "Random Failure"
+  }
+}

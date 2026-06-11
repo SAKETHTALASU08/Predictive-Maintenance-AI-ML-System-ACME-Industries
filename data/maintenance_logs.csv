@@ -1,0 +1,1001 @@
+log_text,component,failure_mode,component_id,failure_mode_id
+"Inspection reveals that the drive belt is completely worn out, tool wear value is critical.",Drive Belt,Tool Wear Failure,0,0
+"The belt tool wear ratio exceeded limits, tool is extremely dull. Operations are affected, check ASAP.",Drive Belt,Tool Wear Failure,0,0
+"the ploy-v blt is experiencing severe pitting, tool wear min reading is at maximum again. please check.",Drive Belt,Tool Wear Failure,0,0
+v-belt wear value too.,Drive Belt,Tool Wear Failure,0,0
+"Warning: tensioner belt tool is dull and worn, needs replacement immediately and smells weird.",Drive Belt,Tool Wear Failure,0,0
+"Operator reports: 'driv belt warn out tool, wear min is at critical levels.'",Drive Belt,Tool Wear Failure,0,0
+Maintenance log: belts severe tool wear detected on inspection.,Drive Belt,Tool Wear Failure,0,0
+"operator says conveyor blt tool wear min is mxaed out, cutting surface is damaged today.",Drive Belt,Tool Wear Failure,0,0
+CRITICAL: tensioner dull blade / immediately!,Drive Belt,Tool Wear Failure,0,0
+"Standard check: belt area tool wear min critical, pitting visible on the contact point during run.",Drive Belt,Tool Wear Failure,0,0
+"thing near conveyor tool worn down to the nub, replace now.",Drive Belt,Tool Wear Failure,0,0
+"belts assembly making wierd noise, feels like high tool wear.",Drive Belt,Tool Wear Failure,0,0
+"somthing grinding in the tension pulley area, check for tool wear is.",Drive Belt,Tool Wear Failure,0,0
+"its hot and shaking alot near the drive belt, check for worn tool causing.",Drive Belt,Tool Wear Failure,0,0
+"weird smell from the belt unit, possibly tool wear value.",Drive Belt,Tool Wear Failure,0,0
+"keeps stopping every few minutes, poly-v belt is dull cutting tool,.",Drive Belt,Tool Wear Failure,0,0
+"oil everywhere near the v-belt, suspect excessive wear on.",Drive Belt,Tool Wear Failure,0,0
+"tensioner belt cant hold pressure, seems like tool wears out.",Drive Belt,Tool Wear Failure,0,0
+"vibrating way more than normal near the driv belt, replace tool, wear.",Drive Belt,Tool Wear Failure,0,0
+"leaking or snapped near the belts, worn tool bit, suspected.",Drive Belt,Tool Wear Failure,0,0
+Inspection reveals that the conveyor belt worn out.,Drive Belt,Tool Wear Failure,0,0
+"The tensioner looks worn. Operations are affected, check ASAP.",Drive Belt,Tool Wear Failure,0,0
+the blt area is dull again. please check.,Drive Belt,Tool Wear Failure,0,0
+conveyor rough finish.,Drive Belt,Tool Wear Failure,0,0
+Warning: belts assembly pitting and smells weird.,Drive Belt,Tool Wear Failure,0,0
+Operator reports: 'tension pulley slipping and worn.',Drive Belt,Tool Wear Failure,0,0
+Maintenance log: drive belt blade is dull.,Drive Belt,Tool Wear Failure,0,0
+operator says blt tool is warn out completely today.,Drive Belt,Tool Wear Failure,0,0
+CRITICAL: poly-v belt is completely worn immediately!,Drive Belt,Tool Wear Failure,0,0
+"Standard check: v-belt tool wear ratio exceeded limits, tool is extremely dull during run.",Drive Belt,Tool Wear Failure,0,0
+"thing near tensioner belt experiencing severe pitting, tool wear min reading is at maximum.",Drive Belt,Tool Wear Failure,0,0
+"driv belt making wierd noise, feels like wear value too.",Drive Belt,Tool Wear Failure,0,0
+"somthing grinding in the belts area, check for tool is dull.",Drive Belt,Tool Wear Failure,0,0
+"its hot and shaking alot near the conveyor belt, check for warn out tool,.",Drive Belt,Tool Wear Failure,0,0
+"weird smell from the tensioner unit, possibly severe tool wear.",Drive Belt,Tool Wear Failure,0,0
+"keeps stopping every few minutes, belt area is tool wear min.",Drive Belt,Tool Wear Failure,0,0
+"oil everywhere near the conveyor, suspect dull blade /.",Drive Belt,Tool Wear Failure,0,0
+"belts assembly cant hold pressure, seems like tool wear min.",Drive Belt,Tool Wear Failure,0,0
+"vibrating way more than normal near the tension pulley, tool worn down.",Drive Belt,Tool Wear Failure,0,0
+"leaking or snapped near the drive belt, high tool wear suspected.",Drive Belt,Tool Wear Failure,0,0
+"Inspection reveals that the drive belt is overheating rapidly, thermal camera shows 95C.",Drive Belt,Heat Dissipation Failure,0,1
+"The belt temperature spike detected, cooling fan seems broken. Operations are affected, check ASAP.",Drive Belt,Heat Dissipation Failure,0,1
+"the poly-v blt is is hot to the touch, smoke coming out of housing again. please check.",Drive Belt,Heat Dissipation Failure,0,1
+"v-belt thermal runaway warning,.",Drive Belt,Heat Dissipation Failure,0,1
+"Warning: tensioner belt heating up fast, temperature is at critical 105C and smells weird.",Drive Belt,Heat Dissipation Failure,0,1
+"Operator reports: 'driv belt smoke coming from unit, cooling failed.'",Drive Belt,Heat Dissipation Failure,0,1
+"Maintenance log: belts severe overheating, ventilation duct is blocked.",Drive Belt,Heat Dissipation Failure,0,1
+"operator says conveyor blt tempurature is at 98 degrees C, thermal sensor alert today.",Drive Belt,Heat Dissipation Failure,0,1
+"CRITICAL: tensioner overheating alert, cooling immediately!",Drive Belt,Heat Dissipation Failure,0,1
+"Standard check: belt area temp is way too hot, casing is smoking during run.",Drive Belt,Heat Dissipation Failure,0,1
+"thing near conveyor hot casing, smoke visible, cooling system down.",Drive Belt,Heat Dissipation Failure,0,1
+"belts assembly making wierd noise, feels like thermal paste dry,.",Drive Belt,Heat Dissipation Failure,0,1
+"somthing grinding in the tension pulley area, check for abnormal heat buildup,.",Drive Belt,Heat Dissipation Failure,0,1
+"its hot and shaking alot near the drive belt, check for temperature spiked to.",Drive Belt,Heat Dissipation Failure,0,1
+"weird smell from the belt unit, possibly unit running extremely.",Drive Belt,Heat Dissipation Failure,0,1
+"keeps stopping every few minutes, poly-v belt is thermal overload tripped.",Drive Belt,Heat Dissipation Failure,0,1
+"oil everywhere near the v-belt, suspect ventilation shaft blocked,.",Drive Belt,Heat Dissipation Failure,0,1
+"tensioner belt cant hold pressure, seems like smells like burning.",Drive Belt,Heat Dissipation Failure,0,1
+"vibrating way more than normal near the driv belt, temp sensor reading.",Drive Belt,Heat Dissipation Failure,0,1
+"leaking or snapped near the belts, casing temp too suspected.",Drive Belt,Heat Dissipation Failure,0,1
+Inspection reveals that the conveyor belt overheating.,Drive Belt,Heat Dissipation Failure,0,1
+"The tensioner hot. Operations are affected, check ASAP.",Drive Belt,Heat Dissipation Failure,0,1
+the blt area is smoking again. please check.,Drive Belt,Heat Dissipation Failure,0,1
+conveyor too hot to.,Drive Belt,Heat Dissipation Failure,0,1
+Warning: belts assembly thermal overload and smells weird.,Drive Belt,Heat Dissipation Failure,0,1
+Operator reports: 'tension pulley hot and shaking.',Drive Belt,Heat Dissipation Failure,0,1
+Maintenance log: drive belt weird smell.,Drive Belt,Heat Dissipation Failure,0,1
+operator says blt smkoing slightly today.,Drive Belt,Heat Dissipation Failure,0,1
+CRITICAL: poly-v belt abnormal heat immediately!,Drive Belt,Heat Dissipation Failure,0,1
+"Standard check: v-belt is overheating rapidly, thermal camera shows 95C during run.",Drive Belt,Heat Dissipation Failure,0,1
+"thing near tensioner belt temperature spike detected, cooling fan seems broken.",Drive Belt,Heat Dissipation Failure,0,1
+"driv belt making wierd noise, feels like is hot to.",Drive Belt,Heat Dissipation Failure,0,1
+"somthing grinding in the belts area, check for thermal runaway warning,.",Drive Belt,Heat Dissipation Failure,0,1
+"its hot and shaking alot near the conveyor belt, check for heating up fast,.",Drive Belt,Heat Dissipation Failure,0,1
+"weird smell from the tensioner unit, possibly smoke coming from.",Drive Belt,Heat Dissipation Failure,0,1
+"keeps stopping every few minutes, belt area is severe overheating, ventilation.",Drive Belt,Heat Dissipation Failure,0,1
+"oil everywhere near the conveyor, suspect temperature is at.",Drive Belt,Heat Dissipation Failure,0,1
+"belts assembly cant hold pressure, seems like overheating alert, cooling.",Drive Belt,Heat Dissipation Failure,0,1
+"vibrating way more than normal near the tension pulley, temp is way.",Drive Belt,Heat Dissipation Failure,0,1
+"leaking or snapped near the drive belt, hot casing, smoke suspected.",Drive Belt,Heat Dissipation Failure,0,1
+"Inspection reveals that the drive belt lost power completely, voltage dropped to zero.",Drive Belt,Power Failure,0,2
+"The belt power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Drive Belt,Power Failure,0,2
+"the poly-v blt is fuse blown, voltage surge detected on line again. please check.",Drive Belt,Power Failure,0,2
+"v-belt no power supply,.",Drive Belt,Power Failure,0,2
+"Warning: tensioner belt sudden voltage drop, machine stopped mid-cycle and smells weird.",Drive Belt,Power Failure,0,2
+"Operator reports: 'driv belt electrical fault, voltage supply lines went dead.'",Drive Belt,Power Failure,0,2
+"Maintenance log: belts breaker tripped, power failure warning on control panel.",Drive Belt,Power Failure,0,2
+"operator says conveyor blt voltag surge tripped the breaker, no power to the HPU today.",Drive Belt,Power Failure,0,2
+CRITICAL: tensioner blown fuse in immediately!,Drive Belt,Power Failure,0,2
+"Standard check: belt area lost voltage, mains power failed during tool run during run.",Drive Belt,Power Failure,0,2
+"thing near conveyor mains power failure, backup generator running.",Drive Belt,Power Failure,0,2
+"belts assembly making wierd noise, feels like blown power relay,.",Drive Belt,Power Failure,0,2
+"somthing grinding in the tension pulley area, check for power fluctuation, voltage.",Drive Belt,Power Failure,0,2
+"its hot and shaking alot near the drive belt, check for breaker trips instantly.",Drive Belt,Power Failure,0,2
+"weird smell from the belt unit, possibly electrical arc damage.",Drive Belt,Power Failure,0,2
+"keeps stopping every few minutes, poly-v belt is no voltage reading.",Drive Belt,Power Failure,0,2
+"oil everywhere near the v-belt, suspect fuse pop, power.",Drive Belt,Power Failure,0,2
+"tensioner belt cant hold pressure, seems like electrical breaker failed,.",Drive Belt,Power Failure,0,2
+"vibrating way more than normal near the driv belt, voltage drop under.",Drive Belt,Power Failure,0,2
+"leaking or snapped near the belts, complete blackout in suspected.",Drive Belt,Power Failure,0,2
+Inspection reveals that the conveyor belt no power.,Drive Belt,Power Failure,0,2
+"The tensioner breaker tripped. Operations are affected, check ASAP.",Drive Belt,Power Failure,0,2
+the blt area is fuse popped again. please check.,Drive Belt,Power Failure,0,2
+conveyor voltage dropped.,Drive Belt,Power Failure,0,2
+Warning: belts assembly power out and smells weird.,Drive Belt,Power Failure,0,2
+Operator reports: 'tension pulley lost power.',Drive Belt,Power Failure,0,2
+Maintenance log: drive belt electrical fault.,Drive Belt,Power Failure,0,2
+operator says blt breaker trips today.,Drive Belt,Power Failure,0,2
+"CRITICAL: poly-v belt lost power completely, immediately!",Drive Belt,Power Failure,0,2
+"Standard check: v-belt power failure, electrical breaker tripped in the cabinet during run.",Drive Belt,Power Failure,0,2
+"thing near tensioner belt fuse blown, voltage surge detected on line.",Drive Belt,Power Failure,0,2
+"driv belt making wierd noise, feels like no power supply,.",Drive Belt,Power Failure,0,2
+"somthing grinding in the belts area, check for sudden voltage drop,.",Drive Belt,Power Failure,0,2
+"its hot and shaking alot near the conveyor belt, check for electrical fault, voltage.",Drive Belt,Power Failure,0,2
+"weird smell from the tensioner unit, possibly breaker tripped, power.",Drive Belt,Power Failure,0,2
+"keeps stopping every few minutes, belt area is voltage surge tripped.",Drive Belt,Power Failure,0,2
+"oil everywhere near the conveyor, suspect blown fuse in.",Drive Belt,Power Failure,0,2
+"belts assembly cant hold pressure, seems like lost voltage, mains.",Drive Belt,Power Failure,0,2
+"vibrating way more than normal near the tension pulley, mains power failure,.",Drive Belt,Power Failure,0,2
+"leaking or snapped near the drive belt, blown power relay, suspected.",Drive Belt,Power Failure,0,2
+"Inspection reveals that the drive belt is completely seized and jammed, motor stalled under load.",Drive Belt,Overstrain Failure,0,3
+"The belt stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Drive Belt,Overstrain Failure,0,3
+"the poly-v blt is is jammed, high torque reading triggered emergency stop again. please check.",Drive Belt,Overstrain Failure,0,3
+v-belt stalled under heavy.,Drive Belt,Overstrain Failure,0,3
+"Warning: tensioner belt cannot rotate, drive shaft is seized and smells weird.",Drive Belt,Overstrain Failure,0,3
+"Operator reports: 'driv belt stuck due to high friction, torque limit reached.'",Drive Belt,Overstrain Failure,0,3
+"Maintenance log: belts torque reading exceeded 85 Nm, mechanical jam detected.",Drive Belt,Overstrain Failure,0,3
+"operator says conveyor blt stalled mid-operation, high friction toqrue overload today.",Drive Belt,Overstrain Failure,0,3
+"CRITICAL: tensioner jammed drive, motor immediately!",Drive Belt,Overstrain Failure,0,3
+"Standard check: belt area severe mechanical stress, spindle seized up during run.",Drive Belt,Overstrain Failure,0,3
+"thing near conveyor jammed housing, torque spikes to max.",Drive Belt,Overstrain Failure,0,3
+"belts assembly making wierd noise, feels like stalled motor, torque.",Drive Belt,Overstrain Failure,0,3
+"somthing grinding in the tension pulley area, check for seized shaft, gears.",Drive Belt,Overstrain Failure,0,3
+"its hot and shaking alot near the drive belt, check for torque overload, mechanical.",Drive Belt,Overstrain Failure,0,3
+"weird smell from the belt unit, possibly stalled under torque.",Drive Belt,Overstrain Failure,0,3
+"keeps stopping every few minutes, poly-v belt is stuck assembly, drive.",Drive Belt,Overstrain Failure,0,3
+"oil everywhere near the v-belt, suspect mechanical jam, torque.",Drive Belt,Overstrain Failure,0,3
+"tensioner belt cant hold pressure, seems like stalled drive shaft,.",Drive Belt,Overstrain Failure,0,3
+"vibrating way more than normal near the driv belt, overstrain torque overload,.",Drive Belt,Overstrain Failure,0,3
+"leaking or snapped near the belts, gears seized up, suspected.",Drive Belt,Overstrain Failure,0,3
+Inspection reveals that the conveyor belt seized up.,Drive Belt,Overstrain Failure,0,3
+"The tensioner jammed. Operations are affected, check ASAP.",Drive Belt,Overstrain Failure,0,3
+the blt area is stalled again. please check.,Drive Belt,Overstrain Failure,0,3
+conveyor stuck.,Drive Belt,Overstrain Failure,0,3
+Warning: belts assembly cannot rotate and smells weird.,Drive Belt,Overstrain Failure,0,3
+Operator reports: 'tension pulley cant hold pressure.',Drive Belt,Overstrain Failure,0,3
+Maintenance log: drive belt grinding noise.,Drive Belt,Overstrain Failure,0,3
+operator says blt friction overload today.,Drive Belt,Overstrain Failure,0,3
+CRITICAL: poly-v belt is completely seized immediately!,Drive Belt,Overstrain Failure,0,3
+"Standard check: v-belt stuck and seized up, overstrain torque limit exceeded during run.",Drive Belt,Overstrain Failure,0,3
+"thing near tensioner belt is jammed, high torque reading triggered emergency stop.",Drive Belt,Overstrain Failure,0,3
+"driv belt making wierd noise, feels like stalled under heavy.",Drive Belt,Overstrain Failure,0,3
+"somthing grinding in the belts area, check for cannot rotate, drive.",Drive Belt,Overstrain Failure,0,3
+"its hot and shaking alot near the conveyor belt, check for stuck due to.",Drive Belt,Overstrain Failure,0,3
+"weird smell from the tensioner unit, possibly torque reading exceeded.",Drive Belt,Overstrain Failure,0,3
+"keeps stopping every few minutes, belt area is stalled mid-operation, high.",Drive Belt,Overstrain Failure,0,3
+"oil everywhere near the conveyor, suspect jammed drive, motor.",Drive Belt,Overstrain Failure,0,3
+"belts assembly cant hold pressure, seems like severe mechanical stress,.",Drive Belt,Overstrain Failure,0,3
+"vibrating way more than normal near the tension pulley, jammed housing, torque.",Drive Belt,Overstrain Failure,0,3
+"leaking or snapped near the drive belt, stalled motor, torque suspected.",Drive Belt,Overstrain Failure,0,3
+Inspection reveals that the drive belt shut down with unexplained error code ERR-404.,Drive Belt,Random Failure,0,4
+"The belt random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",Drive Belt,Random Failure,0,4
+"the poly-v blt is intermittent communication loss, control panel fault again. please check.",Drive Belt,Random Failure,0,4
+"v-belt random shutdown, no.",Drive Belt,Random Failure,0,4
+"Warning: tensioner belt unexplained behavior, machine stops randomly and smells weird.",Drive Belt,Random Failure,0,4
+"Operator reports: 'driv belt unidentified glitch, controller went offline.'",Drive Belt,Random Failure,0,4
+"Maintenance log: belts random trip, control interface lost connection.",Drive Belt,Random Failure,0,4
+"operator says conveyor blt unexplained sensor fault, error code ERR-502 today.",Drive Belt,Random Failure,0,4
+"CRITICAL: tensioner intermittent connection issue, immediately!",Drive Belt,Random Failure,0,4
+"Standard check: belt area glitchy controls, random error triggered safety loop during run.",Drive Belt,Random Failure,0,4
+thing near conveyor controller board rebooted randomly during cycle.,Drive Belt,Random Failure,0,4
+"belts assembly making wierd noise, feels like random failure code.",Drive Belt,Random Failure,0,4
+"somthing grinding in the tension pulley area, check for intermittent signal loss.",Drive Belt,Random Failure,0,4
+"its hot and shaking alot near the drive belt, check for unexplained halt, system.",Drive Belt,Random Failure,0,4
+"weird smell from the belt unit, possibly random error, control.",Drive Belt,Random Failure,0,4
+"keeps stopping every few minutes, poly-v belt is unidentified fault, machine.",Drive Belt,Random Failure,0,4
+"oil everywhere near the v-belt, suspect glitch in sensor.",Drive Belt,Random Failure,0,4
+"tensioner belt cant hold pressure, seems like unexplained shutdown during.",Drive Belt,Random Failure,0,4
+"vibrating way more than normal near the driv belt, intermittent connection faults,.",Drive Belt,Random Failure,0,4
+"leaking or snapped near the belts, random emergency loop suspected.",Drive Belt,Random Failure,0,4
+Inspection reveals that the conveyor belt broke again.,Drive Belt,Random Failure,0,4
+"The tensioner wierd noise. Operations are affected, check ASAP.",Drive Belt,Random Failure,0,4
+the blt area is keeps stopping again. please check.,Drive Belt,Random Failure,0,4
+conveyor stopped.,Drive Belt,Random Failure,0,4
+Warning: belts assembly leaking and smells weird.,Drive Belt,Random Failure,0,4
+Operator reports: 'tension pulley oil everywhere.',Drive Belt,Random Failure,0,4
+Maintenance log: drive belt weird noise.,Drive Belt,Random Failure,0,4
+operator says blt stops randomly today.,Drive Belt,Random Failure,0,4
+CRITICAL: poly-v belt glitchy connection immediately!,Drive Belt,Random Failure,0,4
+Standard check: v-belt shut down with unexplained error code ERR-404 during run.,Drive Belt,Random Failure,0,4
+"thing near tensioner belt random glitch, machine rebooted spontaneously.",Drive Belt,Random Failure,0,4
+"driv belt making wierd noise, feels like intermittent communication loss,.",Drive Belt,Random Failure,0,4
+"somthing grinding in the belts area, check for random shutdown, no.",Drive Belt,Random Failure,0,4
+"its hot and shaking alot near the conveyor belt, check for unexplained behavior, machine.",Drive Belt,Random Failure,0,4
+"weird smell from the tensioner unit, possibly unidentified glitch, controller.",Drive Belt,Random Failure,0,4
+"keeps stopping every few minutes, belt area is random trip, control.",Drive Belt,Random Failure,0,4
+"oil everywhere near the conveyor, suspect unexplained sensor fault,.",Drive Belt,Random Failure,0,4
+"belts assembly cant hold pressure, seems like intermittent connection issue,.",Drive Belt,Random Failure,0,4
+"vibrating way more than normal near the tension pulley, glitchy controls, random.",Drive Belt,Random Failure,0,4
+"leaking or snapped near the drive belt, controller board rebooted suspected.",Drive Belt,Random Failure,0,4
+"Inspection reveals that the hydraulic pump is completely worn out, tool wear value is critical.",Hydraulic Pump,Tool Wear Failure,1,0
+"The pump tool wear ratio exceeded limits, tool is extremely dull. Operations are affected, check ASAP.",Hydraulic Pump,Tool Wear Failure,1,0
+"the hydrualic unit is experiencing severe pitting, tool wear min reading is at maximum again. please check.",Hydraulic Pump,Tool Wear Failure,1,0
+hpu wear value too.,Hydraulic Pump,Tool Wear Failure,1,0
+"Warning: hydraulic line tool is dull and worn, needs replacement immediately and smells weird.",Hydraulic Pump,Tool Wear Failure,1,0
+"Operator reports: 'hydrualic pump warn out tool, wear min is at critical levels.'",Hydraulic Pump,Tool Wear Failure,1,0
+Maintenance log: HPU unit severe tool wear detected on inspection.,Hydraulic Pump,Tool Wear Failure,1,0
+"operator says hydraulics tool wear min is maxed out, ctuting surface is damaged today.",Hydraulic Pump,Tool Wear Failure,1,0
+CRITICAL: fluid line dull blade / immediately!,Hydraulic Pump,Tool Wear Failure,1,0
+"Standard check: hydraulics area tool wear min critical, pitting visible on the contact point during run.",Hydraulic Pump,Tool Wear Failure,1,0
+"thing near pump unit tool worn down to the nub, replace now.",Hydraulic Pump,Tool Wear Failure,1,0
+"pressure gauge making wierd noise, feels like high tool wear.",Hydraulic Pump,Tool Wear Failure,1,0
+"somthing grinding in the hydraulics block area, check for tool wear is.",Hydraulic Pump,Tool Wear Failure,1,0
+"its hot and shaking alot near the hydraulic pump, check for worn tool causing.",Hydraulic Pump,Tool Wear Failure,1,0
+"weird smell from the pump unit, possibly tool wear value.",Hydraulic Pump,Tool Wear Failure,1,0
+"keeps stopping every few minutes, hydraulic unit is dull cutting tool,.",Hydraulic Pump,Tool Wear Failure,1,0
+"oil everywhere near the hpu, suspect excessive wear on.",Hydraulic Pump,Tool Wear Failure,1,0
+"hydraulic line cant hold pressure, seems like tool wears out.",Hydraulic Pump,Tool Wear Failure,1,0
+"vibrating way more than normal near the hydrualic pump, replace tool, wear.",Hydraulic Pump,Tool Wear Failure,1,0
+"leaking or snapped near the HPU unit, worn tool bit, suspected.",Hydraulic Pump,Tool Wear Failure,1,0
+Inspection reveals that the hydraulics worn out.,Hydraulic Pump,Tool Wear Failure,1,0
+"The fluid line looks worn. Operations are affected, check ASAP.",Hydraulic Pump,Tool Wear Failure,1,0
+the hydarulics area is dull again. please check.,Hydraulic Pump,Tool Wear Failure,1,0
+pump unit rough finish.,Hydraulic Pump,Tool Wear Failure,1,0
+Warning: pressure gauge pitting and smells weird.,Hydraulic Pump,Tool Wear Failure,1,0
+Operator reports: 'hydraulics block slipping and worn.',Hydraulic Pump,Tool Wear Failure,1,0
+Maintenance log: hydraulic pump blade is dull.,Hydraulic Pump,Tool Wear Failure,1,0
+operator says pmp tool is warn out completely today.,Hydraulic Pump,Tool Wear Failure,1,0
+CRITICAL: hydraulic unit is completely worn immediately!,Hydraulic Pump,Tool Wear Failure,1,0
+"Standard check: hpu tool wear ratio exceeded limits, tool is extremely dull during run.",Hydraulic Pump,Tool Wear Failure,1,0
+"thing near hydraulic line experiencing severe pitting, tool wear min reading is at maximum.",Hydraulic Pump,Tool Wear Failure,1,0
+"hydrualic pump making wierd noise, feels like wear value too.",Hydraulic Pump,Tool Wear Failure,1,0
+"somthing grinding in the HPU unit area, check for tool is dull.",Hydraulic Pump,Tool Wear Failure,1,0
+"its hot and shaking alot near the hydraulics, check for warn out tool,.",Hydraulic Pump,Tool Wear Failure,1,0
+"weird smell from the fluid line unit, possibly severe tool wear.",Hydraulic Pump,Tool Wear Failure,1,0
+"keeps stopping every few minutes, hydraulics area is tool wear min.",Hydraulic Pump,Tool Wear Failure,1,0
+"oil everywhere near the pump unit, suspect dull blade /.",Hydraulic Pump,Tool Wear Failure,1,0
+"pressure gauge cant hold pressure, seems like tool wear min.",Hydraulic Pump,Tool Wear Failure,1,0
+"vibrating way more than normal near the hydraulics block, tool worn down.",Hydraulic Pump,Tool Wear Failure,1,0
+"leaking or snapped near the hydraulic pump, high tool wear suspected.",Hydraulic Pump,Tool Wear Failure,1,0
+"Inspection reveals that the hydraulic pump is overheating rapidly, thermal camera shows 95C.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"The pump temperature spike detected, cooling fan seems broken. Operations are affected, check ASAP.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"the hydrualic unit is is hot to the touch, smoke coming out of housing again. please check.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"hpu thermal runaway warning,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Warning: hydraulic line heating up fast, temperature is at critical 105C and smells weird.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Operator reports: 'hydrualic pump smoke coming from unit, cooling failed.'",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Maintenance log: HPU unit severe overheating, ventilation duct is blocked.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"operator says hydraulics tempurature is at 98 degrees C, thermal snesor alert today.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"CRITICAL: fluid line overheating alert, cooling immediately!",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Standard check: hydraulics area temp is way too hot, casing is smoking during run.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"thing near pump unit hot casing, smoke visible, cooling system down.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"pressure gauge making wierd noise, feels like thermal paste dry,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"somthing grinding in the hydraulics block area, check for abnormal heat buildup,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"its hot and shaking alot near the hydraulic pump, check for temperature spiked to.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"weird smell from the pump unit, possibly unit running extremely.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"keeps stopping every few minutes, hydraulic unit is thermal overload tripped.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"oil everywhere near the hpu, suspect ventilation shaft blocked,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"hydraulic line cant hold pressure, seems like smells like burning.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"vibrating way more than normal near the hydrualic pump, temp sensor reading.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"leaking or snapped near the HPU unit, casing temp too suspected.",Hydraulic Pump,Heat Dissipation Failure,1,1
+Inspection reveals that the hydraulics overheating.,Hydraulic Pump,Heat Dissipation Failure,1,1
+"The fluid line hot. Operations are affected, check ASAP.",Hydraulic Pump,Heat Dissipation Failure,1,1
+the hydraulics area is smoking again. please check.,Hydraulic Pump,Heat Dissipation Failure,1,1
+pump unit too hot to.,Hydraulic Pump,Heat Dissipation Failure,1,1
+Warning: pressure gauge thermal overload and smells weird.,Hydraulic Pump,Heat Dissipation Failure,1,1
+Operator reports: 'hydraulics block hot and shaking.',Hydraulic Pump,Heat Dissipation Failure,1,1
+Maintenance log: hydraulic pump weird smell.,Hydraulic Pump,Heat Dissipation Failure,1,1
+operator says pmp smoking slightly today.,Hydraulic Pump,Heat Dissipation Failure,1,1
+CRITICAL: hydraulic unit abnormal heat immediately!,Hydraulic Pump,Heat Dissipation Failure,1,1
+"Standard check: hpu is overheating rapidly, thermal camera shows 95C during run.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"thing near hydraulic line temperature spike detected, cooling fan seems broken.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"hydrualic pump making wierd noise, feels like is hot to.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"somthing grinding in the HPU unit area, check for thermal runaway warning,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"its hot and shaking alot near the hydraulics, check for heating up fast,.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"weird smell from the fluid line unit, possibly smoke coming from.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"keeps stopping every few minutes, hydraulics area is severe overheating, ventilation.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"oil everywhere near the pump unit, suspect temperature is at.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"pressure gauge cant hold pressure, seems like overheating alert, cooling.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"vibrating way more than normal near the hydraulics block, temp is way.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"leaking or snapped near the hydraulic pump, hot casing, smoke suspected.",Hydraulic Pump,Heat Dissipation Failure,1,1
+"Inspection reveals that the hydraulic pump lost power completely, voltage dropped to zero.",Hydraulic Pump,Power Failure,1,2
+"The pump power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Hydraulic Pump,Power Failure,1,2
+"the hydrualic unit is fuse blown, voltage surge detected on line again. please check.",Hydraulic Pump,Power Failure,1,2
+"hpu no power supply,.",Hydraulic Pump,Power Failure,1,2
+"Warning: hydraulic line sudden voltage drop, machine stopped mid-cycle and smells weird.",Hydraulic Pump,Power Failure,1,2
+"Operator reports: 'hydrualic pump electrical fault, voltage supply lines went dead.'",Hydraulic Pump,Power Failure,1,2
+"Maintenance log: HPU unit breaker tripped, power failure warning on control panel.",Hydraulic Pump,Power Failure,1,2
+"operator says hydraulics voltag surge tripped the breaker, no power to the HPU today.",Hydraulic Pump,Power Failure,1,2
+CRITICAL: fluid line blown fuse in immediately!,Hydraulic Pump,Power Failure,1,2
+"Standard check: hydraulics area lost voltage, mains power failed during tool run during run.",Hydraulic Pump,Power Failure,1,2
+"thing near pump unit mains power failure, backup generator running.",Hydraulic Pump,Power Failure,1,2
+"pressure gauge making wierd noise, feels like blown power relay,.",Hydraulic Pump,Power Failure,1,2
+"somthing grinding in the hydraulics block area, check for power fluctuation, voltage.",Hydraulic Pump,Power Failure,1,2
+"its hot and shaking alot near the hydraulic pump, check for breaker trips instantly.",Hydraulic Pump,Power Failure,1,2
+"weird smell from the pump unit, possibly electrical arc damage.",Hydraulic Pump,Power Failure,1,2
+"keeps stopping every few minutes, hydraulic unit is no voltage reading.",Hydraulic Pump,Power Failure,1,2
+"oil everywhere near the hpu, suspect fuse pop, power.",Hydraulic Pump,Power Failure,1,2
+"hydraulic line cant hold pressure, seems like electrical breaker failed,.",Hydraulic Pump,Power Failure,1,2
+"vibrating way more than normal near the hydrualic pump, voltage drop under.",Hydraulic Pump,Power Failure,1,2
+"leaking or snapped near the HPU unit, complete blackout in suspected.",Hydraulic Pump,Power Failure,1,2
+Inspection reveals that the hydraulics no power.,Hydraulic Pump,Power Failure,1,2
+"The fluid line breaker tripped. Operations are affected, check ASAP.",Hydraulic Pump,Power Failure,1,2
+the hydraulics area is fuse popped again. please check.,Hydraulic Pump,Power Failure,1,2
+pump unit voltage dropped.,Hydraulic Pump,Power Failure,1,2
+Warning: pressure gauge power out and smells weird.,Hydraulic Pump,Power Failure,1,2
+Operator reports: 'hydraulics block lost power.',Hydraulic Pump,Power Failure,1,2
+Maintenance log: hydraulic pump electrical fault.,Hydraulic Pump,Power Failure,1,2
+operator says pmp breaker trips today.,Hydraulic Pump,Power Failure,1,2
+"CRITICAL: hydraulic unit lost power completely, immediately!",Hydraulic Pump,Power Failure,1,2
+"Standard check: hpu power failure, electrical breaker tripped in the cabinet during run.",Hydraulic Pump,Power Failure,1,2
+"thing near hydraulic line fuse blown, voltage surge detected on line.",Hydraulic Pump,Power Failure,1,2
+"hydrualic pump making wierd noise, feels like no power supply,.",Hydraulic Pump,Power Failure,1,2
+"somthing grinding in the HPU unit area, check for sudden voltage drop,.",Hydraulic Pump,Power Failure,1,2
+"its hot and shaking alot near the hydraulics, check for electrical fault, voltage.",Hydraulic Pump,Power Failure,1,2
+"weird smell from the fluid line unit, possibly breaker tripped, power.",Hydraulic Pump,Power Failure,1,2
+"keeps stopping every few minutes, hydraulics area is voltage surge tripped.",Hydraulic Pump,Power Failure,1,2
+"oil everywhere near the pump unit, suspect blown fuse in.",Hydraulic Pump,Power Failure,1,2
+"pressure gauge cant hold pressure, seems like lost voltage, mains.",Hydraulic Pump,Power Failure,1,2
+"vibrating way more than normal near the hydraulics block, mains power failure,.",Hydraulic Pump,Power Failure,1,2
+"leaking or snapped near the hydraulic pump, blown power relay, suspected.",Hydraulic Pump,Power Failure,1,2
+"Inspection reveals that the hydraulic pump is completely seized and jammed, motor stalled under load.",Hydraulic Pump,Overstrain Failure,1,3
+"The pump stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Hydraulic Pump,Overstrain Failure,1,3
+"the hydrualic unit is is jammed, high torque reading triggered emergency stop again. please check.",Hydraulic Pump,Overstrain Failure,1,3
+hpu stalled under heavy.,Hydraulic Pump,Overstrain Failure,1,3
+"Warning: hydraulic line cannot rotate, drive shaft is seized and smells weird.",Hydraulic Pump,Overstrain Failure,1,3
+"Operator reports: 'hydrualic pump stuck due to high friction, torque limit reached.'",Hydraulic Pump,Overstrain Failure,1,3
+"Maintenance log: HPU unit torque reading exceeded 85 Nm, mechanical jam detected.",Hydraulic Pump,Overstrain Failure,1,3
+"operator says hydraulics stalled mid-operation, high friction torque overload today.",Hydraulic Pump,Overstrain Failure,1,3
+"CRITICAL: fluid line jammed drive, motor immediately!",Hydraulic Pump,Overstrain Failure,1,3
+"Standard check: hydraulics area severe mechanical stress, spindle seized up during run.",Hydraulic Pump,Overstrain Failure,1,3
+"thing near pump unit jammed housing, torque spikes to max.",Hydraulic Pump,Overstrain Failure,1,3
+"pressure gauge making wierd noise, feels like stalled motor, torque.",Hydraulic Pump,Overstrain Failure,1,3
+"somthing grinding in the hydraulics block area, check for seized shaft, gears.",Hydraulic Pump,Overstrain Failure,1,3
+"its hot and shaking alot near the hydraulic pump, check for torque overload, mechanical.",Hydraulic Pump,Overstrain Failure,1,3
+"weird smell from the pump unit, possibly stalled under torque.",Hydraulic Pump,Overstrain Failure,1,3
+"keeps stopping every few minutes, hydraulic unit is stuck assembly, drive.",Hydraulic Pump,Overstrain Failure,1,3
+"oil everywhere near the hpu, suspect mechanical jam, torque.",Hydraulic Pump,Overstrain Failure,1,3
+"hydraulic line cant hold pressure, seems like stalled drive shaft,.",Hydraulic Pump,Overstrain Failure,1,3
+"vibrating way more than normal near the hydrualic pump, overstrain torque overload,.",Hydraulic Pump,Overstrain Failure,1,3
+"leaking or snapped near the HPU unit, gears seized up, suspected.",Hydraulic Pump,Overstrain Failure,1,3
+Inspection reveals that the hydraulics seized up.,Hydraulic Pump,Overstrain Failure,1,3
+"The fluid line jammed. Operations are affected, check ASAP.",Hydraulic Pump,Overstrain Failure,1,3
+the hydraulics area is stalled again. please check.,Hydraulic Pump,Overstrain Failure,1,3
+pump unit stuck.,Hydraulic Pump,Overstrain Failure,1,3
+Warning: pressure gauge cannot rotate and smells weird.,Hydraulic Pump,Overstrain Failure,1,3
+Operator reports: 'hydraulics block cant hold pressure.',Hydraulic Pump,Overstrain Failure,1,3
+Maintenance log: hydraulic pump grinding noise.,Hydraulic Pump,Overstrain Failure,1,3
+operator says pmp friction overload today.,Hydraulic Pump,Overstrain Failure,1,3
+CRITICAL: hydraulic unit is completely seized immediately!,Hydraulic Pump,Overstrain Failure,1,3
+"Standard check: hpu stuck and seized up, overstrain torque limit exceeded during run.",Hydraulic Pump,Overstrain Failure,1,3
+"thing near hydraulic line is jammed, high torque reading triggered emergency stop.",Hydraulic Pump,Overstrain Failure,1,3
+"hydrualic pump making wierd noise, feels like stalled under heavy.",Hydraulic Pump,Overstrain Failure,1,3
+"somthing grinding in the HPU unit area, check for cannot rotate, drive.",Hydraulic Pump,Overstrain Failure,1,3
+"its hot and shaking alot near the hydraulics, check for stuck due to.",Hydraulic Pump,Overstrain Failure,1,3
+"weird smell from the fluid line unit, possibly torque reading exceeded.",Hydraulic Pump,Overstrain Failure,1,3
+"keeps stopping every few minutes, hydraulics area is stalled mid-operation, high.",Hydraulic Pump,Overstrain Failure,1,3
+"oil everywhere near the pump unit, suspect jammed drive, motor.",Hydraulic Pump,Overstrain Failure,1,3
+"pressure gauge cant hold pressure, seems like severe mechanical stress,.",Hydraulic Pump,Overstrain Failure,1,3
+"vibrating way more than normal near the hydraulics block, jammed housing, torque.",Hydraulic Pump,Overstrain Failure,1,3
+"leaking or snapped near the hydraulic pump, stalled motor, torque suspected.",Hydraulic Pump,Overstrain Failure,1,3
+Inspection reveals that the hydraulic pump shut down with unexplained error code ERR-404.,Hydraulic Pump,Random Failure,1,4
+"The pump random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",Hydraulic Pump,Random Failure,1,4
+"the hydrualic unit is intermittent communication loss, control panel fault again. please check.",Hydraulic Pump,Random Failure,1,4
+"hpu random shutdown, no.",Hydraulic Pump,Random Failure,1,4
+"Warning: hydraulic line unexplained behavior, machine stops randomly and smells weird.",Hydraulic Pump,Random Failure,1,4
+"Operator reports: 'hydrualic pump unidentified glitch, controller went offline.'",Hydraulic Pump,Random Failure,1,4
+"Maintenance log: HPU unit random trip, control interface lost connection.",Hydraulic Pump,Random Failure,1,4
+"operator says hydraulics uenxplained sensor fautl, error code ERR-502 today.",Hydraulic Pump,Random Failure,1,4
+"CRITICAL: fluid line intermittent connection issue, immediately!",Hydraulic Pump,Random Failure,1,4
+"Standard check: hydraulics area glitchy controls, random error triggered safety loop during run.",Hydraulic Pump,Random Failure,1,4
+thing near pump unit controller board rebooted randomly during cycle.,Hydraulic Pump,Random Failure,1,4
+"pressure gauge making wierd noise, feels like random failure code.",Hydraulic Pump,Random Failure,1,4
+"somthing grinding in the hydraulics block area, check for intermittent signal loss.",Hydraulic Pump,Random Failure,1,4
+"its hot and shaking alot near the hydraulic pump, check for unexplained halt, system.",Hydraulic Pump,Random Failure,1,4
+"weird smell from the pump unit, possibly random error, control.",Hydraulic Pump,Random Failure,1,4
+"keeps stopping every few minutes, hydraulic unit is unidentified fault, machine.",Hydraulic Pump,Random Failure,1,4
+"oil everywhere near the hpu, suspect glitch in sensor.",Hydraulic Pump,Random Failure,1,4
+"hydraulic line cant hold pressure, seems like unexplained shutdown during.",Hydraulic Pump,Random Failure,1,4
+"vibrating way more than normal near the hydrualic pump, intermittent connection faults,.",Hydraulic Pump,Random Failure,1,4
+"leaking or snapped near the HPU unit, random emergency loop suspected.",Hydraulic Pump,Random Failure,1,4
+Inspection reveals that the hydraulics broke again.,Hydraulic Pump,Random Failure,1,4
+"The fluid line wierd noise. Operations are affected, check ASAP.",Hydraulic Pump,Random Failure,1,4
+the hydraulics area is keeps stopping again. please check.,Hydraulic Pump,Random Failure,1,4
+pump unit stopped.,Hydraulic Pump,Random Failure,1,4
+Warning: pressure gauge leaking and smells weird.,Hydraulic Pump,Random Failure,1,4
+Operator reports: 'hydraulics block oil everywhere.',Hydraulic Pump,Random Failure,1,4
+Maintenance log: hydraulic pump weird noise.,Hydraulic Pump,Random Failure,1,4
+operator says pmp stops randomly today.,Hydraulic Pump,Random Failure,1,4
+CRITICAL: hydraulic unit glitchy connection immediately!,Hydraulic Pump,Random Failure,1,4
+Standard check: hpu shut down with unexplained error code ERR-404 during run.,Hydraulic Pump,Random Failure,1,4
+"thing near hydraulic line random glitch, machine rebooted spontaneously.",Hydraulic Pump,Random Failure,1,4
+"hydrualic pump making wierd noise, feels like intermittent communication loss,.",Hydraulic Pump,Random Failure,1,4
+"somthing grinding in the HPU unit area, check for random shutdown, no.",Hydraulic Pump,Random Failure,1,4
+"its hot and shaking alot near the hydraulics, check for unexplained behavior, machine.",Hydraulic Pump,Random Failure,1,4
+"weird smell from the fluid line unit, possibly unidentified glitch, controller.",Hydraulic Pump,Random Failure,1,4
+"keeps stopping every few minutes, hydraulics area is random trip, control.",Hydraulic Pump,Random Failure,1,4
+"oil everywhere near the pump unit, suspect unexplained sensor fault,.",Hydraulic Pump,Random Failure,1,4
+"pressure gauge cant hold pressure, seems like intermittent connection issue,.",Hydraulic Pump,Random Failure,1,4
+"vibrating way more than normal near the hydraulics block, glitchy controls, random.",Hydraulic Pump,Random Failure,1,4
+"leaking or snapped near the hydraulic pump, controller board rebooted suspected.",Hydraulic Pump,Random Failure,1,4
+"Inspection reveals that the CNC spindle is completely worn out, tool wear value is critical.",CNC Spindle,Tool Wear Failure,2,0
+"The spindle tool wear ratio exceeded limits, tool is extremely dull. Operations are affected, check ASAP.",CNC Spindle,Tool Wear Failure,2,0
+"the spinle unit is experiencing severe pitting, tool wear min reading is at maximum again. please check.",CNC Spindle,Tool Wear Failure,2,0
+spndl wear value too.,CNC Spindle,Tool Wear Failure,2,0
+"Warning: spinle tool is dull and worn, needs replacement immediately and smells weird.",CNC Spindle,Tool Wear Failure,2,0
+"Operator reports: 'chuck motor warn out tool, wear min is at critical levels.'",CNC Spindle,Tool Wear Failure,2,0
+Maintenance log: spindle assembly severe tool wear detected on inspection.,CNC Spindle,Tool Wear Failure,2,0
+"operator says cnc head tool wear min is maexd out, cutting surface is damaged today.",CNC Spindle,Tool Wear Failure,2,0
+CRITICAL: spindle head dull blade / immediately!,CNC Spindle,Tool Wear Failure,2,0
+"Standard check: chuck tool wear min critical, pitting visible on the contact point during run.",CNC Spindle,Tool Wear Failure,2,0
+"thing near tool head tool worn down to the nub, replace now.",CNC Spindle,Tool Wear Failure,2,0
+"spindle motor making wierd noise, feels like high tool wear.",CNC Spindle,Tool Wear Failure,2,0
+"somthing grinding in the spindle casing area, check for tool wear is.",CNC Spindle,Tool Wear Failure,2,0
+"its hot and shaking alot near the CNC spindle, check for worn tool causing.",CNC Spindle,Tool Wear Failure,2,0
+"weird smell from the spindle unit, possibly tool wear value.",CNC Spindle,Tool Wear Failure,2,0
+"keeps stopping every few minutes, spindle unit is dull cutting tool,.",CNC Spindle,Tool Wear Failure,2,0
+"oil everywhere near the spndl, suspect excessive wear on.",CNC Spindle,Tool Wear Failure,2,0
+"spinle cant hold pressure, seems like tool wears out.",CNC Spindle,Tool Wear Failure,2,0
+"vibrating way more than normal near the chuck motor, replace tool, wear.",CNC Spindle,Tool Wear Failure,2,0
+"leaking or snapped near the spindle assembly, worn tool bit, suspected.",CNC Spindle,Tool Wear Failure,2,0
+Inspection reveals that the cnc head worn out.,CNC Spindle,Tool Wear Failure,2,0
+"The spindle head looks worn. Operations are affected, check ASAP.",CNC Spindle,Tool Wear Failure,2,0
+the chuck is dull again. please check.,CNC Spindle,Tool Wear Failure,2,0
+tool head rough finish.,CNC Spindle,Tool Wear Failure,2,0
+Warning: spindle motor pitting and smells weird.,CNC Spindle,Tool Wear Failure,2,0
+Operator reports: 'spindle casing slipping and worn.',CNC Spindle,Tool Wear Failure,2,0
+Maintenance log: CNC spindle blade is dull.,CNC Spindle,Tool Wear Failure,2,0
+operator says spinle tool is warn out completely today.,CNC Spindle,Tool Wear Failure,2,0
+CRITICAL: spindle unit is completely worn immediately!,CNC Spindle,Tool Wear Failure,2,0
+"Standard check: spndl tool wear ratio exceeded limits, tool is extremely dull during run.",CNC Spindle,Tool Wear Failure,2,0
+"thing near spinle experiencing severe pitting, tool wear min reading is at maximum.",CNC Spindle,Tool Wear Failure,2,0
+"chuck motor making wierd noise, feels like wear value too.",CNC Spindle,Tool Wear Failure,2,0
+"somthing grinding in the spindle assembly area, check for tool is dull.",CNC Spindle,Tool Wear Failure,2,0
+"its hot and shaking alot near the cnc head, check for warn out tool,.",CNC Spindle,Tool Wear Failure,2,0
+"weird smell from the spindle head unit, possibly severe tool wear.",CNC Spindle,Tool Wear Failure,2,0
+"keeps stopping every few minutes, chuck is tool wear min.",CNC Spindle,Tool Wear Failure,2,0
+"oil everywhere near the tool head, suspect dull blade /.",CNC Spindle,Tool Wear Failure,2,0
+"spindle motor cant hold pressure, seems like tool wear min.",CNC Spindle,Tool Wear Failure,2,0
+"vibrating way more than normal near the spindle casing, tool worn down.",CNC Spindle,Tool Wear Failure,2,0
+"leaking or snapped near the CNC spindle, high tool wear suspected.",CNC Spindle,Tool Wear Failure,2,0
+"Inspection reveals that the CNC spindle is overheating rapidly, thermal camera shows 95C.",CNC Spindle,Heat Dissipation Failure,2,1
+"The spindle temperature spike detected, cooling fan seems broken. Operations are affected, check ASAP.",CNC Spindle,Heat Dissipation Failure,2,1
+"the spinle unit is is hot to the touch, smoke coming out of housing again. please check.",CNC Spindle,Heat Dissipation Failure,2,1
+"spndl thermal runaway warning,.",CNC Spindle,Heat Dissipation Failure,2,1
+"Warning: spinle heating up fast, temperature is at critical 105C and smells weird.",CNC Spindle,Heat Dissipation Failure,2,1
+"Operator reports: 'chuck motor smoke coming from unit, cooling failed.'",CNC Spindle,Heat Dissipation Failure,2,1
+"Maintenance log: spindle assembly severe overheating, ventilation duct is blocked.",CNC Spindle,Heat Dissipation Failure,2,1
+"operator says cnc head tempurature is at 98 degrees C, thermal sensor aelrt today.",CNC Spindle,Heat Dissipation Failure,2,1
+"CRITICAL: spindle head overheating alert, cooling immediately!",CNC Spindle,Heat Dissipation Failure,2,1
+"Standard check: chuck temp is way too hot, casing is smoking during run.",CNC Spindle,Heat Dissipation Failure,2,1
+"thing near tool head hot casing, smoke visible, cooling system down.",CNC Spindle,Heat Dissipation Failure,2,1
+"spindle motor making wierd noise, feels like thermal paste dry,.",CNC Spindle,Heat Dissipation Failure,2,1
+"somthing grinding in the spindle casing area, check for abnormal heat buildup,.",CNC Spindle,Heat Dissipation Failure,2,1
+"its hot and shaking alot near the CNC spindle, check for temperature spiked to.",CNC Spindle,Heat Dissipation Failure,2,1
+"weird smell from the spindle unit, possibly unit running extremely.",CNC Spindle,Heat Dissipation Failure,2,1
+"keeps stopping every few minutes, spindle unit is thermal overload tripped.",CNC Spindle,Heat Dissipation Failure,2,1
+"oil everywhere near the spndl, suspect ventilation shaft blocked,.",CNC Spindle,Heat Dissipation Failure,2,1
+"spinle cant hold pressure, seems like smells like burning.",CNC Spindle,Heat Dissipation Failure,2,1
+"vibrating way more than normal near the chuck motor, temp sensor reading.",CNC Spindle,Heat Dissipation Failure,2,1
+"leaking or snapped near the spindle assembly, casing temp too suspected.",CNC Spindle,Heat Dissipation Failure,2,1
+Inspection reveals that the cnc head overheating.,CNC Spindle,Heat Dissipation Failure,2,1
+"The spindle head hot. Operations are affected, check ASAP.",CNC Spindle,Heat Dissipation Failure,2,1
+the chuck is smoking again. please check.,CNC Spindle,Heat Dissipation Failure,2,1
+tool head too hot to.,CNC Spindle,Heat Dissipation Failure,2,1
+Warning: spindle motor thermal overload and smells weird.,CNC Spindle,Heat Dissipation Failure,2,1
+Operator reports: 'spindle casing hot and shaking.',CNC Spindle,Heat Dissipation Failure,2,1
+Maintenance log: CNC spindle weird smell.,CNC Spindle,Heat Dissipation Failure,2,1
+operator says spinle smoking slightly today.,CNC Spindle,Heat Dissipation Failure,2,1
+CRITICAL: spindle unit abnormal heat immediately!,CNC Spindle,Heat Dissipation Failure,2,1
+"Standard check: spndl is overheating rapidly, thermal camera shows 95C during run.",CNC Spindle,Heat Dissipation Failure,2,1
+"thing near spinle temperature spike detected, cooling fan seems broken.",CNC Spindle,Heat Dissipation Failure,2,1
+"chuck motor making wierd noise, feels like is hot to.",CNC Spindle,Heat Dissipation Failure,2,1
+"somthing grinding in the spindle assembly area, check for thermal runaway warning,.",CNC Spindle,Heat Dissipation Failure,2,1
+"its hot and shaking alot near the cnc head, check for heating up fast,.",CNC Spindle,Heat Dissipation Failure,2,1
+"weird smell from the spindle head unit, possibly smoke coming from.",CNC Spindle,Heat Dissipation Failure,2,1
+"keeps stopping every few minutes, chuck is severe overheating, ventilation.",CNC Spindle,Heat Dissipation Failure,2,1
+"oil everywhere near the tool head, suspect temperature is at.",CNC Spindle,Heat Dissipation Failure,2,1
+"spindle motor cant hold pressure, seems like overheating alert, cooling.",CNC Spindle,Heat Dissipation Failure,2,1
+"vibrating way more than normal near the spindle casing, temp is way.",CNC Spindle,Heat Dissipation Failure,2,1
+"leaking or snapped near the CNC spindle, hot casing, smoke suspected.",CNC Spindle,Heat Dissipation Failure,2,1
+"Inspection reveals that the CNC spindle lost power completely, voltage dropped to zero.",CNC Spindle,Power Failure,2,2
+"The spindle power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",CNC Spindle,Power Failure,2,2
+"the spinle unit is fuse blown, voltage surge detected on line again. please check.",CNC Spindle,Power Failure,2,2
+"spndl no power supply,.",CNC Spindle,Power Failure,2,2
+"Warning: spinle sudden voltage drop, machine stopped mid-cycle and smells weird.",CNC Spindle,Power Failure,2,2
+"Operator reports: 'chuck motor electrical fault, voltage supply lines went dead.'",CNC Spindle,Power Failure,2,2
+"Maintenance log: spindle assembly breaker tripped, power failure warning on control panel.",CNC Spindle,Power Failure,2,2
+"operator says cnc head voltag sruge tripped the breaker, no power to the HPU today.",CNC Spindle,Power Failure,2,2
+CRITICAL: spindle head blown fuse in immediately!,CNC Spindle,Power Failure,2,2
+"Standard check: chuck lost voltage, mains power failed during tool run during run.",CNC Spindle,Power Failure,2,2
+"thing near tool head mains power failure, backup generator running.",CNC Spindle,Power Failure,2,2
+"spindle motor making wierd noise, feels like blown power relay,.",CNC Spindle,Power Failure,2,2
+"somthing grinding in the spindle casing area, check for power fluctuation, voltage.",CNC Spindle,Power Failure,2,2
+"its hot and shaking alot near the CNC spindle, check for breaker trips instantly.",CNC Spindle,Power Failure,2,2
+"weird smell from the spindle unit, possibly electrical arc damage.",CNC Spindle,Power Failure,2,2
+"keeps stopping every few minutes, spindle unit is no voltage reading.",CNC Spindle,Power Failure,2,2
+"oil everywhere near the spndl, suspect fuse pop, power.",CNC Spindle,Power Failure,2,2
+"spinle cant hold pressure, seems like electrical breaker failed,.",CNC Spindle,Power Failure,2,2
+"vibrating way more than normal near the chuck motor, voltage drop under.",CNC Spindle,Power Failure,2,2
+"leaking or snapped near the spindle assembly, complete blackout in suspected.",CNC Spindle,Power Failure,2,2
+Inspection reveals that the cnc head no power.,CNC Spindle,Power Failure,2,2
+"The spindle head breaker tripped. Operations are affected, check ASAP.",CNC Spindle,Power Failure,2,2
+the chuck is fuse popped again. please check.,CNC Spindle,Power Failure,2,2
+tool head voltage dropped.,CNC Spindle,Power Failure,2,2
+Warning: spindle motor power out and smells weird.,CNC Spindle,Power Failure,2,2
+Operator reports: 'spindle casing lost power.',CNC Spindle,Power Failure,2,2
+Maintenance log: CNC spindle electrical fault.,CNC Spindle,Power Failure,2,2
+operator says spinle breaker trpis today.,CNC Spindle,Power Failure,2,2
+"CRITICAL: spindle unit lost power completely, immediately!",CNC Spindle,Power Failure,2,2
+"Standard check: spndl power failure, electrical breaker tripped in the cabinet during run.",CNC Spindle,Power Failure,2,2
+"thing near spinle fuse blown, voltage surge detected on line.",CNC Spindle,Power Failure,2,2
+"chuck motor making wierd noise, feels like no power supply,.",CNC Spindle,Power Failure,2,2
+"somthing grinding in the spindle assembly area, check for sudden voltage drop,.",CNC Spindle,Power Failure,2,2
+"its hot and shaking alot near the cnc head, check for electrical fault, voltage.",CNC Spindle,Power Failure,2,2
+"weird smell from the spindle head unit, possibly breaker tripped, power.",CNC Spindle,Power Failure,2,2
+"keeps stopping every few minutes, chuck is voltage surge tripped.",CNC Spindle,Power Failure,2,2
+"oil everywhere near the tool head, suspect blown fuse in.",CNC Spindle,Power Failure,2,2
+"spindle motor cant hold pressure, seems like lost voltage, mains.",CNC Spindle,Power Failure,2,2
+"vibrating way more than normal near the spindle casing, mains power failure,.",CNC Spindle,Power Failure,2,2
+"leaking or snapped near the CNC spindle, blown power relay, suspected.",CNC Spindle,Power Failure,2,2
+"Inspection reveals that the CNC spindle is completely seized and jammed, motor stalled under load.",CNC Spindle,Overstrain Failure,2,3
+"The spindle stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",CNC Spindle,Overstrain Failure,2,3
+"the spinle unit is is jammed, high torque reading triggered emergency stop again. please check.",CNC Spindle,Overstrain Failure,2,3
+spndl stalled under heavy.,CNC Spindle,Overstrain Failure,2,3
+"Warning: spinle cannot rotate, drive shaft is seized and smells weird.",CNC Spindle,Overstrain Failure,2,3
+"Operator reports: 'chuck motor stuck due to high friction, torque limit reached.'",CNC Spindle,Overstrain Failure,2,3
+"Maintenance log: spindle assembly torque reading exceeded 85 Nm, mechanical jam detected.",CNC Spindle,Overstrain Failure,2,3
+"operator says cnc head stalled mid-operation, high friction toqrue overload today.",CNC Spindle,Overstrain Failure,2,3
+"CRITICAL: spindle head jammed drive, motor immediately!",CNC Spindle,Overstrain Failure,2,3
+"Standard check: chuck severe mechanical stress, spindle seized up during run.",CNC Spindle,Overstrain Failure,2,3
+"thing near tool head jammed housing, torque spikes to max.",CNC Spindle,Overstrain Failure,2,3
+"spindle motor making wierd noise, feels like stalled motor, torque.",CNC Spindle,Overstrain Failure,2,3
+"somthing grinding in the spindle casing area, check for seized shaft, gears.",CNC Spindle,Overstrain Failure,2,3
+"its hot and shaking alot near the CNC spindle, check for torque overload, mechanical.",CNC Spindle,Overstrain Failure,2,3
+"weird smell from the spindle unit, possibly stalled under torque.",CNC Spindle,Overstrain Failure,2,3
+"keeps stopping every few minutes, spindle unit is stuck assembly, drive.",CNC Spindle,Overstrain Failure,2,3
+"oil everywhere near the spndl, suspect mechanical jam, torque.",CNC Spindle,Overstrain Failure,2,3
+"spinle cant hold pressure, seems like stalled drive shaft,.",CNC Spindle,Overstrain Failure,2,3
+"vibrating way more than normal near the chuck motor, overstrain torque overload,.",CNC Spindle,Overstrain Failure,2,3
+"leaking or snapped near the spindle assembly, gears seized up, suspected.",CNC Spindle,Overstrain Failure,2,3
+Inspection reveals that the cnc head seized up.,CNC Spindle,Overstrain Failure,2,3
+"The spindle head jammed. Operations are affected, check ASAP.",CNC Spindle,Overstrain Failure,2,3
+the chuck is stalled again. please check.,CNC Spindle,Overstrain Failure,2,3
+tool head stuck.,CNC Spindle,Overstrain Failure,2,3
+Warning: spindle motor cannot rotate and smells weird.,CNC Spindle,Overstrain Failure,2,3
+Operator reports: 'spindle casing cant hold pressure.',CNC Spindle,Overstrain Failure,2,3
+Maintenance log: CNC spindle grinding noise.,CNC Spindle,Overstrain Failure,2,3
+operator says spinle fritcion overload today.,CNC Spindle,Overstrain Failure,2,3
+CRITICAL: spindle unit is completely seized immediately!,CNC Spindle,Overstrain Failure,2,3
+"Standard check: spndl stuck and seized up, overstrain torque limit exceeded during run.",CNC Spindle,Overstrain Failure,2,3
+"thing near spinle is jammed, high torque reading triggered emergency stop.",CNC Spindle,Overstrain Failure,2,3
+"chuck motor making wierd noise, feels like stalled under heavy.",CNC Spindle,Overstrain Failure,2,3
+"somthing grinding in the spindle assembly area, check for cannot rotate, drive.",CNC Spindle,Overstrain Failure,2,3
+"its hot and shaking alot near the cnc head, check for stuck due to.",CNC Spindle,Overstrain Failure,2,3
+"weird smell from the spindle head unit, possibly torque reading exceeded.",CNC Spindle,Overstrain Failure,2,3
+"keeps stopping every few minutes, chuck is stalled mid-operation, high.",CNC Spindle,Overstrain Failure,2,3
+"oil everywhere near the tool head, suspect jammed drive, motor.",CNC Spindle,Overstrain Failure,2,3
+"spindle motor cant hold pressure, seems like severe mechanical stress,.",CNC Spindle,Overstrain Failure,2,3
+"vibrating way more than normal near the spindle casing, jammed housing, torque.",CNC Spindle,Overstrain Failure,2,3
+"leaking or snapped near the CNC spindle, stalled motor, torque suspected.",CNC Spindle,Overstrain Failure,2,3
+Inspection reveals that the CNC spindle shut down with unexplained error code ERR-404.,CNC Spindle,Random Failure,2,4
+"The spindle random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",CNC Spindle,Random Failure,2,4
+"the spinle unit is intermittent communication loss, control panel fault again. please check.",CNC Spindle,Random Failure,2,4
+"spndl random shutdown, no.",CNC Spindle,Random Failure,2,4
+"Warning: spinle unexplained behavior, machine stops randomly and smells weird.",CNC Spindle,Random Failure,2,4
+"Operator reports: 'chuck motor unidentified glitch, controller went offline.'",CNC Spindle,Random Failure,2,4
+"Maintenance log: spindle assembly random trip, control interface lost connection.",CNC Spindle,Random Failure,2,4
+"operator says cnc head unexplained sensor falut, error code ERR5-02 today.",CNC Spindle,Random Failure,2,4
+"CRITICAL: spindle head intermittent connection issue, immediately!",CNC Spindle,Random Failure,2,4
+"Standard check: chuck glitchy controls, random error triggered safety loop during run.",CNC Spindle,Random Failure,2,4
+thing near tool head controller board rebooted randomly during cycle.,CNC Spindle,Random Failure,2,4
+"spindle motor making wierd noise, feels like random failure code.",CNC Spindle,Random Failure,2,4
+"somthing grinding in the spindle casing area, check for intermittent signal loss.",CNC Spindle,Random Failure,2,4
+"its hot and shaking alot near the CNC spindle, check for unexplained halt, system.",CNC Spindle,Random Failure,2,4
+"weird smell from the spindle unit, possibly random error, control.",CNC Spindle,Random Failure,2,4
+"keeps stopping every few minutes, spindle unit is unidentified fault, machine.",CNC Spindle,Random Failure,2,4
+"oil everywhere near the spndl, suspect glitch in sensor.",CNC Spindle,Random Failure,2,4
+"spinle cant hold pressure, seems like unexplained shutdown during.",CNC Spindle,Random Failure,2,4
+"vibrating way more than normal near the chuck motor, intermittent connection faults,.",CNC Spindle,Random Failure,2,4
+"leaking or snapped near the spindle assembly, random emergency loop suspected.",CNC Spindle,Random Failure,2,4
+Inspection reveals that the cnc head broke again.,CNC Spindle,Random Failure,2,4
+"The spindle head wierd noise. Operations are affected, check ASAP.",CNC Spindle,Random Failure,2,4
+the chuck is keeps stopping again. please check.,CNC Spindle,Random Failure,2,4
+tool head stopped.,CNC Spindle,Random Failure,2,4
+Warning: spindle motor leaking and smells weird.,CNC Spindle,Random Failure,2,4
+Operator reports: 'spindle casing oil everywhere.',CNC Spindle,Random Failure,2,4
+Maintenance log: CNC spindle weird noise.,CNC Spindle,Random Failure,2,4
+operator says spinle stops radnomly today.,CNC Spindle,Random Failure,2,4
+CRITICAL: spindle unit glitchy connection immediately!,CNC Spindle,Random Failure,2,4
+Standard check: spndl shut down with unexplained error code ERR-404 during run.,CNC Spindle,Random Failure,2,4
+"thing near spinle random glitch, machine rebooted spontaneously.",CNC Spindle,Random Failure,2,4
+"chuck motor making wierd noise, feels like intermittent communication loss,.",CNC Spindle,Random Failure,2,4
+"somthing grinding in the spindle assembly area, check for random shutdown, no.",CNC Spindle,Random Failure,2,4
+"its hot and shaking alot near the cnc head, check for unexplained behavior, machine.",CNC Spindle,Random Failure,2,4
+"weird smell from the spindle head unit, possibly unidentified glitch, controller.",CNC Spindle,Random Failure,2,4
+"keeps stopping every few minutes, chuck is random trip, control.",CNC Spindle,Random Failure,2,4
+"oil everywhere near the tool head, suspect unexplained sensor fault,.",CNC Spindle,Random Failure,2,4
+"spindle motor cant hold pressure, seems like intermittent connection issue,.",CNC Spindle,Random Failure,2,4
+"vibrating way more than normal near the spindle casing, glitchy controls, random.",CNC Spindle,Random Failure,2,4
+"leaking or snapped near the CNC spindle, controller board rebooted suspected.",CNC Spindle,Random Failure,2,4
+"Inspection reveals that the bearing assembly is completely worn out, tool wear value is critical.",Bearing Assembly,Tool Wear Failure,3,0
+"The bearing tool wear ratio exceeded limits, tool is extremely dull. Operations are affected, check ASAP.",Bearing Assembly,Tool Wear Failure,3,0
+"the bearings is experiencing severe pitting, tool wear min reading is at maximum again. please check.",Bearing Assembly,Tool Wear Failure,3,0
+bearing kit wear value too.,Bearing Assembly,Tool Wear Failure,3,0
+"Warning: bearign tool is dull and worn, needs replacement immediately and smells weird.",Bearing Assembly,Tool Wear Failure,3,0
+"Operator reports: 'assembly bearings warn out tool, wear min is at critical levels.'",Bearing Assembly,Tool Wear Failure,3,0
+Maintenance log: bearing block severe tool wear detected on inspection.,Bearing Assembly,Tool Wear Failure,3,0
+"operator says shaft bearign tool wear min is maxed out, ctuting surafce is damaged today.",Bearing Assembly,Tool Wear Failure,3,0
+CRITICAL: bearings area dull blade / immediately!,Bearing Assembly,Tool Wear Failure,3,0
+"Standard check: ball bearings tool wear min critical, pitting visible on the contact point during run.",Bearing Assembly,Tool Wear Failure,3,0
+"thing near bearing housing tool worn down to the nub, replace now.",Bearing Assembly,Tool Wear Failure,3,0
+"bearing assembly making wierd noise, feels like high tool wear.",Bearing Assembly,Tool Wear Failure,3,0
+"somthing grinding in the bearing area, check for tool wear is.",Bearing Assembly,Tool Wear Failure,3,0
+"its hot and shaking alot near the bearings, check for worn tool causing.",Bearing Assembly,Tool Wear Failure,3,0
+"weird smell from the bearing kit unit, possibly tool wear value.",Bearing Assembly,Tool Wear Failure,3,0
+"keeps stopping every few minutes, bearign is dull cutting tool,.",Bearing Assembly,Tool Wear Failure,3,0
+"oil everywhere near the assembly bearings, suspect excessive wear on.",Bearing Assembly,Tool Wear Failure,3,0
+"bearing block cant hold pressure, seems like tool wears out.",Bearing Assembly,Tool Wear Failure,3,0
+"vibrating way more than normal near the shaft bearing, replace tool, wear.",Bearing Assembly,Tool Wear Failure,3,0
+"leaking or snapped near the bearings area, worn tool bit, suspected.",Bearing Assembly,Tool Wear Failure,3,0
+Inspection reveals that the ball bearings worn out.,Bearing Assembly,Tool Wear Failure,3,0
+"The bearing housing looks worn. Operations are affected, check ASAP.",Bearing Assembly,Tool Wear Failure,3,0
+the bearign assembly is dull again. please check.,Bearing Assembly,Tool Wear Failure,3,0
+bearing rough finish.,Bearing Assembly,Tool Wear Failure,3,0
+Warning: bearings pitting and smells weird.,Bearing Assembly,Tool Wear Failure,3,0
+Operator reports: 'bearing kit slipping and worn.',Bearing Assembly,Tool Wear Failure,3,0
+Maintenance log: bearign blade is dull.,Bearing Assembly,Tool Wear Failure,3,0
+operator says assembly bearings tool is warn out completely today.,Bearing Assembly,Tool Wear Failure,3,0
+CRITICAL: bearing block is completely worn immediately!,Bearing Assembly,Tool Wear Failure,3,0
+"Standard check: shaft bearing tool wear ratio exceeded limits, tool is extremely dull during run.",Bearing Assembly,Tool Wear Failure,3,0
+"thing near bearings area experiencing severe pitting, tool wear min reading is at maximum.",Bearing Assembly,Tool Wear Failure,3,0
+"ball bearings making wierd noise, feels like wear value too.",Bearing Assembly,Tool Wear Failure,3,0
+"somthing grinding in the bearing housing area, check for tool is dull.",Bearing Assembly,Tool Wear Failure,3,0
+"its hot and shaking alot near the bearing assembly, check for warn out tool,.",Bearing Assembly,Tool Wear Failure,3,0
+"weird smell from the bearing unit, possibly severe tool wear.",Bearing Assembly,Tool Wear Failure,3,0
+"keeps stopping every few minutes, bearings is tool wear min.",Bearing Assembly,Tool Wear Failure,3,0
+"oil everywhere near the bearing kit, suspect dull blade /.",Bearing Assembly,Tool Wear Failure,3,0
+"bearign cant hold pressure, seems like tool wear min.",Bearing Assembly,Tool Wear Failure,3,0
+"vibrating way more than normal near the assembly bearings, tool worn down.",Bearing Assembly,Tool Wear Failure,3,0
+"leaking or snapped near the bearing block, high tool wear suspected.",Bearing Assembly,Tool Wear Failure,3,0
+"Inspection reveals that the bearing assembly is overheating rapidly, thermal camera shows 95C.",Bearing Assembly,Heat Dissipation Failure,3,1
+"The bearing temperature spike detected, cooling fan seems broken. Operations are affected, check ASAP.",Bearing Assembly,Heat Dissipation Failure,3,1
+"the bearings is is hot to the touch, smoke coming out of housing again. please check.",Bearing Assembly,Heat Dissipation Failure,3,1
+"bearing kit thermal runaway warning,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"Warning: bearign heating up fast, temperature is at critical 105C and smells weird.",Bearing Assembly,Heat Dissipation Failure,3,1
+"Operator reports: 'assembly bearings smoke coming from unit, cooling failed.'",Bearing Assembly,Heat Dissipation Failure,3,1
+"Maintenance log: bearing block severe overheating, ventilation duct is blocked.",Bearing Assembly,Heat Dissipation Failure,3,1
+"operator says shaft bearign tempurature is at 98 dergees C, thermal sensor alert today.",Bearing Assembly,Heat Dissipation Failure,3,1
+"CRITICAL: bearings area overheating alert, cooling immediately!",Bearing Assembly,Heat Dissipation Failure,3,1
+"Standard check: ball bearings temp is way too hot, casing is smoking during run.",Bearing Assembly,Heat Dissipation Failure,3,1
+"thing near bearing housing hot casing, smoke visible, cooling system down.",Bearing Assembly,Heat Dissipation Failure,3,1
+"bearing assembly making wierd noise, feels like thermal paste dry,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"somthing grinding in the bearing area, check for abnormal heat buildup,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"its hot and shaking alot near the bearings, check for temperature spiked to.",Bearing Assembly,Heat Dissipation Failure,3,1
+"weird smell from the bearing kit unit, possibly unit running extremely.",Bearing Assembly,Heat Dissipation Failure,3,1
+"keeps stopping every few minutes, bearign is thermal overload tripped.",Bearing Assembly,Heat Dissipation Failure,3,1
+"oil everywhere near the assembly bearings, suspect ventilation shaft blocked,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"bearing block cant hold pressure, seems like smells like burning.",Bearing Assembly,Heat Dissipation Failure,3,1
+"vibrating way more than normal near the shaft bearing, temp sensor reading.",Bearing Assembly,Heat Dissipation Failure,3,1
+"leaking or snapped near the bearings area, casing temp too suspected.",Bearing Assembly,Heat Dissipation Failure,3,1
+Inspection reveals that the ball bearings overheating.,Bearing Assembly,Heat Dissipation Failure,3,1
+"The bearing housing hot. Operations are affected, check ASAP.",Bearing Assembly,Heat Dissipation Failure,3,1
+the bearign assembly is smoking again. please check.,Bearing Assembly,Heat Dissipation Failure,3,1
+bearing too hot to.,Bearing Assembly,Heat Dissipation Failure,3,1
+Warning: bearings thermal overload and smells weird.,Bearing Assembly,Heat Dissipation Failure,3,1
+Operator reports: 'bearing kit hot and shaking.',Bearing Assembly,Heat Dissipation Failure,3,1
+Maintenance log: bearign weird smell.,Bearing Assembly,Heat Dissipation Failure,3,1
+operator says assembly bearings smoikng slightly today.,Bearing Assembly,Heat Dissipation Failure,3,1
+CRITICAL: bearing block abnormal heat immediately!,Bearing Assembly,Heat Dissipation Failure,3,1
+"Standard check: shaft bearing is overheating rapidly, thermal camera shows 95C during run.",Bearing Assembly,Heat Dissipation Failure,3,1
+"thing near bearings area temperature spike detected, cooling fan seems broken.",Bearing Assembly,Heat Dissipation Failure,3,1
+"ball bearings making wierd noise, feels like is hot to.",Bearing Assembly,Heat Dissipation Failure,3,1
+"somthing grinding in the bearing housing area, check for thermal runaway warning,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"its hot and shaking alot near the bearing assembly, check for heating up fast,.",Bearing Assembly,Heat Dissipation Failure,3,1
+"weird smell from the bearing unit, possibly smoke coming from.",Bearing Assembly,Heat Dissipation Failure,3,1
+"keeps stopping every few minutes, bearings is severe overheating, ventilation.",Bearing Assembly,Heat Dissipation Failure,3,1
+"oil everywhere near the bearing kit, suspect temperature is at.",Bearing Assembly,Heat Dissipation Failure,3,1
+"bearign cant hold pressure, seems like overheating alert, cooling.",Bearing Assembly,Heat Dissipation Failure,3,1
+"vibrating way more than normal near the assembly bearings, temp is way.",Bearing Assembly,Heat Dissipation Failure,3,1
+"leaking or snapped near the bearing block, hot casing, smoke suspected.",Bearing Assembly,Heat Dissipation Failure,3,1
+"Inspection reveals that the bearing assembly lost power completely, voltage dropped to zero.",Bearing Assembly,Power Failure,3,2
+"The bearing power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Bearing Assembly,Power Failure,3,2
+"the bearings is fuse blown, voltage surge detected on line again. please check.",Bearing Assembly,Power Failure,3,2
+"bearing kit no power supply,.",Bearing Assembly,Power Failure,3,2
+"Warning: bearign sudden voltage drop, machine stopped mid-cycle and smells weird.",Bearing Assembly,Power Failure,3,2
+"Operator reports: 'assembly bearings electrical fault, voltage supply lines went dead.'",Bearing Assembly,Power Failure,3,2
+"Maintenance log: bearing block breaker tripped, power failure warning on control panel.",Bearing Assembly,Power Failure,3,2
+"operator says shaft bearign voltag surge tripped the breakre, no power to the HPU today.",Bearing Assembly,Power Failure,3,2
+CRITICAL: bearings area blown fuse in immediately!,Bearing Assembly,Power Failure,3,2
+"Standard check: ball bearings lost voltage, mains power failed during tool run during run.",Bearing Assembly,Power Failure,3,2
+"thing near bearing housing mains power failure, backup generator running.",Bearing Assembly,Power Failure,3,2
+"bearing assembly making wierd noise, feels like blown power relay,.",Bearing Assembly,Power Failure,3,2
+"somthing grinding in the bearing area, check for power fluctuation, voltage.",Bearing Assembly,Power Failure,3,2
+"its hot and shaking alot near the bearings, check for breaker trips instantly.",Bearing Assembly,Power Failure,3,2
+"weird smell from the bearing kit unit, possibly electrical arc damage.",Bearing Assembly,Power Failure,3,2
+"keeps stopping every few minutes, bearign is no voltage reading.",Bearing Assembly,Power Failure,3,2
+"oil everywhere near the assembly bearings, suspect fuse pop, power.",Bearing Assembly,Power Failure,3,2
+"bearing block cant hold pressure, seems like electrical breaker failed,.",Bearing Assembly,Power Failure,3,2
+"vibrating way more than normal near the shaft bearing, voltage drop under.",Bearing Assembly,Power Failure,3,2
+"leaking or snapped near the bearings area, complete blackout in suspected.",Bearing Assembly,Power Failure,3,2
+Inspection reveals that the ball bearings no power.,Bearing Assembly,Power Failure,3,2
+"The bearing housing breaker tripped. Operations are affected, check ASAP.",Bearing Assembly,Power Failure,3,2
+the bearign assembly is fuse popped again. please check.,Bearing Assembly,Power Failure,3,2
+bearing voltage dropped.,Bearing Assembly,Power Failure,3,2
+Warning: bearings power out and smells weird.,Bearing Assembly,Power Failure,3,2
+Operator reports: 'bearing kit lost power.',Bearing Assembly,Power Failure,3,2
+Maintenance log: bearign electrical fault.,Bearing Assembly,Power Failure,3,2
+operator says assembly bearings breaker trips today.,Bearing Assembly,Power Failure,3,2
+"CRITICAL: bearing block lost power completely, immediately!",Bearing Assembly,Power Failure,3,2
+"Standard check: shaft bearing power failure, electrical breaker tripped in the cabinet during run.",Bearing Assembly,Power Failure,3,2
+"thing near bearings area fuse blown, voltage surge detected on line.",Bearing Assembly,Power Failure,3,2
+"ball bearings making wierd noise, feels like no power supply,.",Bearing Assembly,Power Failure,3,2
+"somthing grinding in the bearing housing area, check for sudden voltage drop,.",Bearing Assembly,Power Failure,3,2
+"its hot and shaking alot near the bearing assembly, check for electrical fault, voltage.",Bearing Assembly,Power Failure,3,2
+"weird smell from the bearing unit, possibly breaker tripped, power.",Bearing Assembly,Power Failure,3,2
+"keeps stopping every few minutes, bearings is voltage surge tripped.",Bearing Assembly,Power Failure,3,2
+"oil everywhere near the bearing kit, suspect blown fuse in.",Bearing Assembly,Power Failure,3,2
+"bearign cant hold pressure, seems like lost voltage, mains.",Bearing Assembly,Power Failure,3,2
+"vibrating way more than normal near the assembly bearings, mains power failure,.",Bearing Assembly,Power Failure,3,2
+"leaking or snapped near the bearing block, blown power relay, suspected.",Bearing Assembly,Power Failure,3,2
+"Inspection reveals that the bearing assembly is completely seized and jammed, motor stalled under load.",Bearing Assembly,Overstrain Failure,3,3
+"The bearing stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Bearing Assembly,Overstrain Failure,3,3
+"the bearings is is jammed, high torque reading triggered emergency stop again. please check.",Bearing Assembly,Overstrain Failure,3,3
+bearing kit stalled under heavy.,Bearing Assembly,Overstrain Failure,3,3
+"Warning: bearign cannot rotate, drive shaft is seized and smells weird.",Bearing Assembly,Overstrain Failure,3,3
+"Operator reports: 'assembly bearings stuck due to high friction, torque limit reached.'",Bearing Assembly,Overstrain Failure,3,3
+"Maintenance log: bearing block torque reading exceeded 85 Nm, mechanical jam detected.",Bearing Assembly,Overstrain Failure,3,3
+"operator says shfat bearign stalled mid-operation, high friction torque overload today.",Bearing Assembly,Overstrain Failure,3,3
+"CRITICAL: bearings area jammed drive, motor immediately!",Bearing Assembly,Overstrain Failure,3,3
+"Standard check: ball bearings severe mechanical stress, spindle seized up during run.",Bearing Assembly,Overstrain Failure,3,3
+"thing near bearing housing jammed housing, torque spikes to max.",Bearing Assembly,Overstrain Failure,3,3
+"bearing assembly making wierd noise, feels like stalled motor, torque.",Bearing Assembly,Overstrain Failure,3,3
+"somthing grinding in the bearing area, check for seized shaft, gears.",Bearing Assembly,Overstrain Failure,3,3
+"its hot and shaking alot near the bearings, check for torque overload, mechanical.",Bearing Assembly,Overstrain Failure,3,3
+"weird smell from the bearing kit unit, possibly stalled under torque.",Bearing Assembly,Overstrain Failure,3,3
+"keeps stopping every few minutes, bearign is stuck assembly, drive.",Bearing Assembly,Overstrain Failure,3,3
+"oil everywhere near the assembly bearings, suspect mechanical jam, torque.",Bearing Assembly,Overstrain Failure,3,3
+"bearing block cant hold pressure, seems like stalled drive shaft,.",Bearing Assembly,Overstrain Failure,3,3
+"vibrating way more than normal near the shaft bearing, overstrain torque overload,.",Bearing Assembly,Overstrain Failure,3,3
+"leaking or snapped near the bearings area, gears seized up, suspected.",Bearing Assembly,Overstrain Failure,3,3
+Inspection reveals that the ball bearings seized up.,Bearing Assembly,Overstrain Failure,3,3
+"The bearing housing jammed. Operations are affected, check ASAP.",Bearing Assembly,Overstrain Failure,3,3
+the bearign assembly is stalled again. please check.,Bearing Assembly,Overstrain Failure,3,3
+bearing stuck.,Bearing Assembly,Overstrain Failure,3,3
+Warning: bearings cannot rotate and smells weird.,Bearing Assembly,Overstrain Failure,3,3
+Operator reports: 'bearing kit cant hold pressure.',Bearing Assembly,Overstrain Failure,3,3
+Maintenance log: bearign grinding noise.,Bearing Assembly,Overstrain Failure,3,3
+operator says assembly bearings friction overload today.,Bearing Assembly,Overstrain Failure,3,3
+CRITICAL: bearing block is completely seized immediately!,Bearing Assembly,Overstrain Failure,3,3
+"Standard check: shaft bearing stuck and seized up, overstrain torque limit exceeded during run.",Bearing Assembly,Overstrain Failure,3,3
+"thing near bearings area is jammed, high torque reading triggered emergency stop.",Bearing Assembly,Overstrain Failure,3,3
+"ball bearings making wierd noise, feels like stalled under heavy.",Bearing Assembly,Overstrain Failure,3,3
+"somthing grinding in the bearing housing area, check for cannot rotate, drive.",Bearing Assembly,Overstrain Failure,3,3
+"its hot and shaking alot near the bearing assembly, check for stuck due to.",Bearing Assembly,Overstrain Failure,3,3
+"weird smell from the bearing unit, possibly torque reading exceeded.",Bearing Assembly,Overstrain Failure,3,3
+"keeps stopping every few minutes, bearings is stalled mid-operation, high.",Bearing Assembly,Overstrain Failure,3,3
+"oil everywhere near the bearing kit, suspect jammed drive, motor.",Bearing Assembly,Overstrain Failure,3,3
+"bearign cant hold pressure, seems like severe mechanical stress,.",Bearing Assembly,Overstrain Failure,3,3
+"vibrating way more than normal near the assembly bearings, jammed housing, torque.",Bearing Assembly,Overstrain Failure,3,3
+"leaking or snapped near the bearing block, stalled motor, torque suspected.",Bearing Assembly,Overstrain Failure,3,3
+Inspection reveals that the bearing assembly shut down with unexplained error code ERR-404.,Bearing Assembly,Random Failure,3,4
+"The bearing random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",Bearing Assembly,Random Failure,3,4
+"the bearings is intermittent communication loss, control panel fault again. please check.",Bearing Assembly,Random Failure,3,4
+"bearing kit random shutdown, no.",Bearing Assembly,Random Failure,3,4
+"Warning: bearign unexplained behavior, machine stops randomly and smells weird.",Bearing Assembly,Random Failure,3,4
+"Operator reports: 'assembly bearings unidentified glitch, controller went offline.'",Bearing Assembly,Random Failure,3,4
+"Maintenance log: bearing block random trip, control interface lost connection.",Bearing Assembly,Random Failure,3,4
+"operator says shaft bearign unexplained senosr fautl, error code ERR-502 today.",Bearing Assembly,Random Failure,3,4
+"CRITICAL: bearings area intermittent connection issue, immediately!",Bearing Assembly,Random Failure,3,4
+"Standard check: ball bearings glitchy controls, random error triggered safety loop during run.",Bearing Assembly,Random Failure,3,4
+thing near bearing housing controller board rebooted randomly during cycle.,Bearing Assembly,Random Failure,3,4
+"bearing assembly making wierd noise, feels like random failure code.",Bearing Assembly,Random Failure,3,4
+"somthing grinding in the bearing area, check for intermittent signal loss.",Bearing Assembly,Random Failure,3,4
+"its hot and shaking alot near the bearings, check for unexplained halt, system.",Bearing Assembly,Random Failure,3,4
+"weird smell from the bearing kit unit, possibly random error, control.",Bearing Assembly,Random Failure,3,4
+"keeps stopping every few minutes, bearign is unidentified fault, machine.",Bearing Assembly,Random Failure,3,4
+"oil everywhere near the assembly bearings, suspect glitch in sensor.",Bearing Assembly,Random Failure,3,4
+"bearing block cant hold pressure, seems like unexplained shutdown during.",Bearing Assembly,Random Failure,3,4
+"vibrating way more than normal near the shaft bearing, intermittent connection faults,.",Bearing Assembly,Random Failure,3,4
+"leaking or snapped near the bearings area, random emergency loop suspected.",Bearing Assembly,Random Failure,3,4
+Inspection reveals that the ball bearings broke again.,Bearing Assembly,Random Failure,3,4
+"The bearing housing wierd noise. Operations are affected, check ASAP.",Bearing Assembly,Random Failure,3,4
+the bearign assembly is keeps stopping again. please check.,Bearing Assembly,Random Failure,3,4
+bearing stopped.,Bearing Assembly,Random Failure,3,4
+Warning: bearings leaking and smells weird.,Bearing Assembly,Random Failure,3,4
+Operator reports: 'bearing kit oil everywhere.',Bearing Assembly,Random Failure,3,4
+Maintenance log: bearign weird noise.,Bearing Assembly,Random Failure,3,4
+operator says assembly bearings stops randomly today.,Bearing Assembly,Random Failure,3,4
+CRITICAL: bearing block glitchy connection immediately!,Bearing Assembly,Random Failure,3,4
+Standard check: shaft bearing shut down with unexplained error code ERR-404 during run.,Bearing Assembly,Random Failure,3,4
+"thing near bearings area random glitch, machine rebooted spontaneously.",Bearing Assembly,Random Failure,3,4
+"ball bearings making wierd noise, feels like intermittent communication loss,.",Bearing Assembly,Random Failure,3,4
+"somthing grinding in the bearing housing area, check for random shutdown, no.",Bearing Assembly,Random Failure,3,4
+"its hot and shaking alot near the bearing assembly, check for unexplained behavior, machine.",Bearing Assembly,Random Failure,3,4
+"weird smell from the bearing unit, possibly unidentified glitch, controller.",Bearing Assembly,Random Failure,3,4
+"keeps stopping every few minutes, bearings is random trip, control.",Bearing Assembly,Random Failure,3,4
+"oil everywhere near the bearing kit, suspect unexplained sensor fault,.",Bearing Assembly,Random Failure,3,4
+"bearign cant hold pressure, seems like intermittent connection issue,.",Bearing Assembly,Random Failure,3,4
+"vibrating way more than normal near the assembly bearings, glitchy controls, random.",Bearing Assembly,Random Failure,3,4
+"leaking or snapped near the bearing block, controller board rebooted suspected.",Bearing Assembly,Random Failure,3,4
+"Inspection reveals that the motor housing is completely worn out, tool wear value is critical.",Motor Housing,Tool Wear Failure,4,0
+"The housing tool wear ratio exceeded limits, tool is extremely dull. Operations are affected, check ASAP.",Motor Housing,Tool Wear Failure,4,0
+"the casing is experiencing severe pitting, tool wear min reading is at maximum again. please check.",Motor Housing,Tool Wear Failure,4,0
+motor casing wear value too.,Motor Housing,Tool Wear Failure,4,0
+"Warning: housign tool is dull and worn, needs replacement immediately and smells weird.",Motor Housing,Tool Wear Failure,4,0
+"Operator reports: 'housing shield warn out tool, wear min is at critical levels.'",Motor Housing,Tool Wear Failure,4,0
+Maintenance log: outer shell severe tool wear detected on inspection.,Motor Housing,Tool Wear Failure,4,0
+"operator says casing shield tool wear min is maxed out, cutting surafce is damaged today.",Motor Housing,Tool Wear Failure,4,0
+CRITICAL: motor area dull blade / immediately!,Motor Housing,Tool Wear Failure,4,0
+"Standard check: back unit tool wear min critical, pitting visible on the contact point during run.",Motor Housing,Tool Wear Failure,4,0
+"thing near back casing tool worn down to the nub, replace now.",Motor Housing,Tool Wear Failure,4,0
+"housing unit making wierd noise, feels like high tool wear.",Motor Housing,Tool Wear Failure,4,0
+"somthing grinding in the motor housing area, check for tool wear is.",Motor Housing,Tool Wear Failure,4,0
+"its hot and shaking alot near the housing, check for worn tool causing.",Motor Housing,Tool Wear Failure,4,0
+"weird smell from the casing unit, possibly tool wear value.",Motor Housing,Tool Wear Failure,4,0
+"keeps stopping every few minutes, motor casing is dull cutting tool,.",Motor Housing,Tool Wear Failure,4,0
+"oil everywhere near the housign, suspect excessive wear on.",Motor Housing,Tool Wear Failure,4,0
+"housing shield cant hold pressure, seems like tool wears out.",Motor Housing,Tool Wear Failure,4,0
+"vibrating way more than normal near the outer shell, replace tool, wear.",Motor Housing,Tool Wear Failure,4,0
+"leaking or snapped near the casing shield, worn tool bit, suspected.",Motor Housing,Tool Wear Failure,4,0
+Inspection reveals that the motor area worn out.,Motor Housing,Tool Wear Failure,4,0
+"The back unit looks worn. Operations are affected, check ASAP.",Motor Housing,Tool Wear Failure,4,0
+the back casing is dull again. please check.,Motor Housing,Tool Wear Failure,4,0
+housing unit rough finish.,Motor Housing,Tool Wear Failure,4,0
+Warning: motor housing pitting and smells weird.,Motor Housing,Tool Wear Failure,4,0
+Operator reports: 'housing slipping and worn.',Motor Housing,Tool Wear Failure,4,0
+Maintenance log: casing blade is dull.,Motor Housing,Tool Wear Failure,4,0
+operator says motor csaing tool is warn out completely today.,Motor Housing,Tool Wear Failure,4,0
+CRITICAL: housign is completely worn immediately!,Motor Housing,Tool Wear Failure,4,0
+"Standard check: housing shield tool wear ratio exceeded limits, tool is extremely dull during run.",Motor Housing,Tool Wear Failure,4,0
+"thing near outer shell experiencing severe pitting, tool wear min reading is at maximum.",Motor Housing,Tool Wear Failure,4,0
+"casing shield making wierd noise, feels like wear value too.",Motor Housing,Tool Wear Failure,4,0
+"somthing grinding in the motor area area, check for tool is dull.",Motor Housing,Tool Wear Failure,4,0
+"its hot and shaking alot near the back unit, check for warn out tool,.",Motor Housing,Tool Wear Failure,4,0
+"weird smell from the back casing unit, possibly severe tool wear.",Motor Housing,Tool Wear Failure,4,0
+"keeps stopping every few minutes, housing unit is tool wear min.",Motor Housing,Tool Wear Failure,4,0
+"oil everywhere near the motor housing, suspect dull blade /.",Motor Housing,Tool Wear Failure,4,0
+"housing cant hold pressure, seems like tool wear min.",Motor Housing,Tool Wear Failure,4,0
+"vibrating way more than normal near the casing, tool worn down.",Motor Housing,Tool Wear Failure,4,0
+"leaking or snapped near the motor casing, high tool wear suspected.",Motor Housing,Tool Wear Failure,4,0
+"Inspection reveals that the motor housing is overheating rapidly, thermal camera shows 95C.",Motor Housing,Heat Dissipation Failure,4,1
+"The housing temperature spike detected, cooling fan seems broken. Operations are affected, check ASAP.",Motor Housing,Heat Dissipation Failure,4,1
+"the casing is is hot to the touch, smoke coming out of housing again. please check.",Motor Housing,Heat Dissipation Failure,4,1
+"motor casing thermal runaway warning,.",Motor Housing,Heat Dissipation Failure,4,1
+"Warning: housign heating up fast, temperature is at critical 105C and smells weird.",Motor Housing,Heat Dissipation Failure,4,1
+"Operator reports: 'housing shield smoke coming from unit, cooling failed.'",Motor Housing,Heat Dissipation Failure,4,1
+"Maintenance log: outer shell severe overheating, ventilation duct is blocked.",Motor Housing,Heat Dissipation Failure,4,1
+"operator says casing siheld tempurature is at 98 degrees C, tehrmal sensor alert today.",Motor Housing,Heat Dissipation Failure,4,1
+"CRITICAL: motor area overheating alert, cooling immediately!",Motor Housing,Heat Dissipation Failure,4,1
+"Standard check: back unit temp is way too hot, casing is smoking during run.",Motor Housing,Heat Dissipation Failure,4,1
+"thing near back casing hot casing, smoke visible, cooling system down.",Motor Housing,Heat Dissipation Failure,4,1
+"housing unit making wierd noise, feels like thermal paste dry,.",Motor Housing,Heat Dissipation Failure,4,1
+"somthing grinding in the motor housing area, check for abnormal heat buildup,.",Motor Housing,Heat Dissipation Failure,4,1
+"its hot and shaking alot near the housing, check for temperature spiked to.",Motor Housing,Heat Dissipation Failure,4,1
+"weird smell from the casing unit, possibly unit running extremely.",Motor Housing,Heat Dissipation Failure,4,1
+"keeps stopping every few minutes, motor casing is thermal overload tripped.",Motor Housing,Heat Dissipation Failure,4,1
+"oil everywhere near the housign, suspect ventilation shaft blocked,.",Motor Housing,Heat Dissipation Failure,4,1
+"housing shield cant hold pressure, seems like smells like burning.",Motor Housing,Heat Dissipation Failure,4,1
+"vibrating way more than normal near the outer shell, temp sensor reading.",Motor Housing,Heat Dissipation Failure,4,1
+"leaking or snapped near the casing shield, casing temp too suspected.",Motor Housing,Heat Dissipation Failure,4,1
+Inspection reveals that the motor area overheating.,Motor Housing,Heat Dissipation Failure,4,1
+"The back unit hot. Operations are affected, check ASAP.",Motor Housing,Heat Dissipation Failure,4,1
+the back casnig is smoking again. please check.,Motor Housing,Heat Dissipation Failure,4,1
+housing unit too hot to.,Motor Housing,Heat Dissipation Failure,4,1
+Warning: motor housing thermal overload and smells weird.,Motor Housing,Heat Dissipation Failure,4,1
+Operator reports: 'housing hot and shaking.',Motor Housing,Heat Dissipation Failure,4,1
+Maintenance log: casing weird smell.,Motor Housing,Heat Dissipation Failure,4,1
+operator says motor casing smoking slightly today.,Motor Housing,Heat Dissipation Failure,4,1
+CRITICAL: housign abnormal heat immediately!,Motor Housing,Heat Dissipation Failure,4,1
+"Standard check: housing shield is overheating rapidly, thermal camera shows 95C during run.",Motor Housing,Heat Dissipation Failure,4,1
+"thing near outer shell temperature spike detected, cooling fan seems broken.",Motor Housing,Heat Dissipation Failure,4,1
+"casing shield making wierd noise, feels like is hot to.",Motor Housing,Heat Dissipation Failure,4,1
+"somthing grinding in the motor area area, check for thermal runaway warning,.",Motor Housing,Heat Dissipation Failure,4,1
+"its hot and shaking alot near the back unit, check for heating up fast,.",Motor Housing,Heat Dissipation Failure,4,1
+"weird smell from the back casing unit, possibly smoke coming from.",Motor Housing,Heat Dissipation Failure,4,1
+"keeps stopping every few minutes, housing unit is severe overheating, ventilation.",Motor Housing,Heat Dissipation Failure,4,1
+"oil everywhere near the motor housing, suspect temperature is at.",Motor Housing,Heat Dissipation Failure,4,1
+"housing cant hold pressure, seems like overheating alert, cooling.",Motor Housing,Heat Dissipation Failure,4,1
+"vibrating way more than normal near the casing, temp is way.",Motor Housing,Heat Dissipation Failure,4,1
+"leaking or snapped near the motor casing, hot casing, smoke suspected.",Motor Housing,Heat Dissipation Failure,4,1
+"Inspection reveals that the motor housing lost power completely, voltage dropped to zero.",Motor Housing,Power Failure,4,2
+"The housing power failure, electrical breaker tripped in the cabinet. Operations are affected, check ASAP.",Motor Housing,Power Failure,4,2
+"the casing is fuse blown, voltage surge detected on line again. please check.",Motor Housing,Power Failure,4,2
+"motor casing no power supply,.",Motor Housing,Power Failure,4,2
+"Warning: housign sudden voltage drop, machine stopped mid-cycle and smells weird.",Motor Housing,Power Failure,4,2
+"Operator reports: 'housing shield electrical fault, voltage supply lines went dead.'",Motor Housing,Power Failure,4,2
+"Maintenance log: outer shell breaker tripped, power failure warning on control panel.",Motor Housing,Power Failure,4,2
+"operator says casing shield voltag sugre tripped the breaker, no power to the HPU today.",Motor Housing,Power Failure,4,2
+CRITICAL: motor area blown fuse in immediately!,Motor Housing,Power Failure,4,2
+"Standard check: back unit lost voltage, mains power failed during tool run during run.",Motor Housing,Power Failure,4,2
+"thing near back casing mains power failure, backup generator running.",Motor Housing,Power Failure,4,2
+"housing unit making wierd noise, feels like blown power relay,.",Motor Housing,Power Failure,4,2
+"somthing grinding in the motor housing area, check for power fluctuation, voltage.",Motor Housing,Power Failure,4,2
+"its hot and shaking alot near the housing, check for breaker trips instantly.",Motor Housing,Power Failure,4,2
+"weird smell from the casing unit, possibly electrical arc damage.",Motor Housing,Power Failure,4,2
+"keeps stopping every few minutes, motor casing is no voltage reading.",Motor Housing,Power Failure,4,2
+"oil everywhere near the housign, suspect fuse pop, power.",Motor Housing,Power Failure,4,2
+"housing shield cant hold pressure, seems like electrical breaker failed,.",Motor Housing,Power Failure,4,2
+"vibrating way more than normal near the outer shell, voltage drop under.",Motor Housing,Power Failure,4,2
+"leaking or snapped near the casing shield, complete blackout in suspected.",Motor Housing,Power Failure,4,2
+Inspection reveals that the motor area no power.,Motor Housing,Power Failure,4,2
+"The back unit breaker tripped. Operations are affected, check ASAP.",Motor Housing,Power Failure,4,2
+the back casing is fuse popped again. please check.,Motor Housing,Power Failure,4,2
+housing unit voltage dropped.,Motor Housing,Power Failure,4,2
+Warning: motor housing power out and smells weird.,Motor Housing,Power Failure,4,2
+Operator reports: 'housing lost power.',Motor Housing,Power Failure,4,2
+Maintenance log: casing electrical fault.,Motor Housing,Power Failure,4,2
+operator says motor casing breaker trips today.,Motor Housing,Power Failure,4,2
+"CRITICAL: housign lost power completely, immediately!",Motor Housing,Power Failure,4,2
+"Standard check: housing shield power failure, electrical breaker tripped in the cabinet during run.",Motor Housing,Power Failure,4,2
+"thing near outer shell fuse blown, voltage surge detected on line.",Motor Housing,Power Failure,4,2
+"casing shield making wierd noise, feels like no power supply,.",Motor Housing,Power Failure,4,2
+"somthing grinding in the motor area area, check for sudden voltage drop,.",Motor Housing,Power Failure,4,2
+"its hot and shaking alot near the back unit, check for electrical fault, voltage.",Motor Housing,Power Failure,4,2
+"weird smell from the back casing unit, possibly breaker tripped, power.",Motor Housing,Power Failure,4,2
+"keeps stopping every few minutes, housing unit is voltage surge tripped.",Motor Housing,Power Failure,4,2
+"oil everywhere near the motor housing, suspect blown fuse in.",Motor Housing,Power Failure,4,2
+"housing cant hold pressure, seems like lost voltage, mains.",Motor Housing,Power Failure,4,2
+"vibrating way more than normal near the casing, mains power failure,.",Motor Housing,Power Failure,4,2
+"leaking or snapped near the motor casing, blown power relay, suspected.",Motor Housing,Power Failure,4,2
+"Inspection reveals that the motor housing is completely seized and jammed, motor stalled under load.",Motor Housing,Overstrain Failure,4,3
+"The housing stuck and seized up, overstrain torque limit exceeded. Operations are affected, check ASAP.",Motor Housing,Overstrain Failure,4,3
+"the casing is is jammed, high torque reading triggered emergency stop again. please check.",Motor Housing,Overstrain Failure,4,3
+motor casing stalled under heavy.,Motor Housing,Overstrain Failure,4,3
+"Warning: housign cannot rotate, drive shaft is seized and smells weird.",Motor Housing,Overstrain Failure,4,3
+"Operator reports: 'housing shield stuck due to high friction, torque limit reached.'",Motor Housing,Overstrain Failure,4,3
+"Maintenance log: outer shell torque reading exceeded 85 Nm, mechanical jam detected.",Motor Housing,Overstrain Failure,4,3
+"operator says casing shield stalled mid-operation, high friction torque overload today.",Motor Housing,Overstrain Failure,4,3
+"CRITICAL: motor area jammed drive, motor immediately!",Motor Housing,Overstrain Failure,4,3
+"Standard check: back unit severe mechanical stress, spindle seized up during run.",Motor Housing,Overstrain Failure,4,3
+"thing near back casing jammed housing, torque spikes to max.",Motor Housing,Overstrain Failure,4,3
+"housing unit making wierd noise, feels like stalled motor, torque.",Motor Housing,Overstrain Failure,4,3
+"somthing grinding in the motor housing area, check for seized shaft, gears.",Motor Housing,Overstrain Failure,4,3
+"its hot and shaking alot near the housing, check for torque overload, mechanical.",Motor Housing,Overstrain Failure,4,3
+"weird smell from the casing unit, possibly stalled under torque.",Motor Housing,Overstrain Failure,4,3
+"keeps stopping every few minutes, motor casing is stuck assembly, drive.",Motor Housing,Overstrain Failure,4,3
+"oil everywhere near the housign, suspect mechanical jam, torque.",Motor Housing,Overstrain Failure,4,3
+"housing shield cant hold pressure, seems like stalled drive shaft,.",Motor Housing,Overstrain Failure,4,3
+"vibrating way more than normal near the outer shell, overstrain torque overload,.",Motor Housing,Overstrain Failure,4,3
+"leaking or snapped near the casing shield, gears seized up, suspected.",Motor Housing,Overstrain Failure,4,3
+Inspection reveals that the motor area seized up.,Motor Housing,Overstrain Failure,4,3
+"The back unit jammed. Operations are affected, check ASAP.",Motor Housing,Overstrain Failure,4,3
+the back casing is stalled again. please check.,Motor Housing,Overstrain Failure,4,3
+housing unit stuck.,Motor Housing,Overstrain Failure,4,3
+Warning: motor housing cannot rotate and smells weird.,Motor Housing,Overstrain Failure,4,3
+Operator reports: 'housing cant hold pressure.',Motor Housing,Overstrain Failure,4,3
+Maintenance log: casing grinding noise.,Motor Housing,Overstrain Failure,4,3
+operator says motor casing firction overload today.,Motor Housing,Overstrain Failure,4,3
+CRITICAL: housign is completely seized immediately!,Motor Housing,Overstrain Failure,4,3
+"Standard check: housing shield stuck and seized up, overstrain torque limit exceeded during run.",Motor Housing,Overstrain Failure,4,3
+"thing near outer shell is jammed, high torque reading triggered emergency stop.",Motor Housing,Overstrain Failure,4,3
+"casing shield making wierd noise, feels like stalled under heavy.",Motor Housing,Overstrain Failure,4,3
+"somthing grinding in the motor area area, check for cannot rotate, drive.",Motor Housing,Overstrain Failure,4,3
+"its hot and shaking alot near the back unit, check for stuck due to.",Motor Housing,Overstrain Failure,4,3
+"weird smell from the back casing unit, possibly torque reading exceeded.",Motor Housing,Overstrain Failure,4,3
+"keeps stopping every few minutes, housing unit is stalled mid-operation, high.",Motor Housing,Overstrain Failure,4,3
+"oil everywhere near the motor housing, suspect jammed drive, motor.",Motor Housing,Overstrain Failure,4,3
+"housing cant hold pressure, seems like severe mechanical stress,.",Motor Housing,Overstrain Failure,4,3
+"vibrating way more than normal near the casing, jammed housing, torque.",Motor Housing,Overstrain Failure,4,3
+"leaking or snapped near the motor casing, stalled motor, torque suspected.",Motor Housing,Overstrain Failure,4,3
+Inspection reveals that the motor housing shut down with unexplained error code ERR-404.,Motor Housing,Random Failure,4,4
+"The housing random glitch, machine rebooted spontaneously. Operations are affected, check ASAP.",Motor Housing,Random Failure,4,4
+"the casing is intermittent communication loss, control panel fault again. please check.",Motor Housing,Random Failure,4,4
+"motor casing random shutdown, no.",Motor Housing,Random Failure,4,4
+"Warning: housign unexplained behavior, machine stops randomly and smells weird.",Motor Housing,Random Failure,4,4
+"Operator reports: 'housing shield unidentified glitch, controller went offline.'",Motor Housing,Random Failure,4,4
+"Maintenance log: outer shell random trip, control interface lost connection.",Motor Housing,Random Failure,4,4
+"operator says casing shield unexplained senosr fautl, error code ERR-502 today.",Motor Housing,Random Failure,4,4
+"CRITICAL: motor area intermittent connection issue, immediately!",Motor Housing,Random Failure,4,4
+"Standard check: back unit glitchy controls, random error triggered safety loop during run.",Motor Housing,Random Failure,4,4
+thing near back casing controller board rebooted randomly during cycle.,Motor Housing,Random Failure,4,4
+"housing unit making wierd noise, feels like random failure code.",Motor Housing,Random Failure,4,4
+"somthing grinding in the motor housing area, check for intermittent signal loss.",Motor Housing,Random Failure,4,4
+"its hot and shaking alot near the housing, check for unexplained halt, system.",Motor Housing,Random Failure,4,4
+"weird smell from the casing unit, possibly random error, control.",Motor Housing,Random Failure,4,4
+"keeps stopping every few minutes, motor casing is unidentified fault, machine.",Motor Housing,Random Failure,4,4
+"oil everywhere near the housign, suspect glitch in sensor.",Motor Housing,Random Failure,4,4
+"housing shield cant hold pressure, seems like unexplained shutdown during.",Motor Housing,Random Failure,4,4
+"vibrating way more than normal near the outer shell, intermittent connection faults,.",Motor Housing,Random Failure,4,4
+"leaking or snapped near the casing shield, random emergency loop suspected.",Motor Housing,Random Failure,4,4
+Inspection reveals that the motor area broke again.,Motor Housing,Random Failure,4,4
+"The back unit wierd noise. Operations are affected, check ASAP.",Motor Housing,Random Failure,4,4
+the back casnig is keeps stopping again. please check.,Motor Housing,Random Failure,4,4
+housing unit stopped.,Motor Housing,Random Failure,4,4
+Warning: motor housing leaking and smells weird.,Motor Housing,Random Failure,4,4
+Operator reports: 'housing oil everywhere.',Motor Housing,Random Failure,4,4
+Maintenance log: casing weird noise.,Motor Housing,Random Failure,4,4
+operator says motor casing stops randomly today.,Motor Housing,Random Failure,4,4
+CRITICAL: housign glitchy connection immediately!,Motor Housing,Random Failure,4,4
+Standard check: housing shield shut down with unexplained error code ERR-404 during run.,Motor Housing,Random Failure,4,4
+"thing near outer shell random glitch, machine rebooted spontaneously.",Motor Housing,Random Failure,4,4
+"casing shield making wierd noise, feels like intermittent communication loss,.",Motor Housing,Random Failure,4,4
+"somthing grinding in the motor area area, check for random shutdown, no.",Motor Housing,Random Failure,4,4
+"its hot and shaking alot near the back unit, check for unexplained behavior, machine.",Motor Housing,Random Failure,4,4
+"weird smell from the back casing unit, possibly unidentified glitch, controller.",Motor Housing,Random Failure,4,4
+"keeps stopping every few minutes, housing unit is random trip, control.",Motor Housing,Random Failure,4,4
+"oil everywhere near the motor housing, suspect unexplained sensor fault,.",Motor Housing,Random Failure,4,4
+"housing cant hold pressure, seems like intermittent connection issue,.",Motor Housing,Random Failure,4,4
+"vibrating way more than normal near the casing, glitchy controls, random.",Motor Housing,Random Failure,4,4
+"leaking or snapped near the motor casing, controller board rebooted suspected.",Motor Housing,Random Failure,4,4

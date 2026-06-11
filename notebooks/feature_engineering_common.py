@@ -93,6 +93,13 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
 
+    # Encode Machine Type using the same mapping as training (L -> 0, M -> 1, H -> 2)
+    if "machine_type" in df.columns:
+        df["product_type_enc"] = df["machine_type"].map({"L": 0, "M": 1, "H": 2})
+    elif "product_type" in df.columns:
+        df["product_type_enc"] = df["product_type"].map({"L": 0, "M": 1, "H": 2})
+
+
     # 1. Normalize/clean input raw column names & scale factors
     if "tool_wear_min" in df.columns:
         df["tool_wear_pct"] = df["tool_wear_min"] / 2.5

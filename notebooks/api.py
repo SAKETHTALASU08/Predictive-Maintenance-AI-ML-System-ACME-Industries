@@ -26,7 +26,7 @@ os.environ["MKL_NUM_THREADS"] = "1"
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, Literal
 import numpy as np
 
 # Import the globally-cached core engine
@@ -64,9 +64,11 @@ app.add_middleware(
 
 class SensorPayload(BaseModel):
     """Input schema for the /predict endpoint with raw sensor values."""
+    machine_type: Literal["L", "M", "H"] = Field(..., description="Machine type / Quality grade (L, M, H).")
     torque_nm: float = Field(..., ge=0.0, description="Torque in Nm.")
     spindle_speed_rpm: float = Field(..., ge=0.0, description="Spindle speed in RPM.")
-    tool_wear_min: float = Field(..., ge=0.0, le=255.0, description="Tool wear in minutes (0-255).")
+    tool_wear_pct: Optional[float] = Field(default=None, ge=0.0, le=100.0, description="Tool wear percentage (0-100).")
+    tool_wear_min: Optional[float] = Field(default=None, ge=0.0, le=255.0, description="Tool wear in minutes (0-255).")
     rotational_speed_rpm: float = Field(..., ge=0.0, description="Rotational speed in RPM.")
     power_w: float = Field(..., ge=0.0, description="Power in Watts.")
     voltage_v: float = Field(..., ge=0.0, description="Voltage in Volts.")
@@ -80,9 +82,10 @@ class SensorPayload(BaseModel):
         "json_schema_extra": {
             "examples": [
                 {
+                    "machine_type": "M",
                     "torque_nm": 40.0,
                     "spindle_speed_rpm": 1500.0,
-                    "tool_wear_min": 25.0,
+                    "tool_wear_pct": 10.0,
                     "rotational_speed_rpm": 1500.0,
                     "power_w": 6280.0,
                     "voltage_v": 220.0,
@@ -170,16 +173,30 @@ async def predict(payload: SensorPayload):
     """
     try:
         # Convert Pydantic payload to dictionary of raw sensors
+        # Ensure either tool_wear_pct or tool_wear_min is provided
+        if payload.tool_wear_pct is None and payload.tool_wear_min is None:
+            raise HTTPException(status_code=400, detail="Either tool_wear_pct or tool_wear_min must be provided.")
+
+        tool_wear_min = payload.tool_wear_min
+        tool_wear_pct = payload.tool_wear_pct
+
+        if tool_wear_min is None:
+            tool_wear_min = tool_wear_pct * 2.5
+        if tool_wear_pct is None:
+            tool_wear_pct = tool_wear_min / 2.5
+
         raw_sensors = {
             "torque_nm": payload.torque_nm,
             "spindle_speed_rpm": payload.spindle_speed_rpm,
-            "tool_wear_min": payload.tool_wear_min,
+            "tool_wear_min": tool_wear_min,
+            "tool_wear_pct": tool_wear_pct,
             "rotational_speed_rpm": payload.rotational_speed_rpm,
             "power_w": payload.power_w,
             "voltage_v": payload.voltage_v,
             "current_a": payload.current_a,
             "vibration_mm_s": payload.vibration_mm_s,
-            "temperature_k": payload.temperature_k
+            "temperature_k": payload.temperature_k,
+            "machine_type": payload.machine_type
         }
 
         # Run the orchestrator
@@ -189,9 +206,10 @@ async def predict(payload: SensorPayload):
             machine_id=payload.machine_id
         )
 
-        # Append API contract keys at the top-level
+        # Append API contract keys at the top-level using the loaded failure threshold
         prob_raw = ticket.get("Telemetry_Metrics", {}).get("Failure_Probability_Raw", 0.0)
-        prediction = "Failure" if prob_raw >= 0.50 else "No Failure"
+        threshold = getattr(core_engine, "_failure_threshold", 0.5)
+        prediction = "Failure" if prob_raw >= threshold else "No Failure"
         confidence = float(prob_raw)
         
         failure_type = None

@@ -1,0 +1,175 @@
+{
+  "verification_1_data_leakage": {
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "status": "PASSED"
+  },
+  "verification_2_robustness": {
+    "total_tested": 20,
+    "low_confidence_count": 2,
+    "robustness_score": "90.0%",
+    "status": "PASSED",
+    "predictions": [
+      {
+        "log": "thing near pump broke again",
+        "component": "Hydraulic Pump",
+        "component_confidence": 0.922,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.796,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "mchine making wierd noise cant tell where",
+        "component": "CNC Spindle",
+        "component_confidence": 0.744,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.937,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "its hot and shaking alot",
+        "component": "CNC Spindle",
+        "component_confidence": 0.756,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.709,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "belt snapped i think, conveyor stopped",
+        "component": "Drive Belt",
+        "component_confidence": 0.926,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.701,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "somthing grinding in the motor area",
+        "component": "Motor Housing",
+        "component_confidence": 0.909,
+        "failure_mode": "Overstrain Failure",
+        "failure_confidence": 0.743,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "weird smell from the back unit",
+        "component": "Motor Housing",
+        "component_confidence": 0.898,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.633,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "keeps stopping every few minutes",
+        "component": "CNC Spindle",
+        "component_confidence": 0.786,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.956,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "pressure gauge showing nothing",
+        "component": "Hydraulic Pump",
+        "component_confidence": 0.912,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.947,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "spindle wont go past half speed",
+        "component": "CNC Spindle",
+        "component_confidence": 0.88,
+        "failure_mode": "Overstrain Failure",
+        "failure_confidence": 0.886,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "oil everywhere near the hydraulics",
+        "component": "Hydraulic Pump",
+        "component_confidence": 0.927,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.581,
+        "low_confidence_flag": true
+      },
+      {
+        "log": "bearing assembly rattling badly at high rpm",
+        "component": "Bearing Assembly",
+        "component_confidence": 0.949,
+        "failure_mode": "Overstrain Failure",
+        "failure_confidence": 0.972,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "pump cant hold pressure, maybe seal is gone",
+        "component": "Hydraulic Pump",
+        "component_confidence": 0.921,
+        "failure_mode": "Heat Dissipation Failure",
+        "failure_confidence": 0.496,
+        "low_confidence_flag": true
+      },
+      {
+        "log": "cnc head vibrating way more than normal",
+        "component": "CNC Spindle",
+        "component_confidence": 0.864,
+        "failure_mode": "Heat Dissipation Failure",
+        "failure_confidence": 0.67,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "drive belt looks worn, machine slipping",
+        "component": "Drive Belt",
+        "component_confidence": 0.935,
+        "failure_mode": "Tool Wear Failure",
+        "failure_confidence": 0.973,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "motor housing too hot to touch",
+        "component": "Motor Housing",
+        "component_confidence": 0.919,
+        "failure_mode": "Heat Dissipation Failure",
+        "failure_confidence": 0.973,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "overheating",
+        "component": "CNC Spindle",
+        "component_confidence": 0.814,
+        "failure_mode": "Heat Dissipation Failure",
+        "failure_confidence": 0.961,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "seized up",
+        "component": "CNC Spindle",
+        "component_confidence": 0.609,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.88,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "leaking",
+        "component": "Hydraulic Pump",
+        "component_confidence": 0.88,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.953,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "no power",
+        "component": "CNC Spindle",
+        "component_confidence": 0.606,
+        "failure_mode": "Power Failure",
+        "failure_confidence": 0.967,
+        "low_confidence_flag": false
+      },
+      {
+        "log": "loud noise",
+        "component": "CNC Spindle",
+        "component_confidence": 0.627,
+        "failure_mode": "Random Failure",
+        "failure_confidence": 0.957,
+        "low_confidence_flag": false
+      }
+    ]
+  }
+}

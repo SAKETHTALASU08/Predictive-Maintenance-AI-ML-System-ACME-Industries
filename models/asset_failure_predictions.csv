@@ -1,0 +1,2001 @@
+asset_id,failure_score,is_failure (tuned),predicted_RUL,urgency_label,feature_version
+Asset_M,0.0008,0,73.9,Monitor,v1.0
+Asset_L,0.0003,0,69.7,Monitor,v1.0
+Asset_M,0.002,0,74.8,Monitor,v1.0
+Asset_M,0.3599,1,69.8,Monitor,v1.0
+Asset_L,0.0001,0,73.4,Monitor,v1.0
+Asset_L,0.0002,0,70.7,Monitor,v1.0
+Asset_L,0.0002,0,68.4,Monitor,v1.0
+Asset_M,0.0014,0,61.7,Monitor,v1.0
+Asset_L,0.0009,0,57.7,Monitor,v1.0
+Asset_H,0.002,0,54.0,Monitor,v1.0
+Asset_L,0.14,1,43.6,Plan Maintenance,v1.0
+Asset_L,0.001,0,45.4,Plan Maintenance,v1.0
+Asset_M,0.0062,0,40.3,Plan Maintenance,v1.0
+Asset_M,0.0006,0,35.3,Plan Maintenance,v1.0
+Asset_L,0.0001,0,39.0,Plan Maintenance,v1.0
+Asset_M,0.0007,0,28.8,Plan Maintenance,v1.0
+Asset_M,0.0007,0,32.0,Plan Maintenance,v1.0
+Asset_L,0.0007,0,28.9,Plan Maintenance,v1.0
+Asset_L,0.0149,0,25.0,Plan Maintenance,v1.0
+Asset_L,0.0011,0,26.8,Plan Maintenance,v1.0
+Asset_H,0.0045,0,25.0,Plan Maintenance,v1.0
+Asset_M,0.016,0,19.0,Immediate Action,v1.0
+Asset_L,0.2332,1,20.2,Plan Maintenance,v1.0
+Asset_H,0.113,1,17.2,Immediate Action,v1.0
+Asset_L,0.4028,1,9.9,Immediate Action,v1.0
+Asset_M,0.021,0,10.3,Immediate Action,v1.0
+Asset_L,0.1331,1,10.6,Immediate Action,v1.0
+Asset_L,0.2348,1,11.1,Immediate Action,v1.0
+Asset_L,0.0337,0,8.4,Immediate Action,v1.0
+Asset_M,0.0,0,222.7,Healthy,v1.0
+Asset_L,0.0,0,232.0,Healthy,v1.0
+Asset_L,0.0001,0,219.8,Healthy,v1.0
+Asset_L,0.0003,0,219.8,Healthy,v1.0
+Asset_L,0.0,0,214.5,Healthy,v1.0
+Asset_L,0.0001,0,217.2,Healthy,v1.0
+Asset_L,0.0015,0,211.3,Healthy,v1.0
+Asset_L,0.0004,0,211.6,Healthy,v1.0
+Asset_L,0.0003,0,209.4,Healthy,v1.0
+Asset_L,0.0001,0,214.0,Healthy,v1.0
+Asset_L,0.0001,0,211.2,Healthy,v1.0
+Asset_L,0.0001,0,205.0,Healthy,v1.0
+Asset_H,0.0001,0,205.8,Healthy,v1.0
+Asset_L,0.0002,0,198.5,Healthy,v1.0
+Asset_L,0.0001,0,198.1,Healthy,v1.0
+Asset_L,0.0003,0,189.6,Healthy,v1.0
+Asset_M,0.0003,0,193.4,Healthy,v1.0
+Asset_L,0.0,0,193.7,Healthy,v1.0
+Asset_L,0.0001,0,191.5,Healthy,v1.0
+Asset_L,0.0,0,188.7,Healthy,v1.0
+Asset_H,0.0001,0,185.0,Healthy,v1.0
+Asset_L,0.0001,0,179.1,Healthy,v1.0
+Asset_L,0.0001,0,172.7,Healthy,v1.0
+Asset_L,0.0001,0,176.8,Healthy,v1.0
+Asset_L,0.0001,0,172.1,Healthy,v1.0
+Asset_L,0.0001,0,174.6,Healthy,v1.0
+Asset_H,0.0,0,170.1,Healthy,v1.0
+Asset_L,0.0001,0,167.2,Healthy,v1.0
+Asset_L,0.0002,0,161.6,Healthy,v1.0
+Asset_L,0.0,0,166.0,Healthy,v1.0
+Asset_L,0.0001,0,160.2,Healthy,v1.0
+Asset_H,0.0002,0,151.3,Healthy,v1.0
+Asset_M,0.0001,0,147.0,Healthy,v1.0
+Asset_M,0.0013,0,151.6,Healthy,v1.0
+Asset_M,0.0002,0,145.3,Healthy,v1.0
+Asset_L,0.0001,0,140.5,Healthy,v1.0
+Asset_M,0.0001,0,137.7,Healthy,v1.0
+Asset_L,0.0003,0,128.1,Healthy,v1.0
+Asset_M,0.0001,0,135.0,Healthy,v1.0
+Asset_M,0.0002,0,132.4,Healthy,v1.0
+Asset_M,0.0003,0,127.8,Healthy,v1.0
+Asset_M,0.0002,0,131.2,Healthy,v1.0
+Asset_L,0.0001,0,124.6,Healthy,v1.0
+Asset_H,0.0003,0,114.1,Healthy,v1.0
+Asset_L,0.0001,0,112.5,Healthy,v1.0
+Asset_L,0.0,0,110.5,Healthy,v1.0
+Asset_L,0.0004,0,101.8,Healthy,v1.0
+Asset_L,0.0008,0,100.0,Healthy,v1.0
+Asset_L,0.0001,0,102.9,Healthy,v1.0
+Asset_L,0.0001,0,103.0,Healthy,v1.0
+Asset_L,0.0001,0,102.1,Healthy,v1.0
+Asset_H,0.0001,0,89.1,Monitor,v1.0
+Asset_L,0.0004,0,92.3,Monitor,v1.0
+Asset_H,0.0003,0,87.2,Monitor,v1.0
+Asset_L,0.0001,0,84.6,Monitor,v1.0
+Asset_L,0.0001,0,79.2,Monitor,v1.0
+Asset_L,0.0002,0,81.8,Monitor,v1.0
+Asset_L,0.0001,0,78.0,Monitor,v1.0
+Asset_L,0.0001,0,78.0,Monitor,v1.0
+Asset_L,0.0004,0,81.4,Monitor,v1.0
+Asset_L,0.001,0,71.6,Monitor,v1.0
+Asset_L,0.0009,0,71.9,Monitor,v1.0
+Asset_L,0.0008,0,70.9,Monitor,v1.0
+Asset_M,0.0,0,82.2,Monitor,v1.0
+Asset_L,0.0001,0,80.8,Monitor,v1.0
+Asset_H,0.0004,0,79.0,Monitor,v1.0
+Asset_L,0.0001,0,64.7,Monitor,v1.0
+Asset_M,0.0001,0,58.8,Monitor,v1.0
+Asset_L,0.0001,0,65.5,Monitor,v1.0
+Asset_L,0.0001,0,63.0,Monitor,v1.0
+Asset_L,0.0002,0,52.3,Monitor,v1.0
+Asset_L,0.0005,0,50.9,Monitor,v1.0
+Asset_L,0.0002,0,41.1,Plan Maintenance,v1.0
+Asset_L,0.0005,0,33.4,Plan Maintenance,v1.0
+Asset_M,0.0001,0,37.3,Plan Maintenance,v1.0
+Asset_L,0.0002,0,30.7,Plan Maintenance,v1.0
+Asset_L,0.0001,0,32.6,Plan Maintenance,v1.0
+Asset_M,0.0009,0,28.5,Plan Maintenance,v1.0
+Asset_H,0.0003,0,24.2,Plan Maintenance,v1.0
+Asset_M,0.0003,0,21.8,Plan Maintenance,v1.0
+Asset_L,0.0037,0,16.8,Immediate Action,v1.0
+Asset_H,0.0131,0,22.1,Plan Maintenance,v1.0
+Asset_M,0.1901,1,9.3,Immediate Action,v1.0
+Asset_M,0.0002,0,232.5,Healthy,v1.0
+Asset_L,0.0001,0,227.2,Healthy,v1.0
+Asset_H,0.0177,0,224.0,Healthy,v1.0
+Asset_L,0.0001,0,216.5,Healthy,v1.0
+Asset_L,0.0,0,214.7,Healthy,v1.0
+Asset_L,0.0,0,217.4,Healthy,v1.0
+Asset_L,0.0001,0,211.9,Healthy,v1.0
+Asset_L,0.0001,0,212.4,Healthy,v1.0
+Asset_L,0.0,0,212.1,Healthy,v1.0
+Asset_L,0.0,0,208.6,Healthy,v1.0
+Asset_M,0.0,0,208.0,Healthy,v1.0
+Asset_H,0.0,0,204.3,Healthy,v1.0
+Asset_L,0.0001,0,204.1,Healthy,v1.0
+Asset_L,0.0001,0,196.3,Healthy,v1.0
+Asset_L,0.0001,0,193.1,Healthy,v1.0
+Asset_M,0.0001,0,191.3,Healthy,v1.0
+Asset_L,0.0,0,190.9,Healthy,v1.0
+Asset_L,0.0,0,184.0,Healthy,v1.0
+Asset_H,0.0001,0,184.8,Healthy,v1.0
+Asset_H,0.0008,0,179.2,Healthy,v1.0
+Asset_M,0.0002,0,172.1,Healthy,v1.0
+Asset_L,0.0002,0,171.5,Healthy,v1.0
+Asset_L,0.0001,0,167.2,Healthy,v1.0
+Asset_L,0.0,0,165.2,Healthy,v1.0
+Asset_M,0.0001,0,168.5,Healthy,v1.0
+Asset_H,0.0,0,155.4,Healthy,v1.0
+Asset_L,0.0005,0,154.2,Healthy,v1.0
+Asset_L,0.0,0,155.7,Healthy,v1.0
+Asset_L,0.0001,0,149.2,Healthy,v1.0
+Asset_L,0.0002,0,148.9,Healthy,v1.0
+Asset_M,0.0001,0,158.2,Healthy,v1.0
+Asset_L,0.0,0,142.1,Healthy,v1.0
+Asset_M,0.0,0,145.0,Healthy,v1.0
+Asset_M,0.0001,0,133.2,Healthy,v1.0
+Asset_L,0.0001,0,135.8,Healthy,v1.0
+Asset_L,0.0001,0,131.8,Healthy,v1.0
+Asset_M,0.0,0,128.2,Healthy,v1.0
+Asset_M,0.0003,0,127.9,Healthy,v1.0
+Asset_M,0.0001,0,127.0,Healthy,v1.0
+Asset_L,0.0,0,126.4,Healthy,v1.0
+Asset_L,0.0003,0,120.0,Healthy,v1.0
+Asset_L,0.0,0,114.4,Healthy,v1.0
+Asset_L,0.0005,0,113.8,Healthy,v1.0
+Asset_L,0.0003,0,113.1,Healthy,v1.0
+Asset_L,0.0002,0,109.3,Healthy,v1.0
+Asset_L,0.0002,0,105.5,Healthy,v1.0
+Asset_L,0.0001,0,111.0,Healthy,v1.0
+Asset_H,0.0002,0,105.9,Healthy,v1.0
+Asset_M,0.0002,0,103.3,Healthy,v1.0
+Asset_H,0.0002,0,94.3,Monitor,v1.0
+Asset_L,0.0001,0,93.8,Monitor,v1.0
+Asset_L,0.0,0,95.5,Monitor,v1.0
+Asset_L,0.0,0,93.2,Monitor,v1.0
+Asset_L,0.0001,0,92.7,Monitor,v1.0
+Asset_L,0.0001,0,83.4,Monitor,v1.0
+Asset_H,0.0001,0,88.3,Monitor,v1.0
+Asset_L,0.0003,0,78.2,Monitor,v1.0
+Asset_M,0.0009,0,72.9,Monitor,v1.0
+Asset_L,0.0001,0,70.4,Monitor,v1.0
+Asset_H,0.0,0,70.2,Monitor,v1.0
+Asset_L,0.0003,0,71.1,Monitor,v1.0
+Asset_H,0.0,0,70.5,Monitor,v1.0
+Asset_L,0.0002,0,56.2,Monitor,v1.0
+Asset_M,0.0002,0,55.1,Monitor,v1.0
+Asset_L,0.0,0,51.7,Monitor,v1.0
+Asset_L,0.0005,0,53.7,Monitor,v1.0
+Asset_L,0.0009,0,48.3,Plan Maintenance,v1.0
+Asset_L,0.0001,0,45.0,Plan Maintenance,v1.0
+Asset_M,0.0,0,43.6,Plan Maintenance,v1.0
+Asset_L,0.0022,0,41.9,Plan Maintenance,v1.0
+Asset_M,0.0001,0,38.2,Plan Maintenance,v1.0
+Asset_L,0.0002,0,33.6,Plan Maintenance,v1.0
+Asset_L,0.0093,0,34.4,Plan Maintenance,v1.0
+Asset_L,0.0,0,26.0,Plan Maintenance,v1.0
+Asset_L,0.0038,0,29.9,Plan Maintenance,v1.0
+Asset_L,0.0006,0,26.2,Plan Maintenance,v1.0
+Asset_M,0.0001,0,34.5,Plan Maintenance,v1.0
+Asset_L,0.0265,0,35.8,Plan Maintenance,v1.0
+Asset_M,0.0001,0,29.0,Plan Maintenance,v1.0
+Asset_M,0.0051,0,25.3,Plan Maintenance,v1.0
+Asset_L,0.9986,1,20.3,Plan Maintenance,v1.0
+Asset_L,0.0049,0,13.2,Immediate Action,v1.0
+Asset_L,0.0381,0,18.5,Immediate Action,v1.0
+Asset_L,0.9927,1,18.2,Immediate Action,v1.0
+Asset_L,0.0028,0,15.4,Immediate Action,v1.0
+Asset_M,0.0021,0,12.6,Immediate Action,v1.0
+Asset_M,0.0702,0,13.5,Immediate Action,v1.0
+Asset_L,0.002,0,3.4,Immediate Action,v1.0
+Asset_L,0.0,0,237.4,Healthy,v1.0
+Asset_M,0.0,0,227.6,Healthy,v1.0
+Asset_L,0.0,0,218.3,Healthy,v1.0
+Asset_M,0.0,0,217.1,Healthy,v1.0
+Asset_L,0.0002,0,216.6,Healthy,v1.0
+Asset_M,0.0001,0,218.1,Healthy,v1.0
+Asset_L,0.0001,0,215.2,Healthy,v1.0
+Asset_L,0.0,0,207.3,Healthy,v1.0
+Asset_L,0.0001,0,208.1,Healthy,v1.0
+Asset_L,0.0002,0,206.7,Healthy,v1.0
+Asset_H,0.0001,0,206.6,Healthy,v1.0
+Asset_L,0.0001,0,199.3,Healthy,v1.0
+Asset_H,0.0005,0,199.7,Healthy,v1.0
+Asset_M,0.0003,0,195.4,Healthy,v1.0
+Asset_L,0.0019,0,186.4,Healthy,v1.0
+Asset_L,0.0002,0,187.8,Healthy,v1.0
+Asset_L,0.0016,0,189.7,Healthy,v1.0
+Asset_L,0.0001,0,190.1,Healthy,v1.0
+Asset_L,0.0001,0,190.4,Healthy,v1.0
+Asset_L,0.0001,0,185.3,Healthy,v1.0
+Asset_M,0.0002,0,183.3,Healthy,v1.0
+Asset_M,0.0001,0,175.0,Healthy,v1.0
+Asset_L,0.0001,0,180.3,Healthy,v1.0
+Asset_L,0.0001,0,174.3,Healthy,v1.0
+Asset_L,0.0,0,175.6,Healthy,v1.0
+Asset_L,0.0,0,170.3,Healthy,v1.0
+Asset_L,0.002,0,167.1,Healthy,v1.0
+Asset_M,0.0001,0,162.1,Healthy,v1.0
+Asset_M,0.0003,0,162.4,Healthy,v1.0
+Asset_L,0.0001,0,157.0,Healthy,v1.0
+Asset_L,0.0001,0,157.3,Healthy,v1.0
+Asset_L,0.0001,0,153.5,Healthy,v1.0
+Asset_L,0.0006,0,153.7,Healthy,v1.0
+Asset_M,0.0001,0,149.1,Healthy,v1.0
+Asset_L,0.0001,0,148.1,Healthy,v1.0
+Asset_M,0.0002,0,151.2,Healthy,v1.0
+Asset_L,0.0,0,140.3,Healthy,v1.0
+Asset_L,0.0001,0,137.8,Healthy,v1.0
+Asset_L,0.0,0,132.9,Healthy,v1.0
+Asset_L,0.0004,0,129.2,Healthy,v1.0
+Asset_L,0.0,0,131.7,Healthy,v1.0
+Asset_M,0.0007,0,127.8,Healthy,v1.0
+Asset_M,0.0001,0,123.4,Healthy,v1.0
+Asset_H,0.0008,0,121.9,Healthy,v1.0
+Asset_L,0.0,0,119.6,Healthy,v1.0
+Asset_M,0.9997,1,113.7,Healthy,v1.0
+Asset_L,0.0,0,110.6,Healthy,v1.0
+Asset_L,0.0,0,107.0,Healthy,v1.0
+Asset_L,0.0001,0,106.9,Healthy,v1.0
+Asset_L,0.0,0,108.2,Healthy,v1.0
+Asset_M,0.0002,0,104.0,Healthy,v1.0
+Asset_L,0.0002,0,101.2,Healthy,v1.0
+Asset_L,0.0,0,101.9,Healthy,v1.0
+Asset_L,0.0002,0,98.4,Monitor,v1.0
+Asset_M,0.0,0,96.2,Monitor,v1.0
+Asset_L,0.0001,0,93.5,Monitor,v1.0
+Asset_H,0.0005,0,93.3,Monitor,v1.0
+Asset_M,0.0,0,82.9,Monitor,v1.0
+Asset_L,0.0,0,76.6,Monitor,v1.0
+Asset_L,0.0,0,77.6,Monitor,v1.0
+Asset_H,0.0002,0,78.8,Monitor,v1.0
+Asset_H,0.0001,0,74.7,Monitor,v1.0
+Asset_L,0.0005,0,62.1,Monitor,v1.0
+Asset_H,0.0001,0,62.0,Monitor,v1.0
+Asset_M,0.0001,0,62.0,Monitor,v1.0
+Asset_H,0.0002,0,54.8,Monitor,v1.0
+Asset_L,0.0042,0,48.5,Plan Maintenance,v1.0
+Asset_L,0.0001,0,51.1,Monitor,v1.0
+Asset_M,0.0,0,42.9,Plan Maintenance,v1.0
+Asset_H,0.0006,0,38.8,Plan Maintenance,v1.0
+Asset_M,0.0001,0,35.4,Plan Maintenance,v1.0
+Asset_L,0.0027,0,31.3,Plan Maintenance,v1.0
+Asset_L,0.0033,0,34.2,Plan Maintenance,v1.0
+Asset_M,0.0011,0,32.3,Plan Maintenance,v1.0
+Asset_L,0.0002,0,26.8,Plan Maintenance,v1.0
+Asset_M,0.0017,0,27.6,Plan Maintenance,v1.0
+Asset_L,0.0027,0,24.1,Plan Maintenance,v1.0
+Asset_H,0.4948,1,30.4,Plan Maintenance,v1.0
+Asset_L,0.0071,0,18.1,Immediate Action,v1.0
+Asset_L,0.0025,0,19.7,Immediate Action,v1.0
+Asset_L,0.0218,0,18.5,Immediate Action,v1.0
+Asset_H,0.0225,0,12.8,Immediate Action,v1.0
+Asset_M,0.0221,0,14.3,Immediate Action,v1.0
+Asset_H,0.0138,0,7.2,Immediate Action,v1.0
+Asset_L,0.0,0,222.9,Healthy,v1.0
+Asset_L,0.0,0,226.4,Healthy,v1.0
+Asset_M,0.0,0,219.3,Healthy,v1.0
+Asset_L,0.0,0,215.2,Healthy,v1.0
+Asset_M,0.0,0,216.4,Healthy,v1.0
+Asset_L,0.0,0,212.1,Healthy,v1.0
+Asset_M,0.0,0,216.4,Healthy,v1.0
+Asset_L,0.0001,0,211.2,Healthy,v1.0
+Asset_H,0.0,0,211.8,Healthy,v1.0
+Asset_M,0.0001,0,200.3,Healthy,v1.0
+Asset_M,0.0,0,195.9,Healthy,v1.0
+Asset_L,0.0001,0,202.2,Healthy,v1.0
+Asset_L,0.0004,0,198.4,Healthy,v1.0
+Asset_M,0.0001,0,194.0,Healthy,v1.0
+Asset_H,0.0009,0,189.1,Healthy,v1.0
+Asset_L,0.0001,0,183.3,Healthy,v1.0
+Asset_L,0.0001,0,180.5,Healthy,v1.0
+Asset_M,0.0001,0,181.0,Healthy,v1.0
+Asset_L,0.0001,0,178.7,Healthy,v1.0
+Asset_L,0.0,0,175.0,Healthy,v1.0
+Asset_M,0.0001,0,179.1,Healthy,v1.0
+Asset_H,0.0001,0,170.7,Healthy,v1.0
+Asset_M,0.0001,0,166.9,Healthy,v1.0
+Asset_M,0.9997,1,163.7,Healthy,v1.0
+Asset_L,0.0002,0,156.0,Healthy,v1.0
+Asset_M,0.0,0,158.4,Healthy,v1.0
+Asset_L,0.0,0,146.6,Healthy,v1.0
+Asset_M,0.0005,0,146.2,Healthy,v1.0
+Asset_M,0.0,0,147.4,Healthy,v1.0
+Asset_M,0.0,0,145.7,Healthy,v1.0
+Asset_L,0.0001,0,137.9,Healthy,v1.0
+Asset_H,0.0001,0,139.7,Healthy,v1.0
+Asset_L,0.0001,0,128.4,Healthy,v1.0
+Asset_L,0.0015,0,125.5,Healthy,v1.0
+Asset_H,0.0,0,126.0,Healthy,v1.0
+Asset_L,0.0012,0,125.7,Healthy,v1.0
+Asset_M,0.0004,0,120.6,Healthy,v1.0
+Asset_L,0.0006,0,123.2,Healthy,v1.0
+Asset_L,0.0005,0,121.0,Healthy,v1.0
+Asset_H,0.0,0,114.7,Healthy,v1.0
+Asset_M,0.0008,0,109.8,Healthy,v1.0
+Asset_M,0.0001,0,107.4,Healthy,v1.0
+Asset_H,0.0002,0,102.2,Healthy,v1.0
+Asset_M,0.0016,0,100.7,Healthy,v1.0
+Asset_L,0.0006,0,98.7,Monitor,v1.0
+Asset_L,0.001,0,97.5,Monitor,v1.0
+Asset_L,0.0001,0,96.5,Monitor,v1.0
+Asset_M,0.0003,0,92.0,Monitor,v1.0
+Asset_L,0.0001,0,91.5,Monitor,v1.0
+Asset_M,0.0005,0,90.0,Monitor,v1.0
+Asset_M,0.0002,0,83.2,Monitor,v1.0
+Asset_M,0.0093,0,82.3,Monitor,v1.0
+Asset_L,0.0011,0,85.4,Monitor,v1.0
+Asset_M,0.0003,0,79.0,Monitor,v1.0
+Asset_L,0.0104,0,70.7,Monitor,v1.0
+Asset_M,0.0,0,69.0,Monitor,v1.0
+Asset_M,0.0002,0,65.9,Monitor,v1.0
+Asset_L,0.002,0,61.1,Monitor,v1.0
+Asset_L,0.0001,0,66.7,Monitor,v1.0
+Asset_H,0.0021,0,60.8,Monitor,v1.0
+Asset_L,0.0001,0,51.5,Monitor,v1.0
+Asset_H,0.0005,0,50.9,Monitor,v1.0
+Asset_L,0.0003,0,45.8,Plan Maintenance,v1.0
+Asset_L,0.0009,0,41.0,Plan Maintenance,v1.0
+Asset_M,0.0001,0,38.1,Plan Maintenance,v1.0
+Asset_M,0.0009,0,36.5,Plan Maintenance,v1.0
+Asset_M,0.0009,0,34.9,Plan Maintenance,v1.0
+Asset_M,0.0331,0,32.5,Plan Maintenance,v1.0
+Asset_L,0.0006,0,26.2,Plan Maintenance,v1.0
+Asset_L,0.0149,0,28.4,Plan Maintenance,v1.0
+Asset_L,0.0051,0,23.7,Plan Maintenance,v1.0
+Asset_L,0.0013,0,22.3,Plan Maintenance,v1.0
+Asset_M,0.9707,1,30.8,Plan Maintenance,v1.0
+Asset_L,0.0074,0,19.3,Immediate Action,v1.0
+Asset_L,0.0002,0,216.8,Healthy,v1.0
+Asset_M,0.0001,0,224.1,Healthy,v1.0
+Asset_L,0.0001,0,216.2,Healthy,v1.0
+Asset_L,0.0001,0,218.7,Healthy,v1.0
+Asset_L,0.001,0,217.3,Healthy,v1.0
+Asset_L,0.0001,0,217.9,Healthy,v1.0
+Asset_L,0.0001,0,218.1,Healthy,v1.0
+Asset_M,0.0001,0,217.8,Healthy,v1.0
+Asset_M,0.0,0,215.1,Healthy,v1.0
+Asset_L,0.0002,0,207.1,Healthy,v1.0
+Asset_L,0.0,0,206.7,Healthy,v1.0
+Asset_L,0.0001,0,202.1,Healthy,v1.0
+Asset_L,0.0002,0,198.7,Healthy,v1.0
+Asset_L,0.0002,0,200.6,Healthy,v1.0
+Asset_M,0.0006,0,194.8,Healthy,v1.0
+Asset_M,0.0027,0,188.0,Healthy,v1.0
+Asset_L,0.0004,0,187.8,Healthy,v1.0
+Asset_M,0.0002,0,185.0,Healthy,v1.0
+Asset_L,0.0012,0,181.0,Healthy,v1.0
+Asset_L,0.0001,0,179.0,Healthy,v1.0
+Asset_M,0.0012,0,179.5,Healthy,v1.0
+Asset_L,0.0001,0,175.1,Healthy,v1.0
+Asset_L,0.0001,0,172.5,Healthy,v1.0
+Asset_H,0.0,0,172.9,Healthy,v1.0
+Asset_L,0.0001,0,167.1,Healthy,v1.0
+Asset_M,0.0001,0,163.6,Healthy,v1.0
+Asset_L,0.0,0,158.7,Healthy,v1.0
+Asset_H,0.0001,0,161.2,Healthy,v1.0
+Asset_M,0.0001,0,156.6,Healthy,v1.0
+Asset_L,0.0002,0,152.4,Healthy,v1.0
+Asset_L,0.0004,0,152.6,Healthy,v1.0
+Asset_L,0.0,0,156.9,Healthy,v1.0
+Asset_M,0.0009,0,143.5,Healthy,v1.0
+Asset_L,0.0002,0,143.3,Healthy,v1.0
+Asset_M,0.0001,0,141.9,Healthy,v1.0
+Asset_L,0.0005,0,136.1,Healthy,v1.0
+Asset_M,0.0,0,132.2,Healthy,v1.0
+Asset_M,0.0001,0,127.5,Healthy,v1.0
+Asset_H,0.0003,0,126.5,Healthy,v1.0
+Asset_L,0.0006,0,125.0,Healthy,v1.0
+Asset_L,0.9988,1,121.7,Healthy,v1.0
+Asset_L,0.0006,0,120.5,Healthy,v1.0
+Asset_L,0.0,0,116.2,Healthy,v1.0
+Asset_H,0.0004,0,111.8,Healthy,v1.0
+Asset_L,0.0007,0,106.2,Healthy,v1.0
+Asset_L,0.0001,0,107.5,Healthy,v1.0
+Asset_L,0.0001,0,108.1,Healthy,v1.0
+Asset_M,0.0,0,104.3,Healthy,v1.0
+Asset_M,0.0001,0,102.0,Healthy,v1.0
+Asset_L,0.0002,0,99.9,Monitor,v1.0
+Asset_M,0.0003,0,98.2,Monitor,v1.0
+Asset_L,0.0025,0,90.9,Monitor,v1.0
+Asset_L,0.0002,0,93.2,Monitor,v1.0
+Asset_L,0.0,0,92.9,Monitor,v1.0
+Asset_M,0.0006,0,91.4,Monitor,v1.0
+Asset_M,0.0015,0,89.7,Monitor,v1.0
+Asset_L,0.004,0,80.2,Monitor,v1.0
+Asset_M,0.0006,0,85.0,Monitor,v1.0
+Asset_M,0.0001,0,82.4,Monitor,v1.0
+Asset_H,0.0003,0,72.8,Monitor,v1.0
+Asset_L,0.0015,0,67.4,Monitor,v1.0
+Asset_L,0.0001,0,70.7,Monitor,v1.0
+Asset_L,0.0001,0,64.9,Monitor,v1.0
+Asset_L,0.0001,0,67.8,Monitor,v1.0
+Asset_H,0.0006,0,64.0,Monitor,v1.0
+Asset_L,0.0001,0,62.5,Monitor,v1.0
+Asset_L,0.0001,0,54.7,Monitor,v1.0
+Asset_L,0.0,0,57.5,Monitor,v1.0
+Asset_L,0.0,0,57.7,Monitor,v1.0
+Asset_L,0.0001,0,59.6,Monitor,v1.0
+Asset_M,0.0001,0,46.1,Plan Maintenance,v1.0
+Asset_L,0.0,0,44.9,Plan Maintenance,v1.0
+Asset_L,0.001,0,40.2,Plan Maintenance,v1.0
+Asset_H,0.0011,0,39.5,Plan Maintenance,v1.0
+Asset_L,0.0,0,35.9,Plan Maintenance,v1.0
+Asset_M,0.0002,0,36.5,Plan Maintenance,v1.0
+Asset_M,0.0005,0,29.5,Plan Maintenance,v1.0
+Asset_M,0.0,0,30.6,Plan Maintenance,v1.0
+Asset_L,0.0013,0,28.8,Plan Maintenance,v1.0
+Asset_L,0.9928,1,26.6,Plan Maintenance,v1.0
+Asset_L,0.0001,0,18.9,Immediate Action,v1.0
+Asset_L,0.0005,0,18.9,Immediate Action,v1.0
+Asset_L,0.0002,0,227.6,Healthy,v1.0
+Asset_L,0.0,0,229.8,Healthy,v1.0
+Asset_L,0.0,0,227.2,Healthy,v1.0
+Asset_M,0.0,0,222.7,Healthy,v1.0
+Asset_M,0.0,0,226.4,Healthy,v1.0
+Asset_M,0.0,0,218.4,Healthy,v1.0
+Asset_L,0.0,0,218.6,Healthy,v1.0
+Asset_L,0.0,0,213.0,Healthy,v1.0
+Asset_L,0.0,0,211.6,Healthy,v1.0
+Asset_L,0.0,0,211.0,Healthy,v1.0
+Asset_L,0.0,0,207.5,Healthy,v1.0
+Asset_L,0.0001,0,204.4,Healthy,v1.0
+Asset_M,0.0001,0,204.0,Healthy,v1.0
+Asset_L,0.0001,0,202.1,Healthy,v1.0
+Asset_L,0.0001,0,192.9,Healthy,v1.0
+Asset_L,0.0002,0,196.6,Healthy,v1.0
+Asset_L,0.0001,0,192.0,Healthy,v1.0
+Asset_L,0.0006,0,190.6,Healthy,v1.0
+Asset_L,0.0001,0,191.3,Healthy,v1.0
+Asset_L,0.0002,0,185.3,Healthy,v1.0
+Asset_L,0.0003,0,186.8,Healthy,v1.0
+Asset_L,0.0001,0,185.3,Healthy,v1.0
+Asset_M,0.0001,0,175.9,Healthy,v1.0
+Asset_M,0.0007,0,179.0,Healthy,v1.0
+Asset_H,0.0001,0,170.4,Healthy,v1.0
+Asset_M,0.0001,0,169.7,Healthy,v1.0
+Asset_L,0.0001,0,165.4,Healthy,v1.0
+Asset_L,0.0004,0,163.1,Healthy,v1.0
+Asset_H,0.0001,0,165.1,Healthy,v1.0
+Asset_M,0.002,0,156.1,Healthy,v1.0
+Asset_L,0.0,0,153.3,Healthy,v1.0
+Asset_L,0.0002,0,149.0,Healthy,v1.0
+Asset_L,0.0,0,145.7,Healthy,v1.0
+Asset_M,0.0001,0,149.8,Healthy,v1.0
+Asset_M,0.0,0,142.4,Healthy,v1.0
+Asset_M,0.0,0,139.4,Healthy,v1.0
+Asset_L,0.0001,0,135.6,Healthy,v1.0
+Asset_H,0.0001,0,133.5,Healthy,v1.0
+Asset_M,0.0009,0,128.8,Healthy,v1.0
+Asset_L,0.0002,0,126.4,Healthy,v1.0
+Asset_L,0.0001,0,128.4,Healthy,v1.0
+Asset_M,0.0003,0,121.5,Healthy,v1.0
+Asset_L,0.0001,0,126.2,Healthy,v1.0
+Asset_L,0.0002,0,115.7,Healthy,v1.0
+Asset_L,0.0012,0,116.0,Healthy,v1.0
+Asset_L,0.0005,0,111.3,Healthy,v1.0
+Asset_M,0.0001,0,107.8,Healthy,v1.0
+Asset_L,0.0019,0,105.8,Healthy,v1.0
+Asset_L,0.0003,0,107.2,Healthy,v1.0
+Asset_L,0.0002,0,102.5,Healthy,v1.0
+Asset_M,0.0025,0,100.5,Healthy,v1.0
+Asset_L,0.0001,0,97.6,Monitor,v1.0
+Asset_M,0.0001,0,99.4,Monitor,v1.0
+Asset_M,0.0001,0,97.3,Monitor,v1.0
+Asset_L,0.0,0,91.9,Monitor,v1.0
+Asset_L,0.0009,0,87.8,Monitor,v1.0
+Asset_M,0.0004,0,88.0,Monitor,v1.0
+Asset_M,0.0002,0,80.3,Monitor,v1.0
+Asset_L,0.0,0,83.1,Monitor,v1.0
+Asset_L,0.0006,0,78.3,Monitor,v1.0
+Asset_L,0.0006,0,74.0,Monitor,v1.0
+Asset_L,0.0,0,70.6,Monitor,v1.0
+Asset_H,0.0004,0,75.9,Monitor,v1.0
+Asset_L,0.0,0,73.1,Monitor,v1.0
+Asset_L,0.0,0,71.1,Monitor,v1.0
+Asset_L,0.0,0,66.3,Monitor,v1.0
+Asset_L,0.0006,0,63.8,Monitor,v1.0
+Asset_L,0.0,0,63.4,Monitor,v1.0
+Asset_M,0.0001,0,59.0,Monitor,v1.0
+Asset_M,0.0006,0,54.4,Monitor,v1.0
+Asset_L,0.0,0,55.6,Monitor,v1.0
+Asset_L,0.0,0,53.9,Monitor,v1.0
+Asset_H,0.0001,0,51.7,Monitor,v1.0
+Asset_M,0.0001,0,42.4,Plan Maintenance,v1.0
+Asset_L,0.0002,0,40.4,Plan Maintenance,v1.0
+Asset_L,0.0005,0,35.3,Plan Maintenance,v1.0
+Asset_L,0.001,0,40.0,Plan Maintenance,v1.0
+Asset_M,0.0046,0,33.6,Plan Maintenance,v1.0
+Asset_M,0.0009,0,27.6,Plan Maintenance,v1.0
+Asset_L,0.0007,0,30.8,Plan Maintenance,v1.0
+Asset_M,0.0008,0,23.6,Plan Maintenance,v1.0
+Asset_L,0.0025,0,20.0,Immediate Action,v1.0
+Asset_H,0.0002,0,222.7,Healthy,v1.0
+Asset_H,0.0001,0,222.7,Healthy,v1.0
+Asset_L,0.0002,0,213.4,Healthy,v1.0
+Asset_L,0.0002,0,213.9,Healthy,v1.0
+Asset_L,0.0001,0,211.7,Healthy,v1.0
+Asset_L,0.0,0,211.2,Healthy,v1.0
+Asset_L,0.0,0,209.1,Healthy,v1.0
+Asset_M,0.0001,0,202.8,Healthy,v1.0
+Asset_M,0.0,0,200.4,Healthy,v1.0
+Asset_L,0.0006,0,195.1,Healthy,v1.0
+Asset_L,0.0002,0,197.2,Healthy,v1.0
+Asset_M,0.0,0,200.3,Healthy,v1.0
+Asset_M,0.0,0,192.1,Healthy,v1.0
+Asset_L,0.0,0,189.0,Healthy,v1.0
+Asset_M,0.0004,0,189.6,Healthy,v1.0
+Asset_L,0.0001,0,187.8,Healthy,v1.0
+Asset_L,0.0,0,183.0,Healthy,v1.0
+Asset_L,0.0,0,182.8,Healthy,v1.0
+Asset_L,0.0001,0,178.8,Healthy,v1.0
+Asset_L,0.0001,0,179.9,Healthy,v1.0
+Asset_H,0.0001,0,172.7,Healthy,v1.0
+Asset_M,0.0006,0,170.3,Healthy,v1.0
+Asset_H,0.0006,0,162.6,Healthy,v1.0
+Asset_L,0.0001,0,157.2,Healthy,v1.0
+Asset_L,0.0002,0,155.7,Healthy,v1.0
+Asset_M,0.0005,0,153.0,Healthy,v1.0
+Asset_L,0.0,0,155.0,Healthy,v1.0
+Asset_L,0.0001,0,150.2,Healthy,v1.0
+Asset_L,0.0001,0,147.6,Healthy,v1.0
+Asset_M,0.0004,0,148.0,Healthy,v1.0
+Asset_L,0.0001,0,149.4,Healthy,v1.0
+Asset_M,0.0001,0,143.1,Healthy,v1.0
+Asset_L,0.0001,0,140.6,Healthy,v1.0
+Asset_L,0.0002,0,134.7,Healthy,v1.0
+Asset_L,0.0,0,132.4,Healthy,v1.0
+Asset_L,0.0059,0,128.9,Healthy,v1.0
+Asset_M,0.0001,0,127.8,Healthy,v1.0
+Asset_L,0.0001,0,125.0,Healthy,v1.0
+Asset_L,0.0035,0,126.9,Healthy,v1.0
+Asset_L,0.0029,0,130.6,Healthy,v1.0
+Asset_L,0.0051,0,120.1,Healthy,v1.0
+Asset_L,0.0001,0,118.5,Healthy,v1.0
+Asset_M,0.0016,0,113.3,Healthy,v1.0
+Asset_L,0.0001,0,111.1,Healthy,v1.0
+Asset_M,0.0011,0,109.2,Healthy,v1.0
+Asset_L,0.0017,0,107.5,Healthy,v1.0
+Asset_L,0.0077,0,108.1,Healthy,v1.0
+Asset_L,0.0057,0,103.5,Healthy,v1.0
+Asset_H,0.0002,0,108.2,Healthy,v1.0
+Asset_L,0.0429,0,97.0,Monitor,v1.0
+Asset_M,0.0003,0,94.2,Monitor,v1.0
+Asset_L,0.0001,0,92.6,Monitor,v1.0
+Asset_L,0.0267,0,93.9,Monitor,v1.0
+Asset_M,0.0144,0,83.6,Monitor,v1.0
+Asset_L,0.0002,0,84.1,Monitor,v1.0
+Asset_L,0.0002,0,81.4,Monitor,v1.0
+Asset_L,0.0002,0,78.7,Monitor,v1.0
+Asset_M,0.0006,0,79.0,Monitor,v1.0
+Asset_L,0.0022,0,74.9,Monitor,v1.0
+Asset_M,0.002,0,73.5,Monitor,v1.0
+Asset_M,0.9998,1,60.4,Monitor,v1.0
+Asset_L,0.0001,0,66.1,Monitor,v1.0
+Asset_L,0.0011,0,62.5,Monitor,v1.0
+Asset_M,0.0005,0,64.4,Monitor,v1.0
+Asset_H,0.0001,0,60.3,Monitor,v1.0
+Asset_M,0.0005,0,51.9,Monitor,v1.0
+Asset_L,0.0014,0,48.4,Plan Maintenance,v1.0
+Asset_M,0.0006,0,48.3,Plan Maintenance,v1.0
+Asset_L,0.0004,0,46.1,Plan Maintenance,v1.0
+Asset_L,0.0006,0,42.1,Plan Maintenance,v1.0
+Asset_M,0.0016,0,40.7,Plan Maintenance,v1.0
+Asset_M,0.0021,0,37.4,Plan Maintenance,v1.0
+Asset_L,0.0066,0,35.2,Plan Maintenance,v1.0
+Asset_M,0.0191,0,35.1,Plan Maintenance,v1.0
+Asset_L,0.0352,0,28.1,Plan Maintenance,v1.0
+Asset_L,0.0067,0,27.5,Plan Maintenance,v1.0
+Asset_L,0.0005,0,28.8,Plan Maintenance,v1.0
+Asset_L,0.0001,0,29.1,Plan Maintenance,v1.0
+Asset_L,0.0002,0,30.4,Plan Maintenance,v1.0
+Asset_H,0.0078,0,24.9,Plan Maintenance,v1.0
+Asset_L,0.0033,0,23.2,Plan Maintenance,v1.0
+Asset_H,0.0379,0,21.1,Plan Maintenance,v1.0
+Asset_L,0.0826,0,13.3,Immediate Action,v1.0
+Asset_L,0.0052,0,11.1,Immediate Action,v1.0
+Asset_M,0.4175,1,10.2,Immediate Action,v1.0
+Asset_L,0.3866,1,11.0,Immediate Action,v1.0
+Asset_L,0.7419,1,11.0,Immediate Action,v1.0
+Asset_L,0.3217,1,11.7,Immediate Action,v1.0
+Asset_L,0.0,0,218.1,Healthy,v1.0
+Asset_L,0.0001,0,220.3,Healthy,v1.0
+Asset_L,0.0002,0,223.2,Healthy,v1.0
+Asset_M,0.0002,0,217.6,Healthy,v1.0
+Asset_L,0.0005,0,210.6,Healthy,v1.0
+Asset_L,0.0005,0,211.4,Healthy,v1.0
+Asset_L,0.0003,0,211.9,Healthy,v1.0
+Asset_L,0.0002,0,206.8,Healthy,v1.0
+Asset_L,0.0004,0,204.7,Healthy,v1.0
+Asset_H,0.0001,0,204.2,Healthy,v1.0
+Asset_L,0.0001,0,195.2,Healthy,v1.0
+Asset_M,0.0002,0,194.4,Healthy,v1.0
+Asset_L,0.0,0,194.9,Healthy,v1.0
+Asset_M,0.0001,0,192.6,Healthy,v1.0
+Asset_H,0.0,0,191.1,Healthy,v1.0
+Asset_L,0.0,0,184.5,Healthy,v1.0
+Asset_L,0.0001,0,184.8,Healthy,v1.0
+Asset_L,0.0005,0,182.0,Healthy,v1.0
+Asset_L,0.0001,0,178.8,Healthy,v1.0
+Asset_H,0.0001,0,177.7,Healthy,v1.0
+Asset_L,0.0005,0,168.5,Healthy,v1.0
+Asset_H,0.0001,0,171.8,Healthy,v1.0
+Asset_L,0.0001,0,165.8,Healthy,v1.0
+Asset_L,0.0002,0,164.7,Healthy,v1.0
+Asset_L,0.0001,0,164.2,Healthy,v1.0
+Asset_L,0.0001,0,157.1,Healthy,v1.0
+Asset_L,0.0001,0,152.8,Healthy,v1.0
+Asset_L,0.0001,0,159.1,Healthy,v1.0
+Asset_L,0.0,0,154.2,Healthy,v1.0
+Asset_L,0.0005,0,147.3,Healthy,v1.0
+Asset_L,0.0009,0,153.4,Healthy,v1.0
+Asset_M,0.0002,0,150.5,Healthy,v1.0
+Asset_M,0.0,0,149.3,Healthy,v1.0
+Asset_L,0.0008,0,142.1,Healthy,v1.0
+Asset_M,0.0,0,144.6,Healthy,v1.0
+Asset_M,0.0002,0,136.8,Healthy,v1.0
+Asset_L,0.0001,0,135.2,Healthy,v1.0
+Asset_L,0.0001,0,131.3,Healthy,v1.0
+Asset_M,0.0002,0,131.0,Healthy,v1.0
+Asset_L,0.0017,0,126.0,Healthy,v1.0
+Asset_H,0.0002,0,124.5,Healthy,v1.0
+Asset_M,0.0001,0,116.7,Healthy,v1.0
+Asset_H,0.0002,0,118.7,Healthy,v1.0
+Asset_M,0.0006,0,109.5,Healthy,v1.0
+Asset_M,0.0013,0,106.5,Healthy,v1.0
+Asset_L,0.0011,0,103.0,Healthy,v1.0
+Asset_M,0.0008,0,102.4,Healthy,v1.0
+Asset_L,0.0014,0,101.2,Healthy,v1.0
+Asset_L,0.0002,0,99.6,Monitor,v1.0
+Asset_L,0.0016,0,94.2,Monitor,v1.0
+Asset_L,0.0005,0,92.7,Monitor,v1.0
+Asset_L,0.0003,0,96.9,Monitor,v1.0
+Asset_L,0.0001,0,94.9,Monitor,v1.0
+Asset_L,0.0035,0,89.8,Monitor,v1.0
+Asset_H,0.0013,0,91.8,Monitor,v1.0
+Asset_L,0.001,0,81.8,Monitor,v1.0
+Asset_L,0.0001,0,82.9,Monitor,v1.0
+Asset_M,0.0001,0,82.4,Monitor,v1.0
+Asset_L,0.0001,0,73.6,Monitor,v1.0
+Asset_M,0.0002,0,74.9,Monitor,v1.0
+Asset_L,0.0002,0,75.7,Monitor,v1.0
+Asset_L,0.0001,0,69.7,Monitor,v1.0
+Asset_L,0.0002,0,69.1,Monitor,v1.0
+Asset_L,0.0,0,65.8,Monitor,v1.0
+Asset_M,0.0013,0,72.5,Monitor,v1.0
+Asset_H,0.0011,0,63.7,Monitor,v1.0
+Asset_M,0.0,0,52.1,Monitor,v1.0
+Asset_M,0.0079,0,54.7,Monitor,v1.0
+Asset_L,0.0001,0,46.5,Plan Maintenance,v1.0
+Asset_L,0.0002,0,42.9,Plan Maintenance,v1.0
+Asset_L,0.0001,0,45.8,Plan Maintenance,v1.0
+Asset_L,0.0013,0,43.5,Plan Maintenance,v1.0
+Asset_M,0.0003,0,45.1,Plan Maintenance,v1.0
+Asset_L,0.0002,0,38.7,Plan Maintenance,v1.0
+Asset_L,0.0001,0,34.4,Plan Maintenance,v1.0
+Asset_H,0.0001,0,30.1,Plan Maintenance,v1.0
+Asset_M,0.0001,0,29.9,Plan Maintenance,v1.0
+Asset_M,0.0002,0,28.3,Plan Maintenance,v1.0
+Asset_L,0.0001,0,31.5,Plan Maintenance,v1.0
+Asset_L,0.0003,0,17.9,Immediate Action,v1.0
+Asset_L,0.0011,0,25.1,Plan Maintenance,v1.0
+Asset_L,0.0,0,231.0,Healthy,v1.0
+Asset_L,0.0,0,228.8,Healthy,v1.0
+Asset_M,0.0,0,235.3,Healthy,v1.0
+Asset_L,0.0001,0,222.1,Healthy,v1.0
+Asset_M,0.0,0,226.2,Healthy,v1.0
+Asset_L,0.0,0,219.8,Healthy,v1.0
+Asset_L,0.0001,0,222.4,Healthy,v1.0
+Asset_H,0.0001,0,215.5,Healthy,v1.0
+Asset_M,0.0001,0,212.3,Healthy,v1.0
+Asset_M,0.0,0,209.9,Healthy,v1.0
+Asset_M,0.0,0,205.4,Healthy,v1.0
+Asset_L,0.0001,0,207.9,Healthy,v1.0
+Asset_M,0.0002,0,198.8,Healthy,v1.0
+Asset_L,0.0001,0,197.8,Healthy,v1.0
+Asset_L,0.0001,0,193.4,Healthy,v1.0
+Asset_L,0.0001,0,192.3,Healthy,v1.0
+Asset_L,0.0001,0,194.1,Healthy,v1.0
+Asset_M,0.0003,0,188.7,Healthy,v1.0
+Asset_L,0.0001,0,190.0,Healthy,v1.0
+Asset_L,0.0001,0,185.2,Healthy,v1.0
+Asset_L,0.0,0,181.9,Healthy,v1.0
+Asset_L,0.0001,0,177.8,Healthy,v1.0
+Asset_L,0.0001,0,176.9,Healthy,v1.0
+Asset_M,0.0001,0,182.4,Healthy,v1.0
+Asset_L,0.0001,0,172.1,Healthy,v1.0
+Asset_M,0.0001,0,173.9,Healthy,v1.0
+Asset_L,0.0001,0,168.8,Healthy,v1.0
+Asset_L,0.0,0,157.7,Healthy,v1.0
+Asset_L,0.0,0,154.4,Healthy,v1.0
+Asset_L,0.0,0,157.1,Healthy,v1.0
+Asset_L,0.0001,0,147.0,Healthy,v1.0
+Asset_L,0.0003,0,153.6,Healthy,v1.0
+Asset_L,0.0001,0,154.5,Healthy,v1.0
+Asset_M,0.0,0,155.2,Healthy,v1.0
+Asset_M,0.0,0,146.9,Healthy,v1.0
+Asset_L,0.0001,0,146.9,Healthy,v1.0
+Asset_L,0.0,0,143.1,Healthy,v1.0
+Asset_M,0.0,0,136.0,Healthy,v1.0
+Asset_L,0.0003,0,138.1,Healthy,v1.0
+Asset_H,0.0001,0,138.9,Healthy,v1.0
+Asset_H,0.0001,0,135.3,Healthy,v1.0
+Asset_L,0.0001,0,125.6,Healthy,v1.0
+Asset_M,0.0001,0,124.1,Healthy,v1.0
+Asset_L,0.0001,0,120.5,Healthy,v1.0
+Asset_L,0.0005,0,121.0,Healthy,v1.0
+Asset_L,0.0,0,116.7,Healthy,v1.0
+Asset_L,0.0001,0,115.2,Healthy,v1.0
+Asset_L,0.0001,0,113.8,Healthy,v1.0
+Asset_H,0.0001,0,116.7,Healthy,v1.0
+Asset_M,0.0001,0,112.0,Healthy,v1.0
+Asset_L,0.0,0,101.7,Healthy,v1.0
+Asset_L,0.0,0,106.3,Healthy,v1.0
+Asset_H,0.0004,0,96.7,Monitor,v1.0
+Asset_M,0.0003,0,93.5,Monitor,v1.0
+Asset_L,0.0005,0,90.1,Monitor,v1.0
+Asset_L,0.0001,0,85.5,Monitor,v1.0
+Asset_L,0.0,0,81.8,Monitor,v1.0
+Asset_L,0.0001,0,84.9,Monitor,v1.0
+Asset_L,0.0012,0,78.1,Monitor,v1.0
+Asset_L,0.001,0,74.6,Monitor,v1.0
+Asset_M,0.0001,0,68.6,Monitor,v1.0
+Asset_M,0.0002,0,73.1,Monitor,v1.0
+Asset_M,0.0008,0,70.7,Monitor,v1.0
+Asset_L,0.0006,0,70.1,Monitor,v1.0
+Asset_M,0.0001,0,73.8,Monitor,v1.0
+Asset_L,0.0014,0,65.2,Monitor,v1.0
+Asset_L,0.0001,0,64.8,Monitor,v1.0
+Asset_M,0.0003,0,60.2,Monitor,v1.0
+Asset_M,0.0004,0,54.6,Monitor,v1.0
+Asset_M,0.0007,0,55.2,Monitor,v1.0
+Asset_L,0.0006,0,50.6,Monitor,v1.0
+Asset_H,0.0022,0,46.9,Plan Maintenance,v1.0
+Asset_L,0.0001,0,44.5,Plan Maintenance,v1.0
+Asset_L,0.0001,0,40.2,Plan Maintenance,v1.0
+Asset_L,0.0003,0,41.7,Plan Maintenance,v1.0
+Asset_L,0.0006,0,34.8,Plan Maintenance,v1.0
+Asset_L,0.0044,0,31.5,Plan Maintenance,v1.0
+Asset_M,0.0035,0,28.7,Plan Maintenance,v1.0
+Asset_M,0.0002,0,29.1,Plan Maintenance,v1.0
+Asset_L,0.0003,0,24.5,Plan Maintenance,v1.0
+Asset_L,0.0002,0,21.5,Plan Maintenance,v1.0
+Asset_L,0.0001,0,219.0,Healthy,v1.0
+Asset_L,0.0001,0,220.6,Healthy,v1.0
+Asset_M,0.0001,0,220.0,Healthy,v1.0
+Asset_H,0.0001,0,216.5,Healthy,v1.0
+Asset_L,0.0001,0,213.1,Healthy,v1.0
+Asset_H,0.0001,0,212.9,Healthy,v1.0
+Asset_L,0.0001,0,209.8,Healthy,v1.0
+Asset_M,0.0001,0,209.8,Healthy,v1.0
+Asset_M,0.0003,0,206.5,Healthy,v1.0
+Asset_L,0.0002,0,197.8,Healthy,v1.0
+Asset_L,0.0002,0,200.9,Healthy,v1.0
+Asset_M,0.0004,0,198.7,Healthy,v1.0
+Asset_L,0.0002,0,195.1,Healthy,v1.0
+Asset_L,0.0002,0,184.3,Healthy,v1.0
+Asset_L,0.0002,0,186.2,Healthy,v1.0
+Asset_M,0.0002,0,181.8,Healthy,v1.0
+Asset_L,0.0005,0,179.1,Healthy,v1.0
+Asset_L,0.0001,0,179.4,Healthy,v1.0
+Asset_L,0.0002,0,176.4,Healthy,v1.0
+Asset_M,0.0011,0,173.8,Healthy,v1.0
+Asset_L,0.0003,0,169.1,Healthy,v1.0
+Asset_L,0.0004,0,168.5,Healthy,v1.0
+Asset_M,0.0001,0,167.6,Healthy,v1.0
+Asset_L,0.0001,0,167.6,Healthy,v1.0
+Asset_L,0.0004,0,169.7,Healthy,v1.0
+Asset_L,0.0001,0,163.6,Healthy,v1.0
+Asset_L,0.0005,0,160.8,Healthy,v1.0
+Asset_L,0.0001,0,165.6,Healthy,v1.0
+Asset_L,0.0003,0,155.7,Healthy,v1.0
+Asset_L,0.0,0,162.6,Healthy,v1.0
+Asset_L,0.0,0,158.2,Healthy,v1.0
+Asset_L,0.0001,0,149.2,Healthy,v1.0
+Asset_M,0.0003,0,144.1,Healthy,v1.0
+Asset_M,0.0,0,149.1,Healthy,v1.0
+Asset_L,0.0001,0,142.1,Healthy,v1.0
+Asset_M,0.0,0,142.9,Healthy,v1.0
+Asset_L,0.0002,0,133.5,Healthy,v1.0
+Asset_L,0.0,0,135.3,Healthy,v1.0
+Asset_M,0.0,0,130.4,Healthy,v1.0
+Asset_L,0.0,0,137.5,Healthy,v1.0
+Asset_M,0.0,0,136.0,Healthy,v1.0
+Asset_L,0.0001,0,129.4,Healthy,v1.0
+Asset_L,0.0001,0,122.4,Healthy,v1.0
+Asset_H,0.0001,0,124.4,Healthy,v1.0
+Asset_M,0.0003,0,123.1,Healthy,v1.0
+Asset_H,0.0006,0,114.9,Healthy,v1.0
+Asset_M,0.0001,0,111.3,Healthy,v1.0
+Asset_H,0.0003,0,112.7,Healthy,v1.0
+Asset_L,0.0002,0,103.6,Healthy,v1.0
+Asset_H,0.0001,0,103.1,Healthy,v1.0
+Asset_L,0.0001,0,100.6,Healthy,v1.0
+Asset_M,0.0002,0,100.2,Healthy,v1.0
+Asset_M,0.0001,0,94.4,Monitor,v1.0
+Asset_M,0.0002,0,90.2,Monitor,v1.0
+Asset_M,0.0001,0,85.2,Monitor,v1.0
+Asset_L,0.0003,0,81.1,Monitor,v1.0
+Asset_L,0.0001,0,79.8,Monitor,v1.0
+Asset_M,0.0002,0,75.1,Monitor,v1.0
+Asset_H,0.0001,0,73.1,Monitor,v1.0
+Asset_H,0.0005,0,66.1,Monitor,v1.0
+Asset_L,0.0001,0,62.5,Monitor,v1.0
+Asset_L,0.0001,0,57.4,Monitor,v1.0
+Asset_L,0.0003,0,56.8,Monitor,v1.0
+Asset_H,0.0004,0,51.7,Monitor,v1.0
+Asset_L,0.0002,0,56.1,Monitor,v1.0
+Asset_M,0.0001,0,45.7,Plan Maintenance,v1.0
+Asset_L,0.0004,0,47.5,Plan Maintenance,v1.0
+Asset_M,0.0002,0,43.3,Plan Maintenance,v1.0
+Asset_M,0.0002,0,34.3,Plan Maintenance,v1.0
+Asset_L,0.0001,0,41.2,Plan Maintenance,v1.0
+Asset_L,0.0002,0,33.7,Plan Maintenance,v1.0
+Asset_H,0.0003,0,37.0,Plan Maintenance,v1.0
+Asset_H,0.0002,0,24.7,Plan Maintenance,v1.0
+Asset_M,0.0766,0,33.8,Plan Maintenance,v1.0
+Asset_M,0.9799,1,19.0,Immediate Action,v1.0
+Asset_L,0.0001,0,232.5,Healthy,v1.0
+Asset_M,0.0001,0,230.3,Healthy,v1.0
+Asset_L,0.0,0,226.5,Healthy,v1.0
+Asset_L,0.0,0,227.6,Healthy,v1.0
+Asset_M,0.0001,0,227.0,Healthy,v1.0
+Asset_L,0.0,0,223.8,Healthy,v1.0
+Asset_L,0.0001,0,226.0,Healthy,v1.0
+Asset_M,0.0001,0,225.1,Healthy,v1.0
+Asset_L,0.0001,0,219.7,Healthy,v1.0
+Asset_M,0.0029,0,211.7,Healthy,v1.0
+Asset_L,0.0001,0,213.9,Healthy,v1.0
+Asset_L,0.0001,0,210.3,Healthy,v1.0
+Asset_L,0.0003,0,206.6,Healthy,v1.0
+Asset_M,0.0,0,207.5,Healthy,v1.0
+Asset_L,0.0001,0,203.7,Healthy,v1.0
+Asset_M,0.0001,0,201.7,Healthy,v1.0
+Asset_L,0.0001,0,197.5,Healthy,v1.0
+Asset_M,0.0001,0,194.1,Healthy,v1.0
+Asset_L,0.0003,0,188.7,Healthy,v1.0
+Asset_H,0.0001,0,182.0,Healthy,v1.0
+Asset_L,0.0001,0,178.2,Healthy,v1.0
+Asset_L,0.0004,0,169.9,Healthy,v1.0
+Asset_L,0.0001,0,173.0,Healthy,v1.0
+Asset_M,0.001,0,174.8,Healthy,v1.0
+Asset_M,0.0001,0,168.3,Healthy,v1.0
+Asset_M,0.0001,0,163.8,Healthy,v1.0
+Asset_H,0.0001,0,162.5,Healthy,v1.0
+Asset_L,0.0014,0,157.3,Healthy,v1.0
+Asset_H,0.0008,0,152.0,Healthy,v1.0
+Asset_M,0.0002,0,147.8,Healthy,v1.0
+Asset_M,0.0002,0,148.4,Healthy,v1.0
+Asset_L,0.0006,0,139.0,Healthy,v1.0
+Asset_L,0.0,0,147.3,Healthy,v1.0
+Asset_L,0.0001,0,142.0,Healthy,v1.0
+Asset_H,0.0,0,138.3,Healthy,v1.0
+Asset_L,0.0005,0,129.1,Healthy,v1.0
+Asset_M,0.0,0,135.9,Healthy,v1.0
+Asset_L,0.0001,0,133.1,Healthy,v1.0
+Asset_M,0.0001,0,129.0,Healthy,v1.0
+Asset_L,0.0001,0,122.2,Healthy,v1.0
+Asset_L,0.0002,0,127.4,Healthy,v1.0
+Asset_M,0.0,0,121.0,Healthy,v1.0
+Asset_M,0.001,0,112.6,Healthy,v1.0
+Asset_L,0.0002,0,111.3,Healthy,v1.0
+Asset_M,0.0011,0,113.7,Healthy,v1.0
+Asset_L,0.0,0,103.8,Healthy,v1.0
+Asset_L,0.0004,0,108.8,Healthy,v1.0
+Asset_M,0.0,0,113.4,Healthy,v1.0
+Asset_H,0.0001,0,107.4,Healthy,v1.0
+Asset_L,0.0001,0,104.1,Healthy,v1.0
+Asset_M,0.0001,0,100.8,Healthy,v1.0
+Asset_L,0.0,0,99.1,Monitor,v1.0
+Asset_M,0.0025,0,96.1,Monitor,v1.0
+Asset_M,0.0001,0,93.7,Monitor,v1.0
+Asset_L,0.0002,0,87.3,Monitor,v1.0
+Asset_H,0.0001,0,78.2,Monitor,v1.0
+Asset_M,0.0005,0,76.9,Monitor,v1.0
+Asset_L,0.0,0,70.2,Monitor,v1.0
+Asset_L,0.0002,0,71.2,Monitor,v1.0
+Asset_L,0.0,0,68.8,Monitor,v1.0
+Asset_M,0.0,0,68.1,Monitor,v1.0
+Asset_L,0.0,0,63.5,Monitor,v1.0
+Asset_L,0.0,0,56.9,Monitor,v1.0
+Asset_L,0.0002,0,59.6,Monitor,v1.0
+Asset_L,0.0007,0,57.1,Monitor,v1.0
+Asset_L,0.0001,0,57.0,Monitor,v1.0
+Asset_M,0.0001,0,53.5,Monitor,v1.0
+Asset_M,0.0001,0,47.6,Plan Maintenance,v1.0
+Asset_L,0.0003,0,47.6,Plan Maintenance,v1.0
+Asset_L,0.0189,0,37.0,Plan Maintenance,v1.0
+Asset_M,0.0003,0,40.3,Plan Maintenance,v1.0
+Asset_L,0.0003,0,36.8,Plan Maintenance,v1.0
+Asset_L,0.0055,0,39.9,Plan Maintenance,v1.0
+Asset_L,0.0002,0,27.9,Plan Maintenance,v1.0
+Asset_L,0.0004,0,32.2,Plan Maintenance,v1.0
+Asset_L,0.0004,0,34.5,Plan Maintenance,v1.0
+Asset_M,0.0012,0,36.3,Plan Maintenance,v1.0
+Asset_H,0.0003,0,21.8,Plan Maintenance,v1.0
+Asset_M,0.0007,0,22.0,Plan Maintenance,v1.0
+Asset_M,0.9976,1,17.8,Immediate Action,v1.0
+Asset_M,0.1511,1,14.0,Immediate Action,v1.0
+Asset_L,0.0364,0,8.8,Immediate Action,v1.0
+Asset_M,0.237,1,12.7,Immediate Action,v1.0
+Asset_L,0.0001,0,223.2,Healthy,v1.0
+Asset_L,0.0002,0,217.9,Healthy,v1.0
+Asset_L,0.0002,0,227.2,Healthy,v1.0
+Asset_M,0.0001,0,223.4,Healthy,v1.0
+Asset_L,0.0002,0,218.2,Healthy,v1.0
+Asset_L,0.0001,0,216.8,Healthy,v1.0
+Asset_L,0.0,0,201.4,Healthy,v1.0
+Asset_M,0.0002,0,204.7,Healthy,v1.0
+Asset_M,0.0002,0,209.2,Healthy,v1.0
+Asset_M,0.0006,0,207.4,Healthy,v1.0
+Asset_H,0.0013,0,186.4,Healthy,v1.0
+Asset_M,0.0002,0,193.3,Healthy,v1.0
+Asset_L,0.0019,0,187.1,Healthy,v1.0
+Asset_M,0.0008,0,192.9,Healthy,v1.0
+Asset_L,0.0001,0,185.9,Healthy,v1.0
+Asset_L,0.0,0,182.1,Healthy,v1.0
+Asset_M,0.0001,0,177.2,Healthy,v1.0
+Asset_M,0.0,0,176.2,Healthy,v1.0
+Asset_M,0.0,0,173.9,Healthy,v1.0
+Asset_L,0.0001,0,174.9,Healthy,v1.0
+Asset_L,0.0001,0,172.5,Healthy,v1.0
+Asset_L,0.0,0,170.5,Healthy,v1.0
+Asset_M,0.0,0,172.0,Healthy,v1.0
+Asset_L,0.0,0,163.4,Healthy,v1.0
+Asset_L,0.0001,0,162.8,Healthy,v1.0
+Asset_M,0.0008,0,155.9,Healthy,v1.0
+Asset_L,0.0015,0,157.1,Healthy,v1.0
+Asset_L,0.0019,0,152.7,Healthy,v1.0
+Asset_M,0.0004,0,153.0,Healthy,v1.0
+Asset_L,0.0002,0,147.5,Healthy,v1.0
+Asset_L,0.0001,0,148.2,Healthy,v1.0
+Asset_M,0.0001,0,148.1,Healthy,v1.0
+Asset_L,0.0002,0,144.7,Healthy,v1.0
+Asset_M,0.0003,0,139.7,Healthy,v1.0
+Asset_M,0.0001,0,136.6,Healthy,v1.0
+Asset_L,0.0,0,130.7,Healthy,v1.0
+Asset_L,0.0006,0,132.7,Healthy,v1.0
+Asset_L,0.0,0,127.3,Healthy,v1.0
+Asset_L,0.0065,0,121.5,Healthy,v1.0
+Asset_L,0.0048,0,129.7,Healthy,v1.0
+Asset_L,0.0,0,122.2,Healthy,v1.0
+Asset_L,0.0002,0,119.3,Healthy,v1.0
+Asset_M,0.0003,0,115.9,Healthy,v1.0
+Asset_L,0.0018,0,119.5,Healthy,v1.0
+Asset_L,0.0001,0,115.2,Healthy,v1.0
+Asset_H,0.0006,0,112.8,Healthy,v1.0
+Asset_L,0.0002,0,102.2,Healthy,v1.0
+Asset_M,0.0004,0,104.9,Healthy,v1.0
+Asset_L,0.0007,0,106.6,Healthy,v1.0
+Asset_M,0.0007,0,101.5,Healthy,v1.0
+Asset_L,0.0001,0,95.5,Monitor,v1.0
+Asset_L,0.0001,0,94.2,Monitor,v1.0
+Asset_L,0.0073,0,94.7,Monitor,v1.0
+Asset_M,0.0014,0,95.4,Monitor,v1.0
+Asset_L,0.468,1,94.5,Monitor,v1.0
+Asset_L,0.0004,0,86.0,Monitor,v1.0
+Asset_M,0.0019,0,89.7,Monitor,v1.0
+Asset_L,0.0003,0,83.2,Monitor,v1.0
+Asset_L,0.0011,0,80.1,Monitor,v1.0
+Asset_L,0.0095,0,84.2,Monitor,v1.0
+Asset_L,0.0002,0,76.7,Monitor,v1.0
+Asset_M,0.0073,0,75.4,Monitor,v1.0
+Asset_H,0.0003,0,70.4,Monitor,v1.0
+Asset_M,0.0012,0,63.8,Monitor,v1.0
+Asset_M,0.0008,0,53.3,Monitor,v1.0
+Asset_L,0.0001,0,62.9,Monitor,v1.0
+Asset_L,0.0003,0,57.3,Monitor,v1.0
+Asset_M,0.0002,0,56.4,Monitor,v1.0
+Asset_L,0.0001,0,53.2,Monitor,v1.0
+Asset_L,0.0001,0,52.1,Monitor,v1.0
+Asset_L,0.0005,0,55.2,Monitor,v1.0
+Asset_L,0.0001,0,58.1,Monitor,v1.0
+Asset_L,0.0007,0,45.9,Plan Maintenance,v1.0
+Asset_L,0.0022,0,40.1,Plan Maintenance,v1.0
+Asset_M,0.0004,0,35.5,Plan Maintenance,v1.0
+Asset_L,0.043,0,37.8,Plan Maintenance,v1.0
+Asset_L,0.0005,0,40.0,Plan Maintenance,v1.0
+Asset_L,0.0069,0,32.6,Plan Maintenance,v1.0
+Asset_M,0.0007,0,39.1,Plan Maintenance,v1.0
+Asset_L,0.0013,0,26.3,Plan Maintenance,v1.0
+Asset_L,0.0013,0,31.3,Plan Maintenance,v1.0
+Asset_M,0.0011,0,28.1,Plan Maintenance,v1.0
+Asset_L,0.0034,0,30.4,Plan Maintenance,v1.0
+Asset_H,0.0014,0,24.3,Plan Maintenance,v1.0
+Asset_M,0.9985,1,18.6,Immediate Action,v1.0
+Asset_L,0.1594,1,16.9,Immediate Action,v1.0
+Asset_L,0.9697,1,14.8,Immediate Action,v1.0
+Asset_M,0.8864,1,16.9,Immediate Action,v1.0
+Asset_L,0.8062,1,14.9,Immediate Action,v1.0
+Asset_L,0.0001,0,213.4,Healthy,v1.0
+Asset_L,0.0,0,212.7,Healthy,v1.0
+Asset_M,0.0,0,213.5,Healthy,v1.0
+Asset_L,0.0,0,220.2,Healthy,v1.0
+Asset_L,0.0001,0,214.3,Healthy,v1.0
+Asset_L,0.0005,0,213.4,Healthy,v1.0
+Asset_L,0.0002,0,205.0,Healthy,v1.0
+Asset_M,0.0002,0,203.8,Healthy,v1.0
+Asset_M,0.0002,0,210.8,Healthy,v1.0
+Asset_L,0.0001,0,203.4,Healthy,v1.0
+Asset_L,0.0001,0,202.6,Healthy,v1.0
+Asset_M,0.0002,0,196.2,Healthy,v1.0
+Asset_H,0.0001,0,196.8,Healthy,v1.0
+Asset_L,0.0001,0,185.4,Healthy,v1.0
+Asset_L,0.0,0,184.6,Healthy,v1.0
+Asset_H,0.0001,0,184.1,Healthy,v1.0
+Asset_M,0.0002,0,178.9,Healthy,v1.0
+Asset_L,0.0001,0,179.9,Healthy,v1.0
+Asset_L,0.0002,0,176.3,Healthy,v1.0
+Asset_L,0.0018,0,178.7,Healthy,v1.0
+Asset_M,0.0004,0,176.2,Healthy,v1.0
+Asset_L,0.0001,0,172.6,Healthy,v1.0
+Asset_L,0.0014,0,172.6,Healthy,v1.0
+Asset_M,0.0002,0,167.5,Healthy,v1.0
+Asset_L,0.0001,0,170.7,Healthy,v1.0
+Asset_L,0.0001,0,166.5,Healthy,v1.0
+Asset_L,0.0001,0,158.4,Healthy,v1.0
+Asset_L,0.0002,0,152.7,Healthy,v1.0
+Asset_L,0.0001,0,160.4,Healthy,v1.0
+Asset_M,0.001,0,160.5,Healthy,v1.0
+Asset_L,0.0,0,153.7,Healthy,v1.0
+Asset_M,0.0001,0,152.0,Healthy,v1.0
+Asset_L,0.0003,0,149.8,Healthy,v1.0
+Asset_M,0.0004,0,141.8,Healthy,v1.0
+Asset_M,0.0001,0,142.0,Healthy,v1.0
+Asset_M,0.0001,0,141.3,Healthy,v1.0
+Asset_H,0.0006,0,130.6,Healthy,v1.0
+Asset_L,0.0001,0,132.4,Healthy,v1.0
+Asset_M,0.0005,0,130.5,Healthy,v1.0
+Asset_M,0.0001,0,125.4,Healthy,v1.0
+Asset_L,0.0002,0,124.0,Healthy,v1.0
+Asset_H,0.0001,0,123.1,Healthy,v1.0
+Asset_M,0.0001,0,115.8,Healthy,v1.0
+Asset_L,0.0,0,113.9,Healthy,v1.0
+Asset_L,0.0001,0,116.0,Healthy,v1.0
+Asset_L,0.0001,0,110.8,Healthy,v1.0
+Asset_H,0.0008,0,106.1,Healthy,v1.0
+Asset_L,0.0007,0,105.6,Healthy,v1.0
+Asset_L,0.0002,0,99.6,Monitor,v1.0
+Asset_H,0.0004,0,98.4,Monitor,v1.0
+Asset_M,0.0006,0,92.4,Monitor,v1.0
+Asset_L,0.0006,0,94.3,Monitor,v1.0
+Asset_L,0.0003,0,90.2,Monitor,v1.0
+Asset_H,0.0003,0,77.1,Monitor,v1.0
+Asset_L,0.0003,0,77.5,Monitor,v1.0
+Asset_M,0.0,0,77.4,Monitor,v1.0
+Asset_L,0.0,0,72.3,Monitor,v1.0
+Asset_L,0.0001,0,72.1,Monitor,v1.0
+Asset_L,0.0013,0,65.0,Monitor,v1.0
+Asset_L,0.0002,0,63.8,Monitor,v1.0
+Asset_H,0.0001,0,59.2,Monitor,v1.0
+Asset_L,0.0147,0,55.7,Monitor,v1.0
+Asset_L,0.0004,0,57.2,Monitor,v1.0
+Asset_L,0.0059,0,56.5,Monitor,v1.0
+Asset_M,0.0002,0,51.0,Monitor,v1.0
+Asset_L,1.0,1,41.8,Plan Maintenance,v1.0
+Asset_H,0.003,0,56.1,Monitor,v1.0
+Asset_L,0.0011,0,46.1,Plan Maintenance,v1.0
+Asset_L,0.001,0,39.3,Plan Maintenance,v1.0
+Asset_M,0.0003,0,40.6,Plan Maintenance,v1.0
+Asset_L,0.0053,0,35.1,Plan Maintenance,v1.0
+Asset_M,0.0019,0,36.2,Plan Maintenance,v1.0
+Asset_M,0.0006,0,30.9,Plan Maintenance,v1.0
+Asset_L,0.0004,0,26.5,Plan Maintenance,v1.0
+Asset_M,0.0007,0,24.2,Plan Maintenance,v1.0
+Asset_M,0.336,1,27.3,Plan Maintenance,v1.0
+Asset_L,0.0033,0,19.0,Immediate Action,v1.0
+Asset_L,0.001,0,21.2,Plan Maintenance,v1.0
+Asset_L,0.007,0,19.7,Immediate Action,v1.0
+Asset_L,0.0,0,221.2,Healthy,v1.0
+Asset_H,0.0,0,227.5,Healthy,v1.0
+Asset_L,0.0,0,223.2,Healthy,v1.0
+Asset_H,0.0001,0,208.7,Healthy,v1.0
+Asset_L,0.0001,0,207.3,Healthy,v1.0
+Asset_L,0.0,0,214.8,Healthy,v1.0
+Asset_M,0.0,0,204.5,Healthy,v1.0
+Asset_M,0.0002,0,205.5,Healthy,v1.0
+Asset_L,0.0001,0,192.9,Healthy,v1.0
+Asset_M,0.0004,0,197.2,Healthy,v1.0
+Asset_M,0.0002,0,197.5,Healthy,v1.0
+Asset_L,0.0001,0,202.9,Healthy,v1.0
+Asset_M,0.0005,0,189.2,Healthy,v1.0
+Asset_L,0.0003,0,189.3,Healthy,v1.0
+Asset_M,0.0001,0,184.0,Healthy,v1.0
+Asset_L,0.0001,0,175.4,Healthy,v1.0
+Asset_L,0.0002,0,182.4,Healthy,v1.0
+Asset_M,0.0006,0,176.4,Healthy,v1.0
+Asset_H,0.0002,0,176.5,Healthy,v1.0
+Asset_M,0.0003,0,171.4,Healthy,v1.0
+Asset_L,0.0001,0,170.2,Healthy,v1.0
+Asset_M,0.0002,0,163.9,Healthy,v1.0
+Asset_L,0.0001,0,165.8,Healthy,v1.0
+Asset_L,0.0004,0,163.8,Healthy,v1.0
+Asset_L,0.0,0,155.3,Healthy,v1.0
+Asset_L,0.0001,0,160.8,Healthy,v1.0
+Asset_L,0.001,0,156.3,Healthy,v1.0
+Asset_L,0.0001,0,153.1,Healthy,v1.0
+Asset_L,0.0001,0,156.2,Healthy,v1.0
+Asset_L,0.0005,0,149.1,Healthy,v1.0
+Asset_M,0.0003,0,150.5,Healthy,v1.0
+Asset_L,0.0005,0,143.5,Healthy,v1.0
+Asset_L,0.0001,0,142.4,Healthy,v1.0
+Asset_H,0.0004,0,142.1,Healthy,v1.0
+Asset_M,0.0001,0,130.7,Healthy,v1.0
+Asset_L,0.0002,0,130.2,Healthy,v1.0
+Asset_L,0.0,0,130.4,Healthy,v1.0
+Asset_H,0.0019,0,126.3,Healthy,v1.0
+Asset_L,0.0005,0,117.3,Healthy,v1.0
+Asset_L,0.0005,0,116.7,Healthy,v1.0
+Asset_L,0.0001,0,116.2,Healthy,v1.0
+Asset_L,0.0001,0,115.2,Healthy,v1.0
+Asset_L,0.0001,0,117.4,Healthy,v1.0
+Asset_L,0.0002,0,113.0,Healthy,v1.0
+Asset_L,0.0009,0,108.2,Healthy,v1.0
+Asset_L,0.0001,0,108.5,Healthy,v1.0
+Asset_M,0.0003,0,109.6,Healthy,v1.0
+Asset_L,0.0001,0,101.7,Healthy,v1.0
+Asset_L,0.0001,0,102.9,Healthy,v1.0
+Asset_L,0.0011,0,99.4,Monitor,v1.0
+Asset_L,0.0003,0,99.0,Monitor,v1.0
+Asset_M,0.0017,0,95.1,Monitor,v1.0
+Asset_M,0.0007,0,96.9,Monitor,v1.0
+Asset_L,0.0,0,83.7,Monitor,v1.0
+Asset_L,0.0004,0,90.1,Monitor,v1.0
+Asset_L,0.0002,0,88.7,Monitor,v1.0
+Asset_L,0.0001,0,84.0,Monitor,v1.0
+Asset_L,0.001,0,83.3,Monitor,v1.0
+Asset_M,0.001,0,76.7,Monitor,v1.0
+Asset_L,0.0003,0,76.4,Monitor,v1.0
+Asset_H,0.0002,0,70.9,Monitor,v1.0
+Asset_M,0.0002,0,70.5,Monitor,v1.0
+Asset_H,0.002,0,61.8,Monitor,v1.0
+Asset_M,0.0011,0,61.2,Monitor,v1.0
+Asset_M,0.0001,0,59.2,Monitor,v1.0
+Asset_L,0.0004,0,52.1,Monitor,v1.0
+Asset_L,0.0137,0,49.3,Plan Maintenance,v1.0
+Asset_L,0.0331,0,44.9,Plan Maintenance,v1.0
+Asset_M,0.0026,0,45.9,Plan Maintenance,v1.0
+Asset_M,0.0003,0,43.0,Plan Maintenance,v1.0
+Asset_H,0.0008,0,42.7,Plan Maintenance,v1.0
+Asset_L,0.0021,0,33.7,Plan Maintenance,v1.0
+Asset_L,0.0005,0,33.8,Plan Maintenance,v1.0
+Asset_M,0.002,0,26.6,Plan Maintenance,v1.0
+Asset_L,0.0009,0,27.3,Plan Maintenance,v1.0
+Asset_H,0.0004,0,19.8,Immediate Action,v1.0
+Asset_L,0.0018,0,16.9,Immediate Action,v1.0
+Asset_L,0.9998,1,224.3,Healthy,v1.0
+Asset_L,0.0001,0,227.9,Healthy,v1.0
+Asset_L,0.0,0,231.5,Healthy,v1.0
+Asset_L,0.0005,0,231.4,Healthy,v1.0
+Asset_H,0.0001,0,227.2,Healthy,v1.0
+Asset_L,0.0001,0,225.4,Healthy,v1.0
+Asset_L,0.0,0,223.3,Healthy,v1.0
+Asset_M,0.0001,0,221.9,Healthy,v1.0
+Asset_L,0.0,0,216.1,Healthy,v1.0
+Asset_L,0.0001,0,214.8,Healthy,v1.0
+Asset_L,0.0001,0,206.9,Healthy,v1.0
+Asset_L,0.0001,0,207.4,Healthy,v1.0
+Asset_L,0.0004,0,202.6,Healthy,v1.0
+Asset_L,0.0001,0,199.4,Healthy,v1.0
+Asset_L,0.0,0,203.8,Healthy,v1.0
+Asset_M,0.0001,0,193.8,Healthy,v1.0
+Asset_M,0.0004,0,185.9,Healthy,v1.0
+Asset_L,0.0001,0,186.4,Healthy,v1.0
+Asset_M,0.0001,0,182.3,Healthy,v1.0
+Asset_L,0.0001,0,180.2,Healthy,v1.0
+Asset_L,0.0,0,181.5,Healthy,v1.0
+Asset_L,0.0,0,174.4,Healthy,v1.0
+Asset_M,0.0,0,174.4,Healthy,v1.0
+Asset_M,0.0,0,171.0,Healthy,v1.0
+Asset_L,0.0,0,166.6,Healthy,v1.0
+Asset_M,0.0,0,163.2,Healthy,v1.0
+Asset_L,0.0,0,162.9,Healthy,v1.0
+Asset_L,0.0001,0,160.8,Healthy,v1.0
+Asset_L,0.0001,0,156.8,Healthy,v1.0
+Asset_L,0.0001,0,157.1,Healthy,v1.0
+Asset_L,0.0001,0,153.1,Healthy,v1.0
+Asset_M,0.0001,0,148.8,Healthy,v1.0
+Asset_L,0.0008,0,151.7,Healthy,v1.0
+Asset_L,0.0,0,152.5,Healthy,v1.0
+Asset_M,0.0007,0,146.1,Healthy,v1.0
+Asset_M,0.0014,0,141.3,Healthy,v1.0
+Asset_M,0.0013,0,140.9,Healthy,v1.0
+Asset_L,0.0007,0,128.9,Healthy,v1.0
+Asset_L,0.0004,0,131.9,Healthy,v1.0
+Asset_L,0.0,0,128.7,Healthy,v1.0
+Asset_L,0.0001,0,126.0,Healthy,v1.0
+Asset_H,0.0002,0,130.7,Healthy,v1.0
+Asset_L,0.0042,0,122.5,Healthy,v1.0
+Asset_L,0.0002,0,124.3,Healthy,v1.0
+Asset_M,0.0005,0,119.3,Healthy,v1.0
+Asset_L,0.0004,0,113.5,Healthy,v1.0
+Asset_M,0.0005,0,114.1,Healthy,v1.0
+Asset_M,0.0,0,111.6,Healthy,v1.0
+Asset_L,0.0001,0,105.8,Healthy,v1.0
+Asset_L,0.0001,0,102.3,Healthy,v1.0
+Asset_L,0.0002,0,107.7,Healthy,v1.0
+Asset_L,0.0002,0,103.9,Healthy,v1.0
+Asset_L,0.0001,0,98.9,Monitor,v1.0
+Asset_M,0.0001,0,95.2,Monitor,v1.0
+Asset_M,0.0007,0,91.7,Monitor,v1.0
+Asset_L,0.0024,0,94.2,Monitor,v1.0
+Asset_L,0.0001,0,89.3,Monitor,v1.0
+Asset_L,0.0017,0,90.7,Monitor,v1.0
+Asset_L,0.0005,0,88.5,Monitor,v1.0
+Asset_L,0.0048,0,74.8,Monitor,v1.0
+Asset_M,0.0006,0,80.3,Monitor,v1.0
+Asset_L,0.0006,0,76.2,Monitor,v1.0
+Asset_M,0.0889,0,75.1,Monitor,v1.0
+Asset_M,0.0002,0,67.5,Monitor,v1.0
+Asset_H,0.014,0,69.3,Monitor,v1.0
+Asset_M,0.0028,0,63.8,Monitor,v1.0
+Asset_L,0.0617,0,60.5,Monitor,v1.0
+Asset_M,0.0321,0,57.7,Monitor,v1.0
+Asset_L,0.0021,0,56.8,Monitor,v1.0
+Asset_L,0.0073,0,51.8,Monitor,v1.0
+Asset_L,0.0036,0,47.2,Plan Maintenance,v1.0
+Asset_L,0.0043,0,46.0,Plan Maintenance,v1.0
+Asset_L,0.0011,0,46.1,Plan Maintenance,v1.0
+Asset_M,0.0001,0,48.4,Plan Maintenance,v1.0
+Asset_L,0.0036,0,43.2,Plan Maintenance,v1.0
+Asset_H,0.0291,0,39.2,Plan Maintenance,v1.0
+Asset_M,0.0019,0,36.0,Plan Maintenance,v1.0
+Asset_M,0.0002,0,33.1,Plan Maintenance,v1.0
+Asset_M,0.0001,0,35.2,Plan Maintenance,v1.0
+Asset_L,0.0035,0,28.2,Plan Maintenance,v1.0
+Asset_L,0.0013,0,28.0,Plan Maintenance,v1.0
+Asset_L,0.0003,0,26.8,Plan Maintenance,v1.0
+Asset_M,0.2693,1,33.1,Plan Maintenance,v1.0
+Asset_H,0.0002,0,223.7,Healthy,v1.0
+Asset_M,0.0001,0,212.4,Healthy,v1.0
+Asset_L,0.0009,0,212.3,Healthy,v1.0
+Asset_H,0.0001,0,215.6,Healthy,v1.0
+Asset_M,0.0002,0,208.4,Healthy,v1.0
+Asset_L,0.0,0,208.1,Healthy,v1.0
+Asset_M,0.0001,0,206.5,Healthy,v1.0
+Asset_M,0.0002,0,202.4,Healthy,v1.0
+Asset_L,0.0002,0,196.9,Healthy,v1.0
+Asset_L,0.0014,0,193.2,Healthy,v1.0
+Asset_L,0.0002,0,190.2,Healthy,v1.0
+Asset_L,0.0024,0,197.2,Healthy,v1.0
+Asset_L,0.0022,0,186.4,Healthy,v1.0
+Asset_L,0.0001,0,189.1,Healthy,v1.0
+Asset_L,0.0004,0,182.3,Healthy,v1.0
+Asset_H,0.0001,0,182.4,Healthy,v1.0
+Asset_L,0.0026,0,177.2,Healthy,v1.0
+Asset_L,0.0003,0,175.5,Healthy,v1.0
+Asset_L,0.0002,0,175.7,Healthy,v1.0
+Asset_L,0.0018,0,169.8,Healthy,v1.0
+Asset_H,0.0,0,169.2,Healthy,v1.0
+Asset_M,0.0001,0,166.9,Healthy,v1.0
+Asset_H,0.0,0,165.9,Healthy,v1.0
+Asset_L,0.0003,0,159.8,Healthy,v1.0
+Asset_M,0.0003,0,157.3,Healthy,v1.0
+Asset_M,0.0003,0,151.7,Healthy,v1.0
+Asset_L,0.0003,0,148.7,Healthy,v1.0
+Asset_M,0.0013,0,148.7,Healthy,v1.0
+Asset_L,0.0002,0,147.0,Healthy,v1.0
+Asset_L,0.0011,0,140.2,Healthy,v1.0
+Asset_L,0.0113,0,141.4,Healthy,v1.0
+Asset_L,0.0029,0,141.6,Healthy,v1.0
+Asset_L,0.0013,0,136.9,Healthy,v1.0
+Asset_L,0.0029,0,126.5,Healthy,v1.0
+Asset_L,0.0003,0,125.0,Healthy,v1.0
+Asset_L,0.0,0,125.3,Healthy,v1.0
+Asset_L,0.0001,0,127.0,Healthy,v1.0
+Asset_M,0.0029,0,120.7,Healthy,v1.0
+Asset_H,0.0001,0,123.1,Healthy,v1.0
+Asset_M,0.0001,0,116.2,Healthy,v1.0
+Asset_L,0.0005,0,109.7,Healthy,v1.0
+Asset_M,0.0004,0,109.6,Healthy,v1.0
+Asset_L,0.0003,0,108.4,Healthy,v1.0
+Asset_M,0.0018,0,106.6,Healthy,v1.0
+Asset_M,0.0007,0,106.3,Healthy,v1.0
+Asset_L,0.0002,0,99.2,Monitor,v1.0
+Asset_L,0.0,0,98.4,Monitor,v1.0
+Asset_H,0.0045,0,95.1,Monitor,v1.0
+Asset_M,0.0082,0,92.1,Monitor,v1.0
+Asset_L,0.0021,0,90.5,Monitor,v1.0
+Asset_L,0.0039,0,89.9,Monitor,v1.0
+Asset_L,0.0002,0,88.1,Monitor,v1.0
+Asset_L,0.0001,0,87.0,Monitor,v1.0
+Asset_L,0.0001,0,76.9,Monitor,v1.0
+Asset_H,0.0002,0,78.4,Monitor,v1.0
+Asset_L,0.0008,0,72.7,Monitor,v1.0
+Asset_M,0.0002,0,71.8,Monitor,v1.0
+Asset_L,0.0001,0,69.8,Monitor,v1.0
+Asset_H,0.0002,0,65.0,Monitor,v1.0
+Asset_L,0.0002,0,62.9,Monitor,v1.0
+Asset_L,0.0005,0,65.9,Monitor,v1.0
+Asset_L,0.0058,0,57.9,Monitor,v1.0
+Asset_L,0.0001,0,60.2,Monitor,v1.0
+Asset_L,0.0092,0,61.3,Monitor,v1.0
+Asset_M,0.0002,0,53.0,Monitor,v1.0
+Asset_L,0.0002,0,58.4,Monitor,v1.0
+Asset_L,0.0002,0,52.0,Monitor,v1.0
+Asset_M,0.0001,0,49.2,Plan Maintenance,v1.0
+Asset_L,0.0049,0,43.9,Plan Maintenance,v1.0
+Asset_L,0.002,0,43.0,Plan Maintenance,v1.0
+Asset_H,0.0936,0,37.6,Plan Maintenance,v1.0
+Asset_L,0.0002,0,40.4,Plan Maintenance,v1.0
+Asset_M,0.0007,0,32.6,Plan Maintenance,v1.0
+Asset_L,0.0001,0,24.9,Plan Maintenance,v1.0
+Asset_M,0.0282,0,25.6,Plan Maintenance,v1.0
+Asset_L,0.0003,0,21.2,Plan Maintenance,v1.0
+Asset_L,0.0064,0,20.4,Plan Maintenance,v1.0
+Asset_L,0.0015,0,19.6,Immediate Action,v1.0
+Asset_L,0.0023,0,18.0,Immediate Action,v1.0
+Asset_H,0.0023,0,15.1,Immediate Action,v1.0
+Asset_H,0.0159,0,8.4,Immediate Action,v1.0
+Asset_L,0.0644,0,5.8,Immediate Action,v1.0
+Asset_H,0.0001,0,219.4,Healthy,v1.0
+Asset_M,0.0045,0,219.1,Healthy,v1.0
+Asset_H,0.0003,0,210.9,Healthy,v1.0
+Asset_M,0.0002,0,206.1,Healthy,v1.0
+Asset_L,0.0001,0,203.4,Healthy,v1.0
+Asset_L,0.0003,0,201.4,Healthy,v1.0
+Asset_M,0.0,0,201.7,Healthy,v1.0
+Asset_M,0.0,0,202.2,Healthy,v1.0
+Asset_L,0.0003,0,192.5,Healthy,v1.0
+Asset_M,0.0,0,191.6,Healthy,v1.0
+Asset_L,0.0001,0,192.5,Healthy,v1.0
+Asset_L,0.0001,0,189.1,Healthy,v1.0
+Asset_L,0.0001,0,185.4,Healthy,v1.0
+Asset_L,0.0003,0,188.6,Healthy,v1.0
+Asset_M,0.0002,0,184.7,Healthy,v1.0
+Asset_L,0.0003,0,178.1,Healthy,v1.0
+Asset_L,0.0004,0,177.4,Healthy,v1.0
+Asset_M,0.0001,0,181.4,Healthy,v1.0
+Asset_L,0.0004,0,173.0,Healthy,v1.0
+Asset_M,0.0005,0,174.8,Healthy,v1.0
+Asset_L,0.0,0,171.1,Healthy,v1.0
+Asset_L,0.0002,0,168.4,Healthy,v1.0
+Asset_M,0.0003,0,162.7,Healthy,v1.0
+Asset_L,0.0001,0,159.8,Healthy,v1.0
+Asset_L,0.0006,0,159.6,Healthy,v1.0
+Asset_M,0.0017,0,161.5,Healthy,v1.0
+Asset_L,0.0007,0,146.5,Healthy,v1.0
+Asset_L,0.0001,0,151.7,Healthy,v1.0
+Asset_L,0.0,0,150.4,Healthy,v1.0
+Asset_M,0.0,0,149.0,Healthy,v1.0
+Asset_H,0.0049,0,148.2,Healthy,v1.0
+Asset_L,0.0001,0,140.2,Healthy,v1.0
+Asset_L,0.0,0,142.2,Healthy,v1.0
+Asset_L,0.0003,0,138.8,Healthy,v1.0
+Asset_M,0.0003,0,132.7,Healthy,v1.0
+Asset_H,0.0004,0,130.3,Healthy,v1.0
+Asset_H,0.0022,0,126.0,Healthy,v1.0
+Asset_H,0.0,0,118.5,Healthy,v1.0
+Asset_L,0.0006,0,112.8,Healthy,v1.0
+Asset_L,0.0136,0,114.4,Healthy,v1.0
+Asset_L,0.0128,0,108.5,Healthy,v1.0
+Asset_M,0.0,0,106.7,Healthy,v1.0
+Asset_L,0.0003,0,107.0,Healthy,v1.0
+Asset_H,0.0,0,107.7,Healthy,v1.0
+Asset_M,0.0256,0,102.1,Healthy,v1.0
+Asset_M,0.0002,0,95.3,Monitor,v1.0
+Asset_M,0.0018,0,85.2,Monitor,v1.0
+Asset_H,0.0037,0,96.6,Monitor,v1.0
+Asset_M,0.0,0,84.8,Monitor,v1.0
+Asset_L,0.0098,0,88.1,Monitor,v1.0
+Asset_M,0.0001,0,81.1,Monitor,v1.0
+Asset_H,0.0003,0,76.7,Monitor,v1.0
+Asset_L,0.0052,0,78.3,Monitor,v1.0
+Asset_H,0.0002,0,69.4,Monitor,v1.0
+Asset_L,0.0019,0,69.1,Monitor,v1.0
+Asset_L,0.0001,0,59.1,Monitor,v1.0
+Asset_L,0.0022,0,63.4,Monitor,v1.0
+Asset_M,0.0145,0,63.0,Monitor,v1.0
+Asset_H,0.0001,0,55.4,Monitor,v1.0
+Asset_L,0.0008,0,45.9,Plan Maintenance,v1.0
+Asset_L,0.0009,0,44.8,Plan Maintenance,v1.0
+Asset_M,0.0023,0,44.0,Plan Maintenance,v1.0
+Asset_L,0.0056,0,40.0,Plan Maintenance,v1.0
+Asset_L,0.0239,0,38.0,Plan Maintenance,v1.0
+Asset_L,0.0015,0,36.7,Plan Maintenance,v1.0
+Asset_M,0.0016,0,36.0,Plan Maintenance,v1.0
+Asset_M,0.0475,0,37.3,Plan Maintenance,v1.0
+Asset_L,0.0037,0,33.0,Plan Maintenance,v1.0
+Asset_H,0.0016,0,31.1,Plan Maintenance,v1.0
+Asset_L,0.0248,0,24.2,Plan Maintenance,v1.0
+Asset_M,0.0031,0,24.2,Plan Maintenance,v1.0
+Asset_L,0.0255,0,23.9,Plan Maintenance,v1.0
+Asset_L,0.0209,0,18.4,Immediate Action,v1.0
+Asset_L,0.0912,0,15.7,Immediate Action,v1.0
+Asset_L,0.8553,1,13.2,Immediate Action,v1.0
+Asset_M,0.0011,0,219.6,Healthy,v1.0
+Asset_M,0.0003,0,218.4,Healthy,v1.0
+Asset_H,0.0,0,214.5,Healthy,v1.0
+Asset_L,0.0004,0,214.4,Healthy,v1.0
+Asset_L,0.0001,0,213.7,Healthy,v1.0
+Asset_L,0.0,0,207.7,Healthy,v1.0
+Asset_M,0.0004,0,205.9,Healthy,v1.0
+Asset_L,0.0003,0,203.6,Healthy,v1.0
+Asset_L,0.0003,0,204.6,Healthy,v1.0
+Asset_M,0.0001,0,193.3,Healthy,v1.0
+Asset_M,0.001,0,195.4,Healthy,v1.0
+Asset_L,0.0005,0,199.5,Healthy,v1.0
+Asset_L,0.0,0,195.6,Healthy,v1.0
+Asset_H,0.0,0,189.6,Healthy,v1.0
+Asset_L,0.0,0,183.7,Healthy,v1.0
+Asset_L,0.0002,0,183.1,Healthy,v1.0
+Asset_L,0.0014,0,179.2,Healthy,v1.0
+Asset_L,0.0001,0,180.8,Healthy,v1.0
+Asset_M,0.0024,0,175.6,Healthy,v1.0
+Asset_L,0.0002,0,170.2,Healthy,v1.0
+Asset_L,0.0038,0,169.4,Healthy,v1.0
+Asset_L,0.0,0,171.2,Healthy,v1.0
+Asset_M,0.0,0,169.8,Healthy,v1.0
+Asset_M,0.0022,0,161.7,Healthy,v1.0
+Asset_M,0.0031,0,157.3,Healthy,v1.0
+Asset_M,0.0207,0,159.4,Healthy,v1.0
+Asset_L,0.0001,0,153.3,Healthy,v1.0
+Asset_M,0.003,0,153.6,Healthy,v1.0
+Asset_H,0.0011,0,147.0,Healthy,v1.0
+Asset_L,0.0009,0,143.9,Healthy,v1.0
+Asset_M,0.0003,0,145.8,Healthy,v1.0
+Asset_H,0.0021,0,139.5,Healthy,v1.0
+Asset_M,0.0005,0,129.5,Healthy,v1.0
+Asset_L,0.0013,0,127.3,Healthy,v1.0
+Asset_M,0.0004,0,122.5,Healthy,v1.0
+Asset_M,0.0001,0,120.9,Healthy,v1.0
+Asset_H,0.0001,0,124.2,Healthy,v1.0
+Asset_M,0.0284,0,119.8,Healthy,v1.0
+Asset_H,0.0055,0,117.9,Healthy,v1.0
+Asset_L,0.0002,0,108.6,Healthy,v1.0
+Asset_L,0.002,0,104.6,Healthy,v1.0
+Asset_L,0.0003,0,104.6,Healthy,v1.0
+Asset_M,0.0009,0,104.5,Healthy,v1.0
+Asset_L,0.0007,0,104.3,Healthy,v1.0
+Asset_L,0.0003,0,98.4,Monitor,v1.0
+Asset_M,0.0004,0,99.2,Monitor,v1.0
+Asset_M,0.0007,0,96.0,Monitor,v1.0
+Asset_L,0.0,0,94.7,Monitor,v1.0
+Asset_M,0.0001,0,89.8,Monitor,v1.0
+Asset_L,0.0025,0,88.9,Monitor,v1.0
+Asset_M,0.0002,0,86.4,Monitor,v1.0
+Asset_L,0.0006,0,84.6,Monitor,v1.0
+Asset_L,0.1791,1,79.9,Monitor,v1.0
+Asset_L,0.0014,0,78.3,Monitor,v1.0
+Asset_L,0.0008,0,79.9,Monitor,v1.0
+Asset_H,0.0005,0,79.0,Monitor,v1.0
+Asset_M,0.0035,0,65.0,Monitor,v1.0
+Asset_M,0.0018,0,66.1,Monitor,v1.0
+Asset_L,0.0001,0,63.9,Monitor,v1.0
+Asset_M,0.0002,0,62.2,Monitor,v1.0
+Asset_L,0.0,0,54.4,Monitor,v1.0
+Asset_M,0.0006,0,58.2,Monitor,v1.0
+Asset_M,0.0005,0,54.2,Monitor,v1.0
+Asset_L,0.0578,0,49.6,Plan Maintenance,v1.0
+Asset_H,0.0011,0,49.3,Plan Maintenance,v1.0
+Asset_M,0.0008,0,39.5,Plan Maintenance,v1.0
+Asset_L,0.0145,0,38.6,Plan Maintenance,v1.0
+Asset_H,0.0088,0,38.7,Plan Maintenance,v1.0
+Asset_H,0.0006,0,33.7,Plan Maintenance,v1.0
+Asset_L,0.0029,0,28.5,Plan Maintenance,v1.0
+Asset_L,0.0016,0,25.9,Plan Maintenance,v1.0
+Asset_M,0.0015,0,25.7,Plan Maintenance,v1.0
+Asset_L,0.0001,0,20.8,Plan Maintenance,v1.0
+Asset_M,0.0016,0,22.7,Plan Maintenance,v1.0
+Asset_L,0.0034,0,16.3,Immediate Action,v1.0
+Asset_M,0.1224,1,14.5,Immediate Action,v1.0
+Asset_M,0.0138,0,14.9,Immediate Action,v1.0
+Asset_L,0.0337,0,12.9,Immediate Action,v1.0
+Asset_L,0.9805,1,14.8,Immediate Action,v1.0
+Asset_L,0.0139,0,3.4,Immediate Action,v1.0
+Asset_H,0.0789,0,4.7,Immediate Action,v1.0
+Asset_M,0.6016,1,8.2,Immediate Action,v1.0
+Asset_H,0.0,0,225.9,Healthy,v1.0
+Asset_H,0.0,0,218.1,Healthy,v1.0
+Asset_L,0.0,0,217.6,Healthy,v1.0
+Asset_L,0.0002,0,216.3,Healthy,v1.0
+Asset_L,0.0004,0,214.2,Healthy,v1.0
+Asset_L,0.0,0,210.6,Healthy,v1.0
+Asset_M,0.0005,0,204.2,Healthy,v1.0
+Asset_L,0.0006,0,202.1,Healthy,v1.0
+Asset_L,0.0005,0,201.0,Healthy,v1.0
+Asset_H,0.0002,0,193.7,Healthy,v1.0
+Asset_L,0.0001,0,196.3,Healthy,v1.0
+Asset_L,0.0001,0,198.3,Healthy,v1.0
+Asset_M,0.0,0,191.3,Healthy,v1.0
+Asset_M,0.0001,0,187.6,Healthy,v1.0
+Asset_L,0.0001,0,185.3,Healthy,v1.0
+Asset_L,0.0001,0,185.6,Healthy,v1.0
+Asset_M,0.0002,0,184.4,Healthy,v1.0
+Asset_L,0.0008,0,176.2,Healthy,v1.0
+Asset_L,0.0005,0,182.7,Healthy,v1.0
+Asset_L,0.0003,0,180.0,Healthy,v1.0
+Asset_L,0.0,0,172.6,Healthy,v1.0
+Asset_L,0.0,0,166.9,Healthy,v1.0
+Asset_L,0.0001,0,168.5,Healthy,v1.0
+Asset_L,0.0002,0,168.4,Healthy,v1.0
+Asset_M,0.0,0,168.0,Healthy,v1.0
+Asset_M,0.0001,0,160.0,Healthy,v1.0
+Asset_L,0.0,0,157.8,Healthy,v1.0
+Asset_H,0.0002,0,159.2,Healthy,v1.0
+Asset_L,0.0001,0,152.7,Healthy,v1.0
+Asset_M,0.0001,0,151.5,Healthy,v1.0
+Asset_L,0.0001,0,149.0,Healthy,v1.0
+Asset_M,0.0002,0,142.9,Healthy,v1.0
+Asset_L,0.0001,0,139.2,Healthy,v1.0
+Asset_H,0.0001,0,135.6,Healthy,v1.0
+Asset_L,0.0,0,132.7,Healthy,v1.0
+Asset_L,0.0001,0,126.6,Healthy,v1.0
+Asset_L,0.0001,0,126.5,Healthy,v1.0
+Asset_L,0.0001,0,128.9,Healthy,v1.0
+Asset_M,0.0,0,126.6,Healthy,v1.0
+Asset_L,0.0002,0,125.7,Healthy,v1.0
+Asset_M,0.0,0,123.8,Healthy,v1.0
+Asset_L,0.0001,0,121.3,Healthy,v1.0
+Asset_L,0.0001,0,117.9,Healthy,v1.0
+Asset_M,0.0,0,117.8,Healthy,v1.0
+Asset_M,0.0003,0,109.9,Healthy,v1.0
+Asset_L,0.0004,0,109.1,Healthy,v1.0
+Asset_M,0.0002,0,107.3,Healthy,v1.0
+Asset_L,0.0003,0,101.6,Healthy,v1.0
+Asset_L,0.0001,0,103.3,Healthy,v1.0
+Asset_M,0.0,0,97.2,Monitor,v1.0
+Asset_L,0.0005,0,96.2,Monitor,v1.0
+Asset_L,0.0001,0,94.1,Monitor,v1.0
+Asset_M,0.0001,0,95.1,Monitor,v1.0
+Asset_M,0.0001,0,87.8,Monitor,v1.0
+Asset_L,0.0002,0,87.6,Monitor,v1.0
+Asset_M,0.0,0,71.1,Monitor,v1.0
+Asset_L,0.0,0,75.2,Monitor,v1.0
+Asset_M,0.0002,0,74.5,Monitor,v1.0
+Asset_H,0.0001,0,76.0,Monitor,v1.0
+Asset_L,0.0005,0,68.1,Monitor,v1.0
+Asset_M,0.0,0,66.6,Monitor,v1.0
+Asset_M,0.0001,0,63.6,Monitor,v1.0
+Asset_L,0.0,0,68.9,Monitor,v1.0
+Asset_L,0.0,0,63.1,Monitor,v1.0
+Asset_L,0.0021,0,58.1,Monitor,v1.0
+Asset_M,0.0003,0,60.1,Monitor,v1.0
+Asset_M,0.0016,0,49.8,Plan Maintenance,v1.0
+Asset_L,0.0019,0,51.0,Monitor,v1.0
+Asset_M,0.0001,0,52.7,Monitor,v1.0
+Asset_L,0.0001,0,45.5,Plan Maintenance,v1.0
+Asset_L,0.0002,0,47.3,Plan Maintenance,v1.0
+Asset_L,0.0001,0,45.8,Plan Maintenance,v1.0
+Asset_M,0.0226,0,36.2,Plan Maintenance,v1.0
+Asset_L,0.0011,0,37.6,Plan Maintenance,v1.0
+Asset_L,0.0001,0,35.6,Plan Maintenance,v1.0
+Asset_M,0.0016,0,29.9,Plan Maintenance,v1.0
+Asset_L,0.0001,0,31.3,Plan Maintenance,v1.0
+Asset_H,0.0029,0,25.8,Plan Maintenance,v1.0
+Asset_M,0.0002,0,23.6,Plan Maintenance,v1.0
+Asset_L,0.2748,1,18.1,Immediate Action,v1.0
+Asset_M,0.0004,0,224.1,Healthy,v1.0
+Asset_L,0.0004,0,230.8,Healthy,v1.0
+Asset_L,0.0003,0,227.3,Healthy,v1.0
+Asset_M,0.0001,0,224.1,Healthy,v1.0
+Asset_L,0.0,0,218.6,Healthy,v1.0
+Asset_M,0.0001,0,213.6,Healthy,v1.0
+Asset_L,0.0002,0,217.4,Healthy,v1.0
+Asset_L,0.0001,0,217.3,Healthy,v1.0
+Asset_M,0.0,0,215.6,Healthy,v1.0
+Asset_L,0.0001,0,211.7,Healthy,v1.0
+Asset_M,0.0001,0,203.8,Healthy,v1.0
+Asset_H,0.0002,0,200.4,Healthy,v1.0
+Asset_L,0.0001,0,199.7,Healthy,v1.0
+Asset_M,0.0001,0,197.8,Healthy,v1.0
+Asset_L,0.0001,0,196.0,Healthy,v1.0
+Asset_L,0.0008,0,192.1,Healthy,v1.0
+Asset_L,0.0003,0,186.6,Healthy,v1.0
+Asset_L,0.0002,0,182.4,Healthy,v1.0
+Asset_H,0.0005,0,175.2,Healthy,v1.0
+Asset_L,0.0001,0,176.8,Healthy,v1.0
+Asset_L,0.0,0,174.8,Healthy,v1.0
+Asset_L,0.0,0,173.1,Healthy,v1.0
+Asset_L,0.0001,0,170.2,Healthy,v1.0
+Asset_M,0.0001,0,167.3,Healthy,v1.0
+Asset_L,0.0011,0,162.1,Healthy,v1.0
+Asset_L,0.0001,0,162.6,Healthy,v1.0
+Asset_M,0.0001,0,163.2,Healthy,v1.0
+Asset_H,0.0,0,156.7,Healthy,v1.0
+Asset_M,0.0,0,155.2,Healthy,v1.0
+Asset_L,0.0001,0,152.3,Healthy,v1.0
+Asset_L,0.0,0,151.9,Healthy,v1.0
+Asset_M,0.0,0,151.3,Healthy,v1.0
+Asset_L,0.0,0,142.8,Healthy,v1.0
+Asset_L,0.0,0,140.3,Healthy,v1.0
+Asset_L,0.0001,0,138.0,Healthy,v1.0
+Asset_M,0.0,0,129.8,Healthy,v1.0
+Asset_L,0.9422,1,128.1,Healthy,v1.0
+Asset_M,0.0003,0,133.8,Healthy,v1.0
+Asset_M,0.0,0,131.0,Healthy,v1.0
+Asset_L,0.0,0,128.7,Healthy,v1.0
+Asset_L,0.0,0,128.4,Healthy,v1.0
+Asset_L,0.0002,0,123.6,Healthy,v1.0
+Asset_M,0.0007,0,122.1,Healthy,v1.0
+Asset_L,0.0002,0,116.0,Healthy,v1.0
+Asset_M,0.0007,0,109.5,Healthy,v1.0
+Asset_L,0.0003,0,113.2,Healthy,v1.0
+Asset_L,0.0003,0,109.8,Healthy,v1.0
+Asset_H,0.0001,0,110.4,Healthy,v1.0
+Asset_M,0.0002,0,101.9,Healthy,v1.0
+Asset_M,0.0011,0,98.7,Monitor,v1.0
+Asset_M,0.0001,0,98.2,Monitor,v1.0
+Asset_H,0.0002,0,93.7,Monitor,v1.0
+Asset_H,0.0006,0,89.4,Monitor,v1.0
+Asset_L,0.0001,0,82.4,Monitor,v1.0
+Asset_L,0.0009,0,78.8,Monitor,v1.0
+Asset_M,0.0014,0,78.1,Monitor,v1.0
+Asset_H,0.0002,0,75.6,Monitor,v1.0
+Asset_L,0.0014,0,73.2,Monitor,v1.0
+Asset_L,0.0004,0,66.6,Monitor,v1.0
+Asset_L,0.0,0,66.3,Monitor,v1.0
+Asset_L,0.0001,0,66.5,Monitor,v1.0
+Asset_H,0.0003,0,64.3,Monitor,v1.0
+Asset_L,0.0022,0,55.2,Monitor,v1.0
+Asset_L,0.0001,0,56.4,Monitor,v1.0
+Asset_L,0.0029,0,56.9,Monitor,v1.0
+Asset_L,0.0009,0,49.5,Plan Maintenance,v1.0
+Asset_L,0.0001,0,48.7,Plan Maintenance,v1.0
+Asset_L,0.0004,0,43.5,Plan Maintenance,v1.0
+Asset_L,0.0043,0,39.7,Plan Maintenance,v1.0
+Asset_L,0.0007,0,40.5,Plan Maintenance,v1.0
+Asset_L,0.0003,0,36.5,Plan Maintenance,v1.0
+Asset_L,0.0004,0,35.8,Plan Maintenance,v1.0
+Asset_H,0.0008,0,35.8,Plan Maintenance,v1.0
+Asset_M,0.0002,0,32.1,Plan Maintenance,v1.0
+Asset_M,0.0002,0,24.7,Plan Maintenance,v1.0
+Asset_M,0.0006,0,25.1,Plan Maintenance,v1.0
+Asset_L,0.9771,1,26.7,Plan Maintenance,v1.0
+Asset_L,0.9916,1,23.8,Plan Maintenance,v1.0
+Asset_H,0.0043,0,21.3,Plan Maintenance,v1.0
+Asset_L,0.0086,0,15.1,Immediate Action,v1.0
+Asset_L,0.0053,0,12.1,Immediate Action,v1.0
+Asset_L,0.0191,0,12.2,Immediate Action,v1.0
+Asset_L,0.9986,1,16.4,Immediate Action,v1.0
+Asset_M,0.0359,0,11.1,Immediate Action,v1.0
+Asset_H,0.0165,0,10.4,Immediate Action,v1.0
+Asset_M,0.0086,0,6.4,Immediate Action,v1.0
+Asset_L,0.8339,1,9.7,Immediate Action,v1.0
+Asset_L,0.9912,1,5.4,Immediate Action,v1.0
+Asset_L,0.0104,0,3.7,Immediate Action,v1.0
+Asset_M,0.0038,0,4.7,Immediate Action,v1.0
+Asset_L,0.7963,1,10.0,Immediate Action,v1.0
+Asset_L,0.04,0,9.0,Immediate Action,v1.0
+Asset_L,0.0116,0,5.0,Immediate Action,v1.0
+Asset_L,0.0058,0,4.5,Immediate Action,v1.0
+Asset_L,0.0735,0,5.2,Immediate Action,v1.0
+Asset_H,0.0002,0,220.5,Healthy,v1.0
+Asset_M,0.0001,0,222.9,Healthy,v1.0
+Asset_L,0.0002,0,216.7,Healthy,v1.0
+Asset_M,0.0,0,215.1,Healthy,v1.0
+Asset_L,0.0002,0,209.1,Healthy,v1.0
+Asset_L,0.0004,0,204.7,Healthy,v1.0
+Asset_M,0.0001,0,209.5,Healthy,v1.0
+Asset_L,0.0001,0,211.6,Healthy,v1.0
+Asset_L,0.0001,0,206.3,Healthy,v1.0
+Asset_M,0.0004,0,197.3,Healthy,v1.0
+Asset_L,0.0008,0,194.4,Healthy,v1.0
+Asset_M,0.0001,0,200.6,Healthy,v1.0
+Asset_H,0.0003,0,194.6,Healthy,v1.0
+Asset_L,0.0007,0,188.1,Healthy,v1.0
+Asset_L,0.0001,0,188.7,Healthy,v1.0
+Asset_M,0.0001,0,185.1,Healthy,v1.0
+Asset_L,0.0005,0,181.0,Healthy,v1.0
+Asset_L,0.0009,0,178.4,Healthy,v1.0
+Asset_M,0.0002,0,176.7,Healthy,v1.0
+Asset_L,0.0001,0,174.5,Healthy,v1.0
+Asset_M,0.0005,0,168.8,Healthy,v1.0
+Asset_L,0.0006,0,168.5,Healthy,v1.0
+Asset_L,0.0003,0,167.1,Healthy,v1.0
+Asset_L,0.0001,0,163.3,Healthy,v1.0
+Asset_L,0.0002,0,162.6,Healthy,v1.0
+Asset_M,0.001,0,159.9,Healthy,v1.0
+Asset_L,0.0002,0,151.7,Healthy,v1.0
+Asset_L,0.0001,0,155.2,Healthy,v1.0
+Asset_M,0.0007,0,155.8,Healthy,v1.0
+Asset_L,0.0001,0,150.2,Healthy,v1.0
+Asset_L,0.0003,0,149.0,Healthy,v1.0
+Asset_L,0.0007,0,148.7,Healthy,v1.0
+Asset_L,0.0,0,151.4,Healthy,v1.0
+Asset_L,0.0,0,146.5,Healthy,v1.0
+Asset_M,0.0003,0,141.7,Healthy,v1.0
+Asset_L,0.0002,0,138.7,Healthy,v1.0
+Asset_L,0.0006,0,133.1,Healthy,v1.0
+Asset_M,0.0001,0,132.8,Healthy,v1.0
+Asset_L,0.0013,0,123.7,Healthy,v1.0
+Asset_H,0.0003,0,126.2,Healthy,v1.0
+Asset_M,0.0016,0,119.4,Healthy,v1.0
+Asset_L,0.0001,0,122.1,Healthy,v1.0
+Asset_L,0.0008,0,112.0,Healthy,v1.0
+Asset_L,0.0019,0,114.0,Healthy,v1.0
+Asset_H,0.0012,0,112.7,Healthy,v1.0
+Asset_L,0.0002,0,111.5,Healthy,v1.0
+Asset_L,0.0002,0,108.2,Healthy,v1.0
+Asset_L,0.0021,0,103.0,Healthy,v1.0
+Asset_M,0.001,0,100.9,Healthy,v1.0
+Asset_L,0.0001,0,104.0,Healthy,v1.0
+Asset_H,0.0009,0,95.9,Monitor,v1.0
+Asset_L,0.0003,0,95.6,Monitor,v1.0
+Asset_M,0.0009,0,88.7,Monitor,v1.0
+Asset_M,0.0016,0,92.5,Monitor,v1.0
+Asset_L,0.0001,0,86.6,Monitor,v1.0
+Asset_L,0.0001,0,82.6,Monitor,v1.0
+Asset_L,0.0002,0,83.0,Monitor,v1.0
+Asset_L,0.0076,0,78.0,Monitor,v1.0
+Asset_L,0.0,0,73.0,Monitor,v1.0
+Asset_L,0.0003,0,75.5,Monitor,v1.0
+Asset_L,0.0112,0,72.8,Monitor,v1.0
+Asset_M,0.0001,0,72.9,Monitor,v1.0
+Asset_H,0.0001,0,66.5,Monitor,v1.0
+Asset_L,0.0003,0,65.7,Monitor,v1.0
+Asset_M,0.001,0,64.8,Monitor,v1.0
+Asset_L,0.0012,0,55.5,Monitor,v1.0
+Asset_L,0.0001,0,59.6,Monitor,v1.0
+Asset_L,0.0,0,53.4,Monitor,v1.0
+Asset_M,0.0002,0,54.2,Monitor,v1.0
+Asset_L,0.0,0,51.7,Monitor,v1.0
+Asset_L,0.0,0,51.8,Monitor,v1.0
+Asset_L,0.0,0,49.7,Plan Maintenance,v1.0
+Asset_L,0.0,0,47.2,Plan Maintenance,v1.0
+Asset_L,0.0002,0,40.8,Plan Maintenance,v1.0
+Asset_L,0.0003,0,41.7,Plan Maintenance,v1.0
+Asset_L,0.0002,0,39.1,Plan Maintenance,v1.0
+Asset_M,0.0001,0,39.9,Plan Maintenance,v1.0
+Asset_H,0.0001,0,35.2,Plan Maintenance,v1.0
+Asset_L,0.0001,0,30.9,Plan Maintenance,v1.0
+Asset_L,0.001,0,34.3,Plan Maintenance,v1.0
+Asset_L,0.0002,0,29.2,Plan Maintenance,v1.0
+Asset_L,0.0001,0,27.1,Plan Maintenance,v1.0
+Asset_M,0.0016,0,21.7,Plan Maintenance,v1.0
+Asset_H,0.0039,0,18.5,Immediate Action,v1.0
+Asset_L,0.0355,0,16.7,Immediate Action,v1.0
+Asset_M,0.0292,0,11.0,Immediate Action,v1.0
+Asset_L,0.4936,1,9.7,Immediate Action,v1.0
+Asset_L,0.0,0,212.1,Healthy,v1.0
+Asset_M,0.0001,0,228.6,Healthy,v1.0
+Asset_L,0.0002,0,231.3,Healthy,v1.0
+Asset_L,0.0004,0,224.0,Healthy,v1.0
+Asset_M,0.0001,0,220.8,Healthy,v1.0
+Asset_L,0.9988,1,223.7,Healthy,v1.0
+Asset_L,0.0001,0,224.3,Healthy,v1.0
+Asset_H,0.0001,0,220.5,Healthy,v1.0
+Asset_L,0.0001,0,214.0,Healthy,v1.0
+Asset_L,0.0001,0,213.9,Healthy,v1.0
+Asset_L,0.0028,0,200.6,Healthy,v1.0
+Asset_H,0.0,0,202.5,Healthy,v1.0
+Asset_M,0.0004,0,194.9,Healthy,v1.0
+Asset_L,0.0001,0,194.2,Healthy,v1.0
+Asset_L,0.0,0,191.8,Healthy,v1.0
+Asset_H,0.0,0,186.1,Healthy,v1.0
+Asset_M,0.0001,0,176.3,Healthy,v1.0
+Asset_M,0.0011,0,175.6,Healthy,v1.0
+Asset_L,0.0008,0,172.4,Healthy,v1.0
+Asset_H,0.0009,0,169.5,Healthy,v1.0
+Asset_L,0.0002,0,165.9,Healthy,v1.0
+Asset_M,0.0003,0,160.5,Healthy,v1.0
+Asset_L,0.0005,0,163.7,Healthy,v1.0
+Asset_L,0.0001,0,161.7,Healthy,v1.0
+Asset_H,0.0001,0,154.7,Healthy,v1.0
+Asset_M,0.0011,0,151.9,Healthy,v1.0
+Asset_H,0.0003,0,146.3,Healthy,v1.0
+Asset_M,0.0001,0,142.3,Healthy,v1.0
+Asset_H,0.0014,0,144.4,Healthy,v1.0
+Asset_M,0.0,0,139.6,Healthy,v1.0
+Asset_L,0.0014,0,130.0,Healthy,v1.0
+Asset_L,0.0,0,124.9,Healthy,v1.0
+Asset_M,0.0,0,124.1,Healthy,v1.0
+Asset_H,0.0001,0,125.9,Healthy,v1.0
+Asset_H,0.0007,0,120.4,Healthy,v1.0
+Asset_L,0.0006,0,115.2,Healthy,v1.0
+Asset_L,0.0008,0,110.9,Healthy,v1.0
+Asset_H,0.002,0,106.9,Healthy,v1.0
+Asset_M,0.0003,0,107.3,Healthy,v1.0
+Asset_L,0.0001,0,105.9,Healthy,v1.0
+Asset_M,0.0002,0,107.0,Healthy,v1.0
+Asset_H,0.0031,0,100.4,Healthy,v1.0
+Asset_M,0.0002,0,94.7,Monitor,v1.0
+Asset_H,0.0095,0,89.3,Monitor,v1.0
+Asset_L,0.0164,0,85.7,Monitor,v1.0
+Asset_L,0.0002,0,89.3,Monitor,v1.0
+Asset_L,0.0245,0,81.2,Monitor,v1.0
+Asset_L,0.3766,1,82.8,Monitor,v1.0
+Asset_L,0.006,0,81.3,Monitor,v1.0
+Asset_M,0.0022,0,82.5,Monitor,v1.0
+Asset_M,0.0008,0,77.4,Monitor,v1.0
+Asset_L,0.0002,0,73.7,Monitor,v1.0
+Asset_L,0.0011,0,72.2,Monitor,v1.0
+Asset_M,0.0014,0,68.0,Monitor,v1.0
+Asset_L,0.0053,0,68.3,Monitor,v1.0
+Asset_H,0.0005,0,67.8,Monitor,v1.0
+Asset_M,0.0004,0,60.6,Monitor,v1.0
+Asset_M,0.0212,0,49.8,Plan Maintenance,v1.0
+Asset_M,0.0002,0,54.2,Monitor,v1.0
+Asset_M,0.0016,0,48.4,Plan Maintenance,v1.0
+Asset_M,0.0005,0,44.7,Plan Maintenance,v1.0
+Asset_M,0.0002,0,41.7,Plan Maintenance,v1.0
+Asset_L,0.0011,0,42.6,Plan Maintenance,v1.0
+Asset_L,0.9904,1,33.7,Plan Maintenance,v1.0
+Asset_M,0.0007,0,36.5,Plan Maintenance,v1.0
+Asset_L,0.0004,0,30.8,Plan Maintenance,v1.0
+Asset_L,0.0007,0,25.3,Plan Maintenance,v1.0
+Asset_L,0.0095,0,23.7,Plan Maintenance,v1.0
+Asset_M,0.9811,1,24.4,Plan Maintenance,v1.0
+Asset_L,0.006,0,23.0,Plan Maintenance,v1.0
+Asset_M,0.003,0,21.6,Plan Maintenance,v1.0
+Asset_L,0.9864,1,15.8,Immediate Action,v1.0
+Asset_L,0.0033,0,12.5,Immediate Action,v1.0
+Asset_L,0.0572,0,17.6,Immediate Action,v1.0
+Asset_L,0.1797,1,13.7,Immediate Action,v1.0
+Asset_M,0.0,0,215.7,Healthy,v1.0
+Asset_L,0.0,0,218.3,Healthy,v1.0
+Asset_M,0.0001,0,218.1,Healthy,v1.0
+Asset_M,0.0,0,213.9,Healthy,v1.0
+Asset_L,0.0001,0,211.6,Healthy,v1.0
+Asset_M,0.0,0,214.9,Healthy,v1.0
+Asset_H,0.0001,0,208.1,Healthy,v1.0
+Asset_M,0.0005,0,204.3,Healthy,v1.0
+Asset_L,0.0009,0,196.1,Healthy,v1.0
+Asset_L,0.0006,0,193.2,Healthy,v1.0
+Asset_H,0.0,0,193.5,Healthy,v1.0
+Asset_L,0.0007,0,189.8,Healthy,v1.0
+Asset_L,0.0012,0,187.8,Healthy,v1.0
+Asset_L,0.0001,0,189.8,Healthy,v1.0
+Asset_H,0.0,0,186.4,Healthy,v1.0
+Asset_L,0.0003,0,179.4,Healthy,v1.0
+Asset_M,0.0,0,179.1,Healthy,v1.0
+Asset_M,0.0001,0,174.1,Healthy,v1.0
+Asset_L,0.0005,0,166.8,Healthy,v1.0
+Asset_L,0.0,0,168.5,Healthy,v1.0
+Asset_H,0.0006,0,168.5,Healthy,v1.0
+Asset_L,0.0,0,161.8,Healthy,v1.0
+Asset_L,0.0002,0,159.1,Healthy,v1.0
+Asset_M,0.0029,0,159.3,Healthy,v1.0
+Asset_L,0.0001,0,155.5,Healthy,v1.0
+Asset_M,0.0001,0,153.3,Healthy,v1.0
+Asset_H,0.0001,0,148.2,Healthy,v1.0
+Asset_M,0.0001,0,146.5,Healthy,v1.0
+Asset_M,0.0008,0,142.5,Healthy,v1.0
+Asset_L,0.001,0,138.6,Healthy,v1.0
+Asset_M,0.0003,0,137.5,Healthy,v1.0
+Asset_M,0.0047,0,126.9,Healthy,v1.0
+Asset_L,0.0001,0,125.8,Healthy,v1.0
+Asset_L,0.0003,0,127.5,Healthy,v1.0
+Asset_L,0.0003,0,128.6,Healthy,v1.0
+Asset_L,0.0006,0,128.1,Healthy,v1.0
+Asset_H,0.0009,0,125.4,Healthy,v1.0
+Asset_M,0.001,0,117.8,Healthy,v1.0
+Asset_L,0.0028,0,113.2,Healthy,v1.0
+Asset_L,0.0002,0,111.8,Healthy,v1.0
+Asset_M,0.0005,0,109.7,Healthy,v1.0
+Asset_M,0.0012,0,107.2,Healthy,v1.0
+Asset_H,0.0006,0,107.6,Healthy,v1.0
+Asset_L,0.0049,0,98.9,Monitor,v1.0
+Asset_L,0.003,0,101.5,Healthy,v1.0
+Asset_M,0.0002,0,99.5,Monitor,v1.0
+Asset_L,0.0023,0,91.7,Monitor,v1.0
+Asset_L,0.0003,0,97.3,Monitor,v1.0
+Asset_L,0.0013,0,88.2,Monitor,v1.0
+Asset_H,0.0008,0,89.1,Monitor,v1.0
+Asset_L,0.0026,0,81.0,Monitor,v1.0
+Asset_L,0.002,0,84.4,Monitor,v1.0
+Asset_L,0.0014,0,77.0,Monitor,v1.0
+Asset_L,0.0007,0,81.7,Monitor,v1.0
+Asset_M,0.0001,0,73.9,Monitor,v1.0
+Asset_H,0.0,0,72.7,Monitor,v1.0
+Asset_L,0.0012,0,64.3,Monitor,v1.0
+Asset_L,0.0022,0,62.6,Monitor,v1.0
+Asset_H,0.0006,0,60.4,Monitor,v1.0
+Asset_M,0.0105,0,56.1,Monitor,v1.0
+Asset_L,0.0004,0,52.1,Monitor,v1.0
+Asset_L,0.0016,0,48.2,Plan Maintenance,v1.0
+Asset_M,0.0006,0,51.1,Monitor,v1.0
+Asset_L,0.0009,0,48.6,Plan Maintenance,v1.0
+Asset_L,0.0007,0,38.1,Plan Maintenance,v1.0
+Asset_L,0.0026,0,37.9,Plan Maintenance,v1.0
+Asset_H,0.0002,0,37.2,Plan Maintenance,v1.0
+Asset_M,0.0027,0,33.1,Plan Maintenance,v1.0
+Asset_H,0.0029,0,25.2,Plan Maintenance,v1.0
+Asset_M,0.0059,0,22.7,Plan Maintenance,v1.0
+Asset_L,0.0004,0,21.3,Plan Maintenance,v1.0
+Asset_M,0.0055,0,24.1,Plan Maintenance,v1.0
+Asset_M,0.0007,0,20.7,Plan Maintenance,v1.0
+Asset_M,0.0049,0,11.7,Immediate Action,v1.0
+Asset_L,0.0003,0,219.5,Healthy,v1.0
+Asset_L,0.0001,0,217.9,Healthy,v1.0
+Asset_L,0.0002,0,219.2,Healthy,v1.0
+Asset_M,0.0,0,222.7,Healthy,v1.0
+Asset_L,0.0009,0,205.2,Healthy,v1.0
+Asset_L,0.0002,0,209.0,Healthy,v1.0
+Asset_L,0.0003,0,208.6,Healthy,v1.0
+Asset_M,0.0003,0,205.8,Healthy,v1.0
+Asset_M,0.0001,0,205.5,Healthy,v1.0
+Asset_M,0.0,0,201.1,Healthy,v1.0
+Asset_L,0.0012,0,198.3,Healthy,v1.0
+Asset_L,0.001,0,194.8,Healthy,v1.0
+Asset_H,0.0001,0,192.8,Healthy,v1.0
+Asset_M,0.0002,0,189.8,Healthy,v1.0
+Asset_H,0.0,0,187.3,Healthy,v1.0
+Asset_M,0.0002,0,183.2,Healthy,v1.0
+Asset_M,0.0004,0,178.3,Healthy,v1.0
+Asset_M,0.0003,0,174.5,Healthy,v1.0
+Asset_M,0.0,0,165.6,Healthy,v1.0
+Asset_L,0.0,0,161.2,Healthy,v1.0
+Asset_M,0.0,0,169.5,Healthy,v1.0
+Asset_H,0.0,0,162.5,Healthy,v1.0
+Asset_L,0.0001,0,154.9,Healthy,v1.0
+Asset_L,0.0003,0,153.6,Healthy,v1.0
+Asset_L,0.0001,0,148.5,Healthy,v1.0
+Asset_L,0.0,0,144.3,Healthy,v1.0
+Asset_L,0.0,0,146.6,Healthy,v1.0
+Asset_L,0.0001,0,144.9,Healthy,v1.0
+Asset_H,0.0,0,140.7,Healthy,v1.0
+Asset_L,0.0002,0,142.4,Healthy,v1.0
+Asset_L,0.0001,0,131.7,Healthy,v1.0
+Asset_H,0.0188,0,134.7,Healthy,v1.0
+Asset_M,0.0002,0,123.9,Healthy,v1.0
+Asset_L,0.0001,0,121.3,Healthy,v1.0
+Asset_L,0.0018,0,119.5,Healthy,v1.0
+Asset_M,0.0002,0,118.9,Healthy,v1.0
+Asset_L,0.0008,0,120.2,Healthy,v1.0
+Asset_L,0.0001,0,114.2,Healthy,v1.0
+Asset_L,0.0001,0,110.7,Healthy,v1.0
+Asset_M,0.0001,0,108.6,Healthy,v1.0
+Asset_L,0.0004,0,107.2,Healthy,v1.0
+Asset_M,0.005,0,108.7,Healthy,v1.0
+Asset_L,0.0042,0,98.3,Monitor,v1.0
+Asset_L,0.0201,0,106.2,Healthy,v1.0
+Asset_L,0.0023,0,99.7,Monitor,v1.0
+Asset_L,0.0004,0,93.5,Monitor,v1.0
+Asset_M,0.0008,0,95.8,Monitor,v1.0
+Asset_M,0.0002,0,86.6,Monitor,v1.0
+Asset_M,0.0006,0,82.1,Monitor,v1.0
+Asset_L,0.0014,0,77.5,Monitor,v1.0
+Asset_M,0.0003,0,79.2,Monitor,v1.0
+Asset_L,0.0011,0,81.0,Monitor,v1.0
+Asset_L,0.0005,0,75.1,Monitor,v1.0
+Asset_L,0.0047,0,85.2,Monitor,v1.0
+Asset_L,0.0108,0,73.5,Monitor,v1.0
+Asset_L,0.0002,0,70.4,Monitor,v1.0
+Asset_L,0.0024,0,69.6,Monitor,v1.0
+Asset_L,0.0121,0,67.5,Monitor,v1.0
+Asset_L,0.0001,0,66.8,Monitor,v1.0
+Asset_M,0.0006,0,62.3,Monitor,v1.0
+Asset_L,0.0006,0,58.5,Monitor,v1.0
+Asset_L,0.0024,0,64.5,Monitor,v1.0
+Asset_H,0.002,0,54.3,Monitor,v1.0
+Asset_H,0.001,0,59.1,Monitor,v1.0
+Asset_L,0.0052,0,52.6,Monitor,v1.0
+Asset_L,0.0005,0,45.8,Plan Maintenance,v1.0
+Asset_L,1.0,1,47.9,Plan Maintenance,v1.0
+Asset_M,0.0011,0,43.2,Plan Maintenance,v1.0
+Asset_L,0.0008,0,40.2,Plan Maintenance,v1.0
+Asset_L,0.0006,0,36.1,Plan Maintenance,v1.0
+Asset_H,0.0061,0,33.8,Plan Maintenance,v1.0
+Asset_L,0.0028,0,31.3,Plan Maintenance,v1.0
+Asset_L,0.0007,0,36.1,Plan Maintenance,v1.0
+Asset_L,0.0147,0,25.0,Plan Maintenance,v1.0
+Asset_M,0.0013,0,22.3,Plan Maintenance,v1.0
+Asset_L,0.0057,0,12.8,Immediate Action,v1.0
+Asset_H,0.0014,0,27.3,Plan Maintenance,v1.0
+Asset_H,0.0009,0,20.0,Plan Maintenance,v1.0
+Asset_M,0.0015,0,14.6,Immediate Action,v1.0
+Asset_M,0.0588,0,12.7,Immediate Action,v1.0
+Asset_L,0.0048,0,6.0,Immediate Action,v1.0
+Asset_M,0.0,0,219.0,Healthy,v1.0
+Asset_L,0.0,0,222.6,Healthy,v1.0
+Asset_M,0.0001,0,223.1,Healthy,v1.0
+Asset_L,0.0,0,199.7,Healthy,v1.0
+Asset_L,0.0001,0,213.1,Healthy,v1.0
+Asset_L,0.0001,0,208.8,Healthy,v1.0
+Asset_M,0.0001,0,209.5,Healthy,v1.0
+Asset_H,0.0001,0,204.3,Healthy,v1.0
+Asset_M,0.0,0,210.5,Healthy,v1.0
+Asset_H,0.0001,0,196.5,Healthy,v1.0
+Asset_M,0.0,0,196.2,Healthy,v1.0

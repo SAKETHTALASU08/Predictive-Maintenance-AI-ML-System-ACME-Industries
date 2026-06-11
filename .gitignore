@@ -1,3 +1,7 @@
-
 .databricks
 .env
+__pycache__/
+*.pyc
+models/tier3_comp_checkpoints/
+models/tier3_fail_checkpoints/
+.DS_Store
